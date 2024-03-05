@@ -21,7 +21,7 @@ const App = ({
         <Component {...pageProps} />
         <Head>
           {/* default title */}
-          <title>Karma Manufacturing</title>
+          <title>StoneX</title>
           <link
             rel="icon"
             href="/favicon.png"

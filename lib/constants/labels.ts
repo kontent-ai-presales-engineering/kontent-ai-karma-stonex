@@ -1,7 +1,7 @@
 import { PerCollection } from "../types/perCollection";
 
 export const perCollectionSEOTitle = {
-  sandbox: "Karma Manufacturing",
+  sandbox: "StoneX",
   elitebuild: "EliteBuild",
   support: "Knowledgebase",
   pdf: "PDF print",  
