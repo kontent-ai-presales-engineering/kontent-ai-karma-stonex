@@ -27,9 +27,9 @@ export const HeroUnitComponent: FC<Props> = (props) => {
     ) {
       return (
         <div className='comp_hero-unit py-1 px-3 w-full flex justify-center flex-col items-center'
-        {...createElementSmartLink(
-          contentTypes.hero_unit.elements.content.codename
-        )}>
+          {...createElementSmartLink(
+            contentTypes.hero_unit.elements.content.codename
+          )}>
           <div
             className='hidden md:block m-0 text-xl font-medium break-words hyphens-none text-white text-center w-full lg:w-1/2 pb-2 max-w-5xl'
           >
@@ -51,30 +51,32 @@ export const HeroUnitComponent: FC<Props> = (props) => {
   }
 
   return (
-    <HeroImage
-      alt={
-        props.item.elements.backgroundImage.value[0]?.description ||
-        'Hero image'
-      }
-      url={props.item.elements.backgroundImage.value[0]?.url || ''}
-      itemId={props.item.system.id}
-      type={props.item.elements.backgroundImage.value[0]?.type}
-      {...createItemSmartLink(props.item.system.id, props.item.system.name)}
-    >
-      <div
-        className={`py-5 md:py-5 px-3 w-full flex justify-center`}
+    <div
+      {...createItemSmartLink(props.item.system.id, props.item.system.name)}>
+      <HeroImage
+        alt={
+          props.item.elements.backgroundImage.value[0]?.description ||
+          'Hero image'
+        }
+        url={props.item.elements.backgroundImage.value[0]?.url || ''}
+        itemId={props.item.system.id}
+        type={props.item.elements.backgroundImage.value[0]?.type}
       >
         <div
-          className={`${mainColorTextClass[siteCodename]} m-0 text-3xl tracking-wide font-semibold text-center`}
-          {...createElementSmartLink(
-            contentTypes.hero_unit.elements.title.codename
-          )}
+          className={`py-5 md:py-5 px-3 w-full flex justify-center`}
         >
-          {props.item.elements.title.value}
+          <div
+            className={`${mainColorTextClass[siteCodename]} m-0 text-3xl tracking-wide font-semibold text-center`}
+            {...createElementSmartLink(
+              contentTypes.hero_unit.elements.title.codename
+            )}
+          >
+            {props.item.elements.title.value}
+          </div>
         </div>
-      </div>
-      {bannerContent()}
-    </HeroImage>
+        {bannerContent()}
+      </HeroImage>
+    </div>
   );
 };
 
