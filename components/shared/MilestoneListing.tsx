@@ -36,7 +36,7 @@ export const MilestoneListingComponent: FC<Props> = (props) => {
       >
         {props.item.elements.gridItems.linkedItems.map((link) => (
           <div
-            className='my-10 p-4 px-6 flex flex-col text-center sm:w-1/2 md:w-1/3'
+            className='my-10 p-4 px-6 flex flex-col text-center sm:w-1/2 md:w-1/5'
             key={link.system.id}
             {...createItemSmartLink(link.system.id, link.system.name)}
           >
