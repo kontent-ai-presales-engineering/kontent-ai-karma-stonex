@@ -2,6 +2,7 @@ export * from './WSL_Page';
 export * from './WSL_WebSpotlightRoot';
 export * from './article';
 export * from './articleListing';
+export * from './banner';
 export * from './callToAction';
 export * from './carousel';
 export * from './contentChunk';

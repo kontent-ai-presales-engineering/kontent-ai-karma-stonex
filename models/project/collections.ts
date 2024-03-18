@@ -30,20 +30,20 @@ export const collections = {
     },
 
     /**
-     * Karma Manufacturing
-     */
-    sandbox: {
-        codename: 'sandbox',
-        id: '3905681f-dce2-4a90-8dab-425d4b73ea9c',
-        name: 'Karma Manufacturing'
-    },
-
-    /**
      * Mr  Fusion Marketing Campaign
      */
     mr_fusion_marketing_campaign: {
         codename: 'mr_fusion_marketing_campaign',
         id: '278d733b-c22f-4598-ba31-e3ebde41d1c6',
         name: 'Mr. Fusion Marketing Campaign'
+    },
+
+    /**
+     * StoneX
+     */
+    sandbox: {
+        codename: 'sandbox',
+        id: '3905681f-dce2-4a90-8dab-425d4b73ea9c',
+        name: 'StoneX'
     }
 } as const;

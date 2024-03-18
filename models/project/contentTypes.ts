@@ -600,6 +600,18 @@ export const contentTypes = {
             },
 
             /**
+             * Integration with Cloudinary (custom)
+             */
+            integration_with_cloudinary: {
+                codename: 'integration_with_cloudinary',
+                id: '3f0284a5-821f-4aba-84a0-24bce33e4775',
+                externalId: undefined,
+                name: 'Integration with Cloudinary',
+                required: false,
+                type: 'custom'
+            },
+
+            /**
              * Keywords (text)
              */
             seo_metadata__keywords: {
@@ -611,6 +623,18 @@ export const contentTypes = {
                 type: 'text',
 
                 snippetCodename: 'seo_metadata'
+            },
+
+            /**
+             * LinkedIn (rich_text)
+             */
+            linkedin: {
+                codename: 'linkedin',
+                id: '35091bf0-f6db-46c3-a574-7c02632f0beb',
+                externalId: undefined,
+                name: 'LinkedIn',
+                required: false,
+                type: 'rich_text'
             },
 
             /**
@@ -775,6 +799,18 @@ export const contentTypes = {
                 name: 'URL',
                 required: false,
                 type: 'url_slug'
+            },
+
+            /**
+             * X (rich_text)
+             */
+            facebook: {
+                codename: 'facebook',
+                id: 'ab57d762-30e9-433b-94fc-171cca5d0e9e',
+                externalId: undefined,
+                name: 'X',
+                required: false,
+                type: 'rich_text'
             }
         }
     },
@@ -806,6 +842,41 @@ export const contentTypes = {
             title: {
                 codename: 'title',
                 id: 'a210727c-e09d-44c0-ba89-908870ece3c0',
+                externalId: undefined,
+                name: 'Title',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
+     * Banner
+     */
+    banner: {
+        codename: 'banner',
+        id: '1074f8fc-9ca8-43bd-af5d-bf970ec500df',
+        externalId: undefined,
+        name: 'Banner',
+        elements: {
+            /**
+             * Image (asset)
+             */
+            image: {
+                codename: 'image',
+                id: '4b9575e7-31aa-4528-879f-c4e54a6ea580',
+                externalId: undefined,
+                name: 'Image',
+                required: false,
+                type: 'asset'
+            },
+
+            /**
+             * Title (text)
+             */
+            title: {
+                codename: 'title',
+                id: 'cf4a2b67-eae0-4557-a74d-bddb0462f330',
                 externalId: undefined,
                 name: 'Title',
                 required: false,
@@ -2495,6 +2566,18 @@ export const contentTypes = {
         externalId: undefined,
         name: 'Site Configuration',
         elements: {
+            /**
+             * Algolia search (custom)
+             */
+            algolia_search: {
+                codename: 'algolia_search',
+                id: '13c9ef8a-a932-4eee-a0e4-3a907d4bf118',
+                externalId: undefined,
+                name: 'Algolia search',
+                required: false,
+                type: 'custom'
+            },
+
             /**
              * Translation (custom)
              */

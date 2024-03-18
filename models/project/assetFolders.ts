@@ -3,6 +3,16 @@
  */
 export const assetFolders = {
     /**
+     * Banners
+     */
+    banners: {
+        id: '1be4e3e8-efed-40ba-9a6b-8de1ead3d697',
+        name: 'Banners',
+        externalId: undefined,
+        folders: {}
+    },
+
+    /**
      * Education
      */
     education: {
@@ -110,6 +120,16 @@ export const assetFolders = {
                 folders: {}
             }
         }
+    },
+
+    /**
+     * StoneX
+     */
+    stoneX: {
+        id: 'cd2704c6-cc60-4bae-81c9-f60609d469cf',
+        name: 'StoneX',
+        externalId: undefined,
+        folders: {}
     },
 
     /**

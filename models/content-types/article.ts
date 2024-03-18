@@ -45,12 +45,36 @@ export type Article = IContentItem<{
     content: Elements.RichTextElement;
 
     /**
+     * X (rich_text)
+     * Required: false
+     * Id: ab57d762-30e9-433b-94fc-171cca5d0e9e
+     * Codename: facebook
+     */
+    facebook: Elements.RichTextElement;
+
+    /**
      * Hero Image (asset)
      * Required: false
      * Id: 0ba20928-908d-48ca-b326-5f0f2fff663d
      * Codename: hero_image
      */
     heroImage: Elements.AssetsElement;
+
+    /**
+     * Integration with Cloudinary (custom)
+     * Required: false
+     * Id: 3f0284a5-821f-4aba-84a0-24bce33e4775
+     * Codename: integration_with_cloudinary
+     */
+    integrationWithCloudinary: Elements.CustomElement;
+
+    /**
+     * LinkedIn (rich_text)
+     * Required: false
+     * Id: 35091bf0-f6db-46c3-a574-7c02632f0beb
+     * Codename: linkedin
+     */
+    linkedin: Elements.RichTextElement;
 
     /**
      * Publishing date (date_time)

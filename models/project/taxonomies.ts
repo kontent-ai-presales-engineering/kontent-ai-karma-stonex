@@ -47,6 +47,13 @@ export const taxonomies = {
                     }
                 }
             },
+            market_intelligence: {
+                codename: 'market_intelligence',
+                id: 'd48a92bc-f21d-4a5c-969f-247c3ba46a9d',
+                externalId: undefined,
+                name: 'market intelligence',
+                terms: {}
+            },
             product_spotlights: {
                 codename: 'product_spotlights',
                 id: '53b5a15e-4461-4df1-8b61-ccec9a0fb84c',
@@ -126,6 +133,13 @@ export const taxonomies = {
                     }
                 }
             },
+            personalized_experience: {
+                codename: 'personalized_experience',
+                id: '153f2f1d-d067-489d-abe9-171fae9fcd28',
+                externalId: undefined,
+                name: 'Personalized experience',
+                terms: {}
+            },
             industry_trends_and_insights: {
                 codename: 'industry_trends_and_insights',
                 id: 'e14c44d2-c89d-4fab-8a8f-376dc2b63a5d',
@@ -182,6 +196,13 @@ export const taxonomies = {
                         terms: {}
                     }
                 }
+            },
+            stonex: {
+                codename: 'stonex',
+                id: '7a38e424-28d9-4c7b-aec6-84bc6a245c5c',
+                externalId: undefined,
+                name: 'StoneX',
+                terms: {}
             }
         }
     },

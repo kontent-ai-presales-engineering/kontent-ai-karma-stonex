@@ -8,6 +8,14 @@ import { type IContentItem, type Elements } from '@kontent-ai/delivery-sdk';
  */
 export type SiteConfiguration = IContentItem<{
     /**
+     * Algolia search (custom)
+     * Required: false
+     * Id: 13c9ef8a-a932-4eee-a0e4-3a907d4bf118
+     * Codename: algolia_search
+     */
+    algoliaSearch: Elements.CustomElement;
+
+    /**
      * Translation (custom)
      * Required: false
      * Id: 1fd5cae8-cd8a-46fd-80f4-18c92897d543
