@@ -1420,6 +1420,29 @@ export const contentTypes = {
     },
 
     /**
+     * Embedded code
+     */
+    embedded_code: {
+        codename: 'embedded_code',
+        id: 'bf590046-c791-4f9a-8085-d8f010f40595',
+        externalId: undefined,
+        name: 'Embedded code',
+        elements: {
+            /**
+             * Code (text)
+             */
+            code: {
+                codename: 'code',
+                id: '49d7fe64-79d7-4e13-a83f-c89247605acc',
+                externalId: undefined,
+                name: 'Code',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
      * Event
      */
     event: {

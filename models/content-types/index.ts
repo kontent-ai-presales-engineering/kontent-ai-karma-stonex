@@ -9,6 +9,7 @@ export * from './carousel';
 export * from './contentChunk';
 export * from './course';
 export * from './courseListing';
+export * from './embeddedCode';
 export * from './event';
 export * from './eventListing';
 export * from './FAQ';
