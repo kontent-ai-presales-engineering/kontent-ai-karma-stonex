@@ -9,7 +9,7 @@ type Props = Readonly<{
 export const EmbeddedCodeComponent: FC<Props> = props => {
   return (
     <div
-      className="absolute right-0 top-0 w-12 h-12 m-0"      
+      className={`vis-container mx-auto w-full max-w-screen-xl p-4`}
       {...createItemSmartLink(
         props.item.system.id,
         props.item.system.name,
