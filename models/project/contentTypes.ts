@@ -501,6 +501,29 @@ export const contentTypes = {
     },
 
     /**
+     *     Data export module
+     */
+    _data_export_module: {
+        codename: '_data_export_module',
+        id: 'cdecab39-0c0c-4316-b5c5-759b4d8946a1',
+        externalId: undefined,
+        name: '🗃️ Data export module',
+        elements: {
+            /**
+             * Export data (custom)
+             */
+            export_data: {
+                codename: 'export_data',
+                id: 'e0f7abc4-8449-4fc5-8975-bf7ab7b8b074',
+                externalId: undefined,
+                name: 'Export data',
+                required: false,
+                type: 'custom'
+            }
+        }
+    },
+
+    /**
      * Article
      */
     article: {
@@ -1884,6 +1907,18 @@ export const contentTypes = {
             },
 
             /**
+             * Focal point (custom)
+             */
+            focal_point: {
+                codename: 'focal_point',
+                id: '4ca97623-d556-4943-ad48-bafbe6b487a8',
+                externalId: undefined,
+                name: 'Focal point',
+                required: false,
+                type: 'custom'
+            },
+
+            /**
              * Heading (text)
              */
             heading: {
@@ -1931,6 +1966,41 @@ export const contentTypes = {
                         externalId: undefined
                     }
                 }
+            },
+
+            /**
+             * Personas (taxonomy)
+             */
+            personas: {
+                codename: 'personas',
+                id: 'a6ea1d6e-31fc-4273-81ac-740ef1c478a7',
+                externalId: undefined,
+                name: 'Personas',
+                required: false,
+                type: 'taxonomy'
+            }
+        }
+    },
+
+    /**
+     * Integration with Bynder  DAM
+     */
+    integration_with_bynder__dam_: {
+        codename: 'integration_with_bynder__dam_',
+        id: '7ba8a6b8-0383-4fb2-8259-86f3a8e907ed',
+        externalId: undefined,
+        name: 'Integration with Bynder (DAM)',
+        elements: {
+            /**
+             * Image from Bynder (custom)
+             */
+            image_from_bynder: {
+                codename: 'image_from_bynder',
+                id: '55c62b68-7590-4c06-94bf-beb2c5b02102',
+                externalId: undefined,
+                name: 'Image from Bynder',
+                required: false,
+                type: 'custom'
             }
         }
     },
@@ -2022,6 +2092,30 @@ export const contentTypes = {
                 id: '972b7b5b-348d-4983-be0b-084f53bd8f6a',
                 externalId: undefined,
                 name: 'Blurb',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Figma preview (custom)
+             */
+            figma_preview: {
+                codename: 'figma_preview',
+                id: '03200b61-f7e0-4019-b963-5dfd524733fc',
+                externalId: undefined,
+                name: 'Figma preview',
+                required: false,
+                type: 'custom'
+            },
+
+            /**
+             * Figma URL (text)
+             */
+            figma_url: {
+                codename: 'figma_url',
+                id: '7033f138-f026-47f6-8aa8-93fa77699e1d',
+                externalId: undefined,
+                name: 'Figma URL',
                 required: false,
                 type: 'text'
             },

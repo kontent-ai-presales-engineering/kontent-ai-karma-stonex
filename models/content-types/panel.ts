@@ -16,6 +16,22 @@ export type Panel = IContentItem<{
     blurb: Elements.TextElement;
 
     /**
+     * Figma preview (custom)
+     * Required: false
+     * Id: 03200b61-f7e0-4019-b963-5dfd524733fc
+     * Codename: figma_preview
+     */
+    figmaPreview: Elements.CustomElement;
+
+    /**
+     * Figma URL (text)
+     * Required: false
+     * Id: 7033f138-f026-47f6-8aa8-93fa77699e1d
+     * Codename: figma_url
+     */
+    figmaUrl: Elements.TextElement;
+
+    /**
      * Heading (text)
      * Required: false
      * Id: 83ec6bbc-0271-416b-9dad-188c825b39a9
