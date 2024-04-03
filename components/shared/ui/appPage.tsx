@@ -59,7 +59,7 @@ export const AppPage: FC<Props> = ({
       />
       <div className='flex justify-between'></div>
       <div
-        className='min-h-full grow flex flex-col items-center overflow-hidden'
+        className='min-h-full grow flex flex-col items-center'
         {...createItemSmartLink(
           item.system.id,
           item.system.name
@@ -79,14 +79,13 @@ export const AppPage: FC<Props> = ({
         )}
         <main
           data-kontent-language-codename={item.system.language}
-          className='py-24 md:px-6 px-3 sm:px-8 max-w-screen-xl grow h-full w-screen'
           {...createItemSmartLink(
             item.system.id,
             item.system.name,
             true
           )}
         >
-          <div className='prose w-full max-w-full pt-16'>{children}</div>
+          <div className='prose w-full max-w-full'>{children}</div>
         </main>
         <Footer item={item} homeContentItem={homeContentItem} />
       </div>

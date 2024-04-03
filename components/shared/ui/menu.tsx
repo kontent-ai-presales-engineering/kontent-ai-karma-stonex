@@ -229,12 +229,12 @@ export const Menu: FC<Props> = (props) => {
     setActiveMenu(menuId === activeMenu ? -1 : menuId);
 
   return (
-    <div className={`w-full fixed z-30 py-4 shadow-2xl h-24 bg-white`}>
+    <div className={`w-full sticky top-0 z-30 py-4 shadow-2xl h-24 bg-white`}>
       <div className='fixed z-50 rounded-lg opacity-30 hover:opacity-100 top-0 right-0'>
         <PreviewSwitcher isPreview={props.isPreview} />
       </div>
       <div className='flex justify-between items-center mx-auto max-w-screen-xl md:h-16 px-2 bg-white'>
-        <div className='w-screen h-full md:flex justify-between z-40 2xl:pr-0'>
+        <div className='w-full h-full md:flex justify-between z-40 2xl:pr-0'>
           <div className='flex h-16 justify-between items-center md:w-44 w-full'>
             <Link href='/' className='flex items-center h-full w-44 relative'>
               {props.homeContentItem?.elements.logo.value[0] && (

@@ -124,7 +124,7 @@ const Item: FC<ItemProps> = (props) => (
       props.shouldAnimate ? 'transition-transform' : ''
     } transform inset-0 duration-700 ease-in-out`}
   >
-    <div className='absolute block w-full h-[32rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'>
+    <div className='block w-full'>
       <HeroUnitComponent item={props.item as HeroUnit} />
     </div>
   </div>
