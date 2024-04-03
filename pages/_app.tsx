@@ -20,8 +20,6 @@ const App = ({
       <div className="w-full h-screen">
         <Component {...pageProps} />
         <Head>
-          {/* default title */}
-          <title>StoneX</title>
           <link
             rel="icon"
             href="/favicon.png"

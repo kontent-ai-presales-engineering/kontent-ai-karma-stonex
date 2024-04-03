@@ -3,6 +3,29 @@
  */
 export const contentTypes = {
     /**
+     *   CKeditor
+     */
+    __ckeditor: {
+        codename: '__ckeditor',
+        id: 'c8472d91-051c-4997-a704-517603065e84',
+        externalId: undefined,
+        name: '⌨ CKeditor',
+        elements: {
+            /**
+             * CKeditor (custom)
+             */
+            ckeditor: {
+                codename: 'ckeditor',
+                id: '9bccbed4-ffb9-4df7-af2c-182280cb9930',
+                externalId: undefined,
+                name: 'CKeditor',
+                required: false,
+                type: 'custom'
+            }
+        }
+    },
+
+    /**
      *    Page
      */
     page: {
@@ -1009,6 +1032,30 @@ export const contentTypes = {
                 name: 'Content',
                 required: false,
                 type: 'rich_text'
+            },
+
+            /**
+             * Padding Bottom (number)
+             */
+            padding_bottom: {
+                codename: 'padding_bottom',
+                id: 'f117c052-9f9a-4b3c-be5e-e53c28e5074a',
+                externalId: undefined,
+                name: 'Padding Bottom',
+                required: false,
+                type: 'number'
+            },
+
+            /**
+             * Padding Top (number)
+             */
+            padding_top: {
+                codename: 'padding_top',
+                id: '333ec8ae-2110-4281-972e-70a268ac0e58',
+                externalId: undefined,
+                name: 'Padding Top',
+                required: false,
+                type: 'number'
             },
 
             /**

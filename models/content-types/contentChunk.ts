@@ -24,6 +24,22 @@ export type ContentChunk = IContentItem<{
     content: Elements.RichTextElement;
 
     /**
+     * Padding Bottom (number)
+     * Required: false
+     * Id: f117c052-9f9a-4b3c-be5e-e53c28e5074a
+     * Codename: padding_bottom
+     */
+    paddingBottom: Elements.NumberElement;
+
+    /**
+     * Padding Top (number)
+     * Required: false
+     * Id: 333ec8ae-2110-4281-972e-70a268ac0e58
+     * Codename: padding_top
+     */
+    paddingTop: Elements.NumberElement;
+
+    /**
      * Text alignment (multiple_choice)
      * Required: false
      * Id: 99643538-9d24-4948-85e0-82bd4a5f31e0

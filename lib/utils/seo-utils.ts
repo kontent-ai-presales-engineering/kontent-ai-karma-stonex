@@ -16,7 +16,7 @@ interface ISeoAndSharingParams {
 export function getSeoAndSharingDetails({ page, url, siteCodename, includeTitleSuffix = true, isPreview = false }: ISeoAndSharingParams) {
     const previewPrefix = isPreview ? "✏ " : ""
     const siteTitle = perCollectionSEOTitle[siteCodename];
-    const pageTitle = page.elements.seoMetadataTitle?.value  != "" ? page.elements.seoMetadataTitle?.value : page.elements.title.value;
+    const pageTitle = page.elements.seoMetadataTitle?.value != "" ? page.elements.seoMetadataTitle?.value : page.elements.title.value;
     const title = pageTitle !== siteTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
 
     const description = page.elements.seoMetadataDescription?.value
