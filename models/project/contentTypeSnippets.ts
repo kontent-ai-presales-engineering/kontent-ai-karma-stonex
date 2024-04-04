@@ -3,6 +3,65 @@
  */
 export const contentTypeSnippets = {
     /**
+     * Layout option
+     */
+    layout_option: {
+        codename: 'layout_option',
+        id: '45ac6cab-be3c-4fcf-ac10-1b239f2a36a2',
+        externalId: undefined,
+        name: 'Layout option',
+        elements: {
+            /**
+             * Alginment (multiple_choice)
+             */
+            layout_option__alginment: {
+                codename: 'layout_option__alginment',
+                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
+                externalId: undefined,
+                name: 'Alginment',
+                required: false,
+                type: 'multiple_choice'
+            },
+
+            /**
+             * Padding top (number)
+             */
+            layout_option__padding_top: {
+                codename: 'layout_option__padding_top',
+                id: 'e43fe29d-25ac-4d20-b7d5-a21cfb28facf',
+                externalId: undefined,
+                name: 'Padding top',
+                required: false,
+                type: 'number'
+            },
+
+            /**
+             * Padding bottom (number)
+             */
+            layout_option__padding_bottom: {
+                codename: 'layout_option__padding_bottom',
+                id: 'd9fb6aa0-9c7d-4ce6-8c41-dc6db9411c43',
+                externalId: undefined,
+                name: 'Padding bottom',
+                required: false,
+                type: 'number'
+            },
+
+            /**
+             * Background color (multiple_choice)
+             */
+            layout_option__background_color: {
+                codename: 'layout_option__background_color',
+                id: '873eedb5-7c0e-42cf-b21b-edd25a7577fa',
+                externalId: undefined,
+                name: 'Background color',
+                required: false,
+                type: 'multiple_choice'
+            }
+        }
+    },
+
+    /**
      * Open Graph Metadata
      */
     open_graph_metadata: {

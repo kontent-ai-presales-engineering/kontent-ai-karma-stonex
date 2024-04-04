@@ -897,41 +897,6 @@ export const contentTypes = {
     },
 
     /**
-     * Banner
-     */
-    banner: {
-        codename: 'banner',
-        id: '1074f8fc-9ca8-43bd-af5d-bf970ec500df',
-        externalId: undefined,
-        name: 'Banner',
-        elements: {
-            /**
-             * Image (asset)
-             */
-            image: {
-                codename: 'image',
-                id: '4b9575e7-31aa-4528-879f-c4e54a6ea580',
-                externalId: undefined,
-                name: 'Image',
-                required: false,
-                type: 'asset'
-            },
-
-            /**
-             * Title (text)
-             */
-            title: {
-                codename: 'title',
-                id: 'cf4a2b67-eae0-4557-a74d-bddb0462f330',
-                externalId: undefined,
-                name: 'Title',
-                required: false,
-                type: 'text'
-            }
-        }
-    },
-
-    /**
      * Call to Action
      */
     call_to_action: {
@@ -1011,6 +976,34 @@ export const contentTypes = {
         name: 'Content Chunk',
         elements: {
             /**
+             * Alginment (multiple_choice)
+             */
+            layout_option__alginment: {
+                codename: 'layout_option__alginment',
+                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
+                externalId: undefined,
+                name: 'Alginment',
+                required: false,
+                type: 'multiple_choice',
+                options: {},
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Background color (multiple_choice)
+             */
+            layout_option__background_color: {
+                codename: 'layout_option__background_color',
+                id: '873eedb5-7c0e-42cf-b21b-edd25a7577fa',
+                externalId: undefined,
+                name: 'Background color',
+                required: false,
+                type: 'multiple_choice',
+                options: {},
+                snippetCodename: 'layout_option'
+            },
+
+            /**
              * Background color (custom)
              */
             background_color: {
@@ -1035,6 +1028,20 @@ export const contentTypes = {
             },
 
             /**
+             * Padding bottom (number)
+             */
+            layout_option__padding_bottom: {
+                codename: 'layout_option__padding_bottom',
+                id: 'd9fb6aa0-9c7d-4ce6-8c41-dc6db9411c43',
+                externalId: undefined,
+                name: 'Padding bottom',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
              * Padding Bottom (number)
              */
             padding_bottom: {
@@ -1044,6 +1051,20 @@ export const contentTypes = {
                 name: 'Padding Bottom',
                 required: false,
                 type: 'number'
+            },
+
+            /**
+             * Padding top (number)
+             */
+            layout_option__padding_top: {
+                codename: 'layout_option__padding_top',
+                id: 'e43fe29d-25ac-4d20-b7d5-a21cfb28facf',
+                externalId: undefined,
+                name: 'Padding top',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
             },
 
             /**
@@ -2694,6 +2715,29 @@ export const contentTypes = {
                 name: 'Title',
                 required: false,
                 type: 'text'
+            }
+        }
+    },
+
+    /**
+     * Rich Text Area
+     */
+    rich_text_area: {
+        codename: 'rich_text_area',
+        id: '6185661e-6113-4d32-badb-9d3741461374',
+        externalId: undefined,
+        name: 'Rich Text Area',
+        elements: {
+            /**
+             * Untitled rich text (rich_text)
+             */
+            untitled_rich_text: {
+                codename: 'untitled_rich_text',
+                id: '4192f72c-d949-4151-8ab6-e8f82cd9c723',
+                externalId: undefined,
+                name: 'Untitled rich text',
+                required: false,
+                type: 'rich_text'
             }
         }
     },

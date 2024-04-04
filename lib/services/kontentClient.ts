@@ -1,4 +1,3 @@
-import { Channels } from './../../models/taxonomies/channels';
 import { DeliveryError, IContentItem, camelCasePropertyNameResolver, createDeliveryClient } from '@kontent-ai/delivery-sdk';
 import { defaultEnvId, defaultPreviewKey, deliveryApiDomain, deliveryPreviewApiDomain, siteCodename } from '../utils/env';
 import { Article, contentTypes, Product, WSL_WebSpotlightRoot, RobotsTxt, SEOMetadata, Event, WSL_Page, Course, ImageContainer, taxonomies } from '../../models';

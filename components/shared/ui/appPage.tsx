@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FC, ReactNode } from 'react';
+import { FC, ReactNode, useEffect, useState } from 'react';
 import { ValidCollectionCodename } from '../../../lib/types/perCollection';
 import { useSmartLink } from '../../../lib/useSmartLink';
 import { createItemSmartLink } from '../../../lib/utils/smartLinkUtils';
@@ -18,6 +18,8 @@ import { Footer } from './footer';
 import { getSeoAndSharingDetails } from '../../../lib/utils/seo-utils';
 import { NextSeo } from 'next-seo';
 import { useLivePreview } from '../contexts/LivePreview';
+import { ResolutionContext, resolveUrlPath } from '../../../lib/routing';
+import { IContentItem } from '@kontent-ai/delivery-sdk';
 
 type AcceptedItem =
   | WSL_WebSpotlightRoot
@@ -33,18 +35,20 @@ type Props = Readonly<{
   homeContentItem?: WSL_WebSpotlightRoot;
   item: AcceptedItem;
   defaultMetadata: SEOMetadata;
+  variants?: IContentItem[];
   pageType: 'WebPage' | 'Article' | 'Product' | 'FAQ' | 'Event' | 'Course';
   isPreview: boolean;
 }>;
 
 export const AppPage: FC<Props> = ({
-  children, 
-  siteCodename, 
-  homeContentItem, 
-  item, 
-  defaultMetadata, 
-  pageType, 
-  isPreview}) => {
+  children,
+  siteCodename,
+  homeContentItem,
+  item,
+  defaultMetadata,
+  variants,
+  pageType,
+  isPreview }) => {
   const data = useLivePreview({
     item,
     defaultMetadata
@@ -55,6 +59,7 @@ export const AppPage: FC<Props> = ({
         item={item}
         pageType={pageType}
         defaultMetadata={defaultMetadata}
+        variants={variants}
         siteCodename={siteCodename}
       />
       <div className='flex justify-between'></div>
@@ -97,8 +102,8 @@ export const AppPage: FC<Props> = ({
 AppPage.displayName = 'Page';
 
 const PageMetadata: FC<
-  Pick<Props, 'siteCodename' | 'item' | 'defaultMetadata' | 'pageType'>
-> = ({ siteCodename, item, defaultMetadata, pageType }) => {
+  Pick<Props, 'siteCodename' | 'item' | 'defaultMetadata' | 'variants' | 'pageType'>
+> = ({ siteCodename, item, defaultMetadata, variants, pageType }) => {
   const pageMetaKeywords =
     item.elements.seoMetadataKeywords.value ||
     defaultMetadata?.elements?.seoMetadataKeywords.value;
@@ -107,7 +112,8 @@ const PageMetadata: FC<
     url: '/',
     includeTitleSuffix: false,
     siteCodename: siteCodename,
-  });
+  }); 
+
   return (
     <Head>
       <title>{seoDetails.title}</title>
@@ -122,6 +128,13 @@ const PageMetadata: FC<
       <link rel='icon' href='/favicon.png' />
       <meta name='description' content={seoDetails.description} />
       <meta name='keywords' content={pageMetaKeywords} />
+      {variants?.map((variant, index) => (
+        <link key={index} rel="alternate" hrefLang={variant.system.language} href={resolveUrlPath(
+          {
+            type: variant.system.type,
+            slug: variant.elements.url?.value
+          }  as ResolutionContext)} />
+      ))}
       <script type='application/ld+json'>
         {JSON.stringify({
           '@context': 'http://schema.org',

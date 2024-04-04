@@ -5,6 +5,7 @@ import {
   getDefaultMetadata,
   getHomepage,
   getItemByUrlSlug,
+  getLanguages,
   getPagesSlugs,
 } from '../../lib/services/kontentClient';
 import { ValidCollectionCodename } from '../../lib/types/perCollection';
@@ -26,11 +27,14 @@ import {
 } from '../../lib/utils/pageUtils';
 import { reservedListingSlugs } from '../../lib/routing';
 import { useLivePreview } from '../../components/shared/contexts/LivePreview';
+import KontentManagementService from '../../lib/services/kontent-management-service';
+import { IContentItem } from '@kontent-ai/delivery-sdk';
 
 type Props = Readonly<{
   page: WSL_Page;
   siteCodename: ValidCollectionCodename;
   defaultMetadata: SEOMetadata;
+  variants: IContentItem[];
   homepage: WSL_WebSpotlightRoot;
   isPreview: boolean;
   language: string;
@@ -93,6 +97,7 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
     !!context.preview,
     context.locale as string
   );
+
   const defaultMetadata = await getDefaultMetadata(
     { envId, previewApiKey },
     !!context.preview,
@@ -110,13 +115,18 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
     return {
       notFound: true,
     };
-  }
+  }  
+  
+  //Get variant for HREFLang tags 
+  const kms = new KontentManagementService()
+  const variants = (await kms.getLanguageVariantsOfItem({ envId, previewApiKey }, page.system.id, !!context.preview)) 
 
   return {
     props: {
       page,
       siteCodename,
       defaultMetadata,
+      variants,
       homepage,
       isPreview: !!context.preview,
       language: context.locale as string,
