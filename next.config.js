@@ -1,6 +1,9 @@
 const { i18n } = require('./next-i18next.config');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
 
-module.exports = {
+module.exports = withBundleAnalyzer({
   async redirects() {
     return [
       {
@@ -23,4 +26,4 @@ module.exports = {
     loader: "custom",
     loaderFile: "./lib/imageLoader.ts",
   }
-}
+})
