@@ -57,29 +57,27 @@ const Page: NextPage<Props> = ({
     defaultMetadata,
   });
 
-  return page.elements.brandThemeChoice.value[0].codename === "clean"
-    ? <></>
-    : (
-      <AppPage
-        siteCodename={siteCodename}
-        homeContentItem={homepage}
-        defaultMetadata={data.defaultMetadata}
-        item={data.page}
-        pageType='WebPage'
-        isPreview={isPreview}
+  return page.elements.brandThemeChoice?.value?.[0]?.codename !== "clean" && (
+    <AppPage
+      siteCodename={siteCodename}
+      homeContentItem={homepage}
+      defaultMetadata={data.defaultMetadata}
+      item={data.page}
+      pageType='WebPage'
+      isPreview={isPreview}
+    >
+      <div
+        {...createElementSmartLink(contentTypes.page.elements.content.codename)}
+        {...createFixedAddSmartLink('end')}
       >
-        <div
-          {...createElementSmartLink(contentTypes.page.elements.content.codename)}
-          {...createFixedAddSmartLink('end')}
-        >
-          <RichTextElement
-            element={data.page.elements.content}
-            isInsideTable={false}
-            language={language}
-          />
-        </div>
-      </AppPage>
-    );
+        <RichTextElement
+          element={data.page.elements.content}
+          isInsideTable={false}
+          language={language}
+        />
+      </div>
+    </AppPage>
+  );
 };
 
 // `getStaticPaths` requires using `getStaticProps`
