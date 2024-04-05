@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import { AppPage } from '../../components/shared/ui/appPage';
@@ -78,7 +79,13 @@ const Page: NextPage<Props> = ({
         </div>
       </AppPage>
     )
-    : <span>{page.elements.brandThemeChoice?.value?.[0]?.codename}</span>;
+    : <>
+      <Head>
+        <title>{page.elements.seoMetadataTitle.value}</title>
+        <meta name='description' content={page.elements.seoMetadataDescription.value}/>
+      </Head>
+      <span>{page.elements.brandThemeChoice?.value?.[0]?.name}</span>
+    </>;
 };
 
 // `getStaticPaths` requires using `getStaticProps`
