@@ -45,38 +45,41 @@ interface IParams extends ParsedUrlQuery {
 }
 
 const Page: NextPage<Props> = ({
-  page,
-  siteCodename,
-  defaultMetadata,
-  homepage,
-  isPreview,
-  language}) => {
+                                 page,
+                                 siteCodename,
+                                 defaultMetadata,
+                                 homepage,
+                                 isPreview,
+                                 language
+                               }) => {
   const data = useLivePreview({
-      page,
-      defaultMetadata,
+    page,
+    defaultMetadata,
   });
 
-  return (
-    <AppPage
-      siteCodename={siteCodename}
-      homeContentItem={homepage}
-      defaultMetadata={data.defaultMetadata}
-      item={data.page}
-      pageType='WebPage'
-      isPreview={isPreview}
-    >
-      <div
-        {...createElementSmartLink(contentTypes.page.elements.content.codename)}
-        {...createFixedAddSmartLink('end')}
+  return page.elements.brandThemeChoice.value[0].codename === "clean"
+    ? <></>
+    : (
+      <AppPage
+        siteCodename={siteCodename}
+        homeContentItem={homepage}
+        defaultMetadata={data.defaultMetadata}
+        item={data.page}
+        pageType='WebPage'
+        isPreview={isPreview}
       >
-        <RichTextElement
-          element={data.page.elements.content}
-          isInsideTable={false}
-          language={language}
-        />
-      </div>
-    </AppPage>
-  );
+        <div
+          {...createElementSmartLink(contentTypes.page.elements.content.codename)}
+          {...createFixedAddSmartLink('end')}
+        >
+          <RichTextElement
+            element={data.page.elements.content}
+            isInsideTable={false}
+            language={language}
+          />
+        </div>
+      </AppPage>
+    );
 };
 
 // `getStaticPaths` requires using `getStaticProps`
@@ -115,11 +118,11 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
     return {
       notFound: true,
     };
-  }  
-  
+  }
+
   //Get variant for HREFLang tags 
   const kms = new KontentManagementService()
-  const variants = (await kms.getLanguageVariantsOfItem({ envId, previewApiKey }, page.system.id, !!context.preview)) 
+  const variants = (await kms.getLanguageVariantsOfItem({ envId, previewApiKey }, page.system.id, !!context.preview))
 
   return {
     props: {
