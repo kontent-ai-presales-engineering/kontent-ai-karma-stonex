@@ -56,7 +56,7 @@ export const LanguageBar: FC<Props> = props => {
         }
     }, [LANGUAGE_SELECTOR_ID]);
     return (
-        <div className="relative inline-block text-left m-3 z-50">
+        <div className="relative inline-block text-left ml-3 z-50">
             <div>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
