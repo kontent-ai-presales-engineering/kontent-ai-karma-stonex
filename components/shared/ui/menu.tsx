@@ -236,13 +236,14 @@ export const Menu: FC<Props> = (props) => {
       <div className='flex justify-between items-center mx-auto max-w-screen-xl md:h-16 px-2 bg-white'>
         <div className='w-screen h-full md:flex justify-between z-40 2xl:pr-0'>
           <div className='flex h-16 justify-between items-center md:w-44 w-full'>
-            <Link href='/' className='flex items-center h-full w-44 relative'>
+            <Link href='/' className='flex items-center h-full w-44 relative' aria-label={"Home"}>
               {props.homeContentItem?.elements.logo.value[0] && (
                 <Image
                   className='h-auto p-1'
                   fill
+                  loading={"eager"}
                   src={props.homeContentItem.elements.logo.value[0].url}
-                  alt={props.homeContentItem.elements.logo.value[0].description}
+                  alt={props.homeContentItem.elements.logo.value[0].description || props.homeContentItem.elements.logo.value[0].name}
                 />
               )}
               {props.homeContentItem?.elements.name.value && (

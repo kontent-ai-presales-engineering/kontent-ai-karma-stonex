@@ -35,6 +35,50 @@ export const contentTypes = {
         name: '💡 Page',
         elements: {
             /**
+             * Brand theme (multiple_choice)
+             */
+            brand_theme_choice: {
+                codename: 'brand_theme_choice',
+                id: 'ad8872f9-2249-4183-9e22-a8a7af313430',
+                externalId: undefined,
+                name: 'Brand theme',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    forex: {
+                        name: 'Forex',
+                        id: '4c3b5dad-b170-4692-81f5-15fc507001a5',
+                        codename: 'forex',
+                        externalId: undefined
+                    },
+                    cityindex: {
+                        name: 'CityIndex',
+                        id: '3d2cf13c-2f62-466f-a597-96b80f19dc44',
+                        codename: 'cityindex',
+                        externalId: undefined
+                    },
+                    stonex: {
+                        name: 'Stonex',
+                        id: 'e1fd6d2b-9d0a-4e83-adfe-77fad670316e',
+                        codename: 'stonex',
+                        externalId: undefined
+                    },
+                    farmadvantage: {
+                        name: 'FarmAdvantage',
+                        id: 'dfcebcf1-86af-41d2-9c7f-986f30c16462',
+                        codename: 'farmadvantage',
+                        externalId: undefined
+                    },
+                    clean: {
+                        name: 'Clean',
+                        id: 'd0719afa-6202-4a14-b28f-a13e3224ec08',
+                        codename: 'clean',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
              * Canonical URL (text)
              */
             seo_metadata__canonical_url: {

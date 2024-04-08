@@ -12,6 +12,14 @@ import { type SEOMetadata } from '../content-type-snippets/SEOMetadata';
  */
 export type WSL_Page = IContentItem<{
     /**
+     * Brand theme (multiple_choice)
+     * Required: false
+     * Id: ad8872f9-2249-4183-9e22-a8a7af313430
+     * Codename: brand_theme_choice
+     */
+    brandThemeChoice: Elements.MultipleChoiceElement;
+
+    /**
      * Content (rich_text)
      * Required: false
      * Id: 756bc39a-7d70-4faa-9116-eeacd689ff4f
