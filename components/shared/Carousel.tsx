@@ -9,6 +9,7 @@ import {
   createFixedAddSmartLink,
   createItemSmartLink,
 } from '../../lib/utils/smartLinkUtils';
+import { useRouter } from 'next/router';
 
 type Props = Readonly<{
   item: Carousel;
@@ -17,12 +18,25 @@ type Props = Readonly<{
 export const CarouselComponent: FC<Props> = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lastMove, setLastMove] = useState<LastMove>('withoutAnimation');
+  
+  const router = useRouter();
+  const { query } = router;
+  const utm = query.utm;
 
   const items = props.item.elements.elements.linkedItems;
   const itemsToRender = items.length == 2 ? [...items, ...items] : items;
 
+  const filteredItems = itemsToRender.filter(item => {
+    // Check if the item has a utmTag and if its value matches the utm constant
+    // or if the item does not have a utmTag value
+    return (
+      (item.elements.utmTag && item.elements.utmTag.value === utm) ||
+      item.elements.utmTag.value == ""
+    );
+  });
+
   const wrapIndex = (i: number) =>
-    i < 0 ? itemsToRender.length + i : i % itemsToRender.length;
+    i < 0 ? filteredItems.length + i : i % filteredItems.length;
 
   const moveForward = () => {
     setLastMove('forward');
@@ -55,7 +69,7 @@ export const CarouselComponent: FC<Props> = (props) => {
         >
           {items[0] && <HeroUnitComponent item={items[0] as HeroUnit} />}
         </div>
-        {itemsToRender.map((item, index) => (
+        {filteredItems.map((item, index) => (
           <Item
             key={index}
             state={calculateItemState({
@@ -70,12 +84,12 @@ export const CarouselComponent: FC<Props> = (props) => {
         ))}
       </div>
     </div>
-      {items.length > 1 && (
+      {filteredItems.length > 1 && (
         <>
           <Indicator
             currentIndex={currentIndex}
             navigateTo={jumpToIndex}
-            totalItems={items.length}
+            totalItems={filteredItems.length}
           />
           <NextPrev onNext={moveForward} onPrev={moveBackward} />
         </>

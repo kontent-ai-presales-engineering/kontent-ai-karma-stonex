@@ -2016,6 +2016,18 @@ export const contentTypes = {
                 name: 'Title',
                 required: false,
                 type: 'text'
+            },
+
+            /**
+             * UTM Tag (text)
+             */
+            utm_tag: {
+                codename: 'utm_tag',
+                id: '745471ce-d787-4c48-9e5f-4b90b89c8ccc',
+                externalId: undefined,
+                name: 'UTM Tag',
+                required: false,
+                type: 'text'
             }
         }
     },

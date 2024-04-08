@@ -40,4 +40,12 @@ export type HeroUnit = IContentItem<{
      * Codename: title
      */
     title: Elements.TextElement;
+
+    /**
+     * UTM Tag (text)
+     * Required: false
+     * Id: 745471ce-d787-4c48-9e5f-4b90b89c8ccc
+     * Codename: utm_tag
+     */
+    utmTag: Elements.TextElement;
 }>;
