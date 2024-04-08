@@ -53,6 +53,7 @@ export const AppPage: FC<Props> = ({
     item,
     defaultMetadata
   });
+
   return (
     <SiteCodenameProvider siteCodename={siteCodename}>
       <PageMetadata
@@ -129,7 +130,7 @@ const PageMetadata: FC<
       <meta name='description' content={seoDetails.description} />
       <meta name='keywords' content={pageMetaKeywords} />
       {variants?.map((variant, index) => (
-        <link key={index} rel="alternate" hrefLang={variant.system.language} href={resolveUrlPath(
+        <link key={index} rel="alternate" hrefLang={variant.system.language} href={process.env.NEXT_PUBLIC_DOMAIN + resolveUrlPath(
           {
             type: variant.system.type,
             slug: variant.elements.url?.value

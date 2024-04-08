@@ -3,7 +3,7 @@ import { ImageLoader } from "next/image";
 
 const loader: ImageLoader = props =>
   transformImageUrl(props.src)
-    .withQuality(props.quality ?? 50)
+    .withQuality(props.quality ?? 75)
     .withWidth(props.width)
     .withCompression("lossless")
     .withAutomaticFormat()
