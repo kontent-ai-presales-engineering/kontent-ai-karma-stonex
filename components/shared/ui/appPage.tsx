@@ -71,7 +71,7 @@ export const AppPage: FC<Props> = ({
           item.system.name
         )}
       >
-        {homeContentItem ? (
+        {item.elements.hide.value.find(hide => hide.codename != "header") && homeContentItem ? (
           <Menu
             item={item}
             homeContentItem={homeContentItem}
@@ -94,7 +94,9 @@ export const AppPage: FC<Props> = ({
         >
           <div className='prose w-full max-w-full pt-16'>{children}</div>
         </main>
-        <Footer item={item} homeContentItem={homeContentItem} />
+        {item.elements.hide.value.find(hide => hide.codename != "footer") &&
+          <Footer item={item} homeContentItem={homeContentItem} />
+        }
       </div>
     </SiteCodenameProvider>
   );
@@ -113,7 +115,7 @@ const PageMetadata: FC<
     url: '/',
     includeTitleSuffix: false,
     siteCodename: siteCodename,
-  }); 
+  });
 
   return (
     <Head>
@@ -134,7 +136,7 @@ const PageMetadata: FC<
           {
             type: variant.system.type,
             slug: variant.elements.url?.value
-          }  as ResolutionContext)} />
+          } as ResolutionContext)} />
       ))}
       <script type='application/ld+json'>
         {JSON.stringify({

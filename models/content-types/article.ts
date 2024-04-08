@@ -61,6 +61,14 @@ export type Article = IContentItem<{
     heroImage: Elements.AssetsElement;
 
     /**
+     * Hide (multiple_choice)
+     * Required: false
+     * Id: 85e04068-b6d9-40d9-9455-03158afb6c53
+     * Codename: hide
+     */
+    hide: Elements.MultipleChoiceElement;
+
+    /**
      * Integration with Cloudinary (custom)
      * Required: false
      * Id: 3f0284a5-821f-4aba-84a0-24bce33e4775
@@ -99,6 +107,14 @@ export type Article = IContentItem<{
      * Codename: url
      */
     url: Elements.UrlSlugElement;
+
+    /**
+     * URL History (custom)
+     * Required: false
+     * Id: 60fb286f-6db4-4de0-bc0b-b994b4420088
+     * Codename: url_history
+     */
+    urlHistory: Elements.CustomElement;
 }> &
     OpenGraphMetadata &
     SEOMetadata;

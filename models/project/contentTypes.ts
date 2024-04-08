@@ -35,50 +35,6 @@ export const contentTypes = {
         name: '💡 Page',
         elements: {
             /**
-             * Brand theme (multiple_choice)
-             */
-            brand_theme_choice: {
-                codename: 'brand_theme_choice',
-                id: 'ad8872f9-2249-4183-9e22-a8a7af313430',
-                externalId: undefined,
-                name: 'Brand theme',
-                required: false,
-                type: 'multiple_choice',
-                options: {
-                    forex: {
-                        name: 'Forex',
-                        id: '4c3b5dad-b170-4692-81f5-15fc507001a5',
-                        codename: 'forex',
-                        externalId: undefined
-                    },
-                    cityindex: {
-                        name: 'CityIndex',
-                        id: '3d2cf13c-2f62-466f-a597-96b80f19dc44',
-                        codename: 'cityindex',
-                        externalId: undefined
-                    },
-                    stonex: {
-                        name: 'Stonex',
-                        id: 'e1fd6d2b-9d0a-4e83-adfe-77fad670316e',
-                        codename: 'stonex',
-                        externalId: undefined
-                    },
-                    farmadvantage: {
-                        name: 'FarmAdvantage',
-                        id: 'dfcebcf1-86af-41d2-9c7f-986f30c16462',
-                        codename: 'farmadvantage',
-                        externalId: undefined
-                    },
-                    clean: {
-                        name: 'Clean',
-                        id: 'd0719afa-6202-4a14-b28f-a13e3224ec08',
-                        codename: 'clean',
-                        externalId: undefined
-                    }
-                }
-            },
-
-            /**
              * Canonical URL (text)
              */
             seo_metadata__canonical_url: {
@@ -118,6 +74,32 @@ export const contentTypes = {
                 type: 'text',
 
                 snippetCodename: 'seo_metadata'
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '0dc3da29-2630-43d6-8724-36ee805ae3d6',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '807c5d3c-95a0-40b4-8afe-a6c37a9b2cda',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: '27048384-95b4-4345-a47e-0b8a2fda200c',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
             },
 
             /**
@@ -308,6 +290,18 @@ export const contentTypes = {
                 name: 'URL',
                 required: false,
                 type: 'url_slug'
+            },
+
+            /**
+             * URL History (custom)
+             */
+            url_history: {
+                codename: 'url_history',
+                id: '79372a3f-535d-42fe-82bb-380e77d04390',
+                externalId: undefined,
+                name: 'URL History',
+                required: false,
+                type: 'custom'
             }
         }
     },
@@ -361,6 +355,32 @@ export const contentTypes = {
                 type: 'text',
 
                 snippetCodename: 'seo_metadata'
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '96789b59-f1f6-42ad-8001-e25a76f66573',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: 'a60e9738-4881-4ca8-8b15-76159061a435',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: '9a04fbfa-2bcd-4338-b35e-78acf514c97e',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
             },
 
             /**
@@ -690,6 +710,32 @@ export const contentTypes = {
             },
 
             /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '85e04068-b6d9-40d9-9455-03158afb6c53',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '2ff059d6-e059-4eb3-9e80-866d66829038',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: 'a1d316a4-68c8-455c-95cb-cd8fdf64076b',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
              * Integration with Cloudinary (custom)
              */
             integration_with_cloudinary: {
@@ -889,6 +935,18 @@ export const contentTypes = {
                 name: 'URL',
                 required: false,
                 type: 'url_slug'
+            },
+
+            /**
+             * URL History (custom)
+             */
+            url_history: {
+                codename: 'url_history',
+                id: '60fb286f-6db4-4de0-bc0b-b994b4420088',
+                externalId: undefined,
+                name: 'URL History',
+                required: false,
+                type: 'custom'
             },
 
             /**
@@ -1293,6 +1351,32 @@ export const contentTypes = {
             },
 
             /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '87b97d65-85b9-4f07-af0d-88d413bb2b46',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '830593dc-afd3-435d-8892-d02ac1a82992',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: '8e95012c-5829-4a71-90f2-72c7ace262bf',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
              * Keywords (text)
              */
             seo_metadata__keywords: {
@@ -1578,18 +1662,6 @@ export const contentTypes = {
             },
 
             /**
-             * Channels (taxonomy)
-             */
-            channels: {
-                codename: 'channels',
-                id: '5403ad6f-f5b1-4745-a735-57eb50c82109',
-                externalId: undefined,
-                name: 'Channels',
-                required: false,
-                type: 'taxonomy'
-            },
-
-            /**
              * Content (rich_text)
              */
             content: {
@@ -1663,6 +1735,32 @@ export const contentTypes = {
                 name: 'Event Type',
                 required: false,
                 type: 'taxonomy'
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '453560e6-914c-4b79-b003-3669aa7ea971',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '22e86784-abf4-4cc1-b388-c79b99185308',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: 'e6fb336d-2d65-440a-9338-25c9b466b412',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
             },
 
             /**
@@ -2510,6 +2608,32 @@ export const contentTypes = {
                 type: 'text',
 
                 snippetCodename: 'seo_metadata'
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '8cae7f51-809e-42af-9af8-341d9ac859bb',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '5d22ec66-2bc5-43b1-bb59-9c2136271338',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: '57fc286f-82f1-4b24-81ea-d754ea49ad37',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
             },
 
             /**

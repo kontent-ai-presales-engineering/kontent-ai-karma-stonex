@@ -12,20 +12,20 @@ import { type SEOMetadata } from '../content-type-snippets/SEOMetadata';
  */
 export type WSL_Page = IContentItem<{
     /**
-     * Brand theme (multiple_choice)
-     * Required: false
-     * Id: ad8872f9-2249-4183-9e22-a8a7af313430
-     * Codename: brand_theme_choice
-     */
-    brandThemeChoice: Elements.MultipleChoiceElement;
-
-    /**
      * Content (rich_text)
      * Required: false
      * Id: 756bc39a-7d70-4faa-9116-eeacd689ff4f
      * Codename: content
      */
     content: Elements.RichTextElement;
+
+    /**
+     * Hide (multiple_choice)
+     * Required: false
+     * Id: 0dc3da29-2630-43d6-8724-36ee805ae3d6
+     * Codename: hide
+     */
+    hide: Elements.MultipleChoiceElement;
 
     /**
      * Navigation Structures (taxonomy)
@@ -58,6 +58,14 @@ export type WSL_Page = IContentItem<{
      * Codename: url
      */
     url: Elements.UrlSlugElement;
+
+    /**
+     * URL History (custom)
+     * Required: false
+     * Id: 79372a3f-535d-42fe-82bb-380e77d04390
+     * Codename: url_history
+     */
+    urlHistory: Elements.CustomElement;
 }> &
     OpenGraphMetadata &
     SEOMetadata;

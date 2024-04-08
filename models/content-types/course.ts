@@ -79,6 +79,14 @@ export type Course = IContentItem<{
     heroImage: Elements.AssetsElement;
 
     /**
+     * Hide (multiple_choice)
+     * Required: false
+     * Id: 87b97d65-85b9-4f07-af0d-88d413bb2b46
+     * Codename: hide
+     */
+    hide: Elements.MultipleChoiceElement;
+
+    /**
      * Next start date (date_time)
      * Required: false
      * Id: 12a06da0-fc66-4938-ba6d-7f451fbdd13a

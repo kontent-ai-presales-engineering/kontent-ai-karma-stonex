@@ -20,6 +20,14 @@ export type WSL_WebSpotlightRoot = IContentItem<{
     content: Elements.RichTextElement;
 
     /**
+     * Hide (multiple_choice)
+     * Required: false
+     * Id: 96789b59-f1f6-42ad-8001-e25a76f66573
+     * Codename: hide
+     */
+    hide: Elements.MultipleChoiceElement;
+
+    /**
      * Logo (asset)
      * Required: false
      * Id: 5d7a0146-b986-4587-bf5c-3ba3111aa441
