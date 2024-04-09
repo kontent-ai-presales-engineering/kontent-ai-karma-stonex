@@ -35,6 +35,26 @@ export const contentTypes = {
         name: '💡 Page',
         elements: {
             /**
+             * Brand Theme Choice (multiple_choice)
+             */
+            brand_theme_choice: {
+                codename: 'brand_theme_choice',
+                id: '26618ba3-c9d7-41dc-8056-390a29570b04',
+                externalId: undefined,
+                name: 'Brand Theme Choice',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    clean: {
+                        name: 'Clean',
+                        id: 'c8e2c797-7f2a-4b50-af0a-83cb3a17a43d',
+                        codename: 'clean',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
              * Canonical URL (text)
              */
             seo_metadata__canonical_url: {
