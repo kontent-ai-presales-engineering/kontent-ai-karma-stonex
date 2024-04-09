@@ -71,18 +71,11 @@ export const AppPage: FC<Props> = ({
           item.system.name
         )}
       >
-        {item.elements.hide.value.find(hide => hide.codename != "header") && homeContentItem ? (
           <Menu
             item={item}
             homeContentItem={homeContentItem}
             isPreview={isPreview}
           />
-        ) : (
-          <span>
-            Missing top navigation. Please provide a valid navigation item in
-            the web spotlight root.
-          </span>
-        )}
         <main
           data-kontent-language-codename={item.system.language}
           className='py-24 md:px-6 px-3 sm:px-8 max-w-screen-xl grow h-full w-screen'
@@ -94,9 +87,7 @@ export const AppPage: FC<Props> = ({
         >
           <div className='prose w-full max-w-full pt-16'>{children}</div>
         </main>
-        {item.elements.hide.value.find(hide => hide.codename != "footer") &&
           <Footer item={item} homeContentItem={homeContentItem} />
-        }
       </div>
     </SiteCodenameProvider>
   );
