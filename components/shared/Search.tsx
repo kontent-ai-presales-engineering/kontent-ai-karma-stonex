@@ -27,8 +27,6 @@ export default function Search() {
 
 const Hits = ({ searchState, searchResults }) => {
   const validQuery = searchState.query?.length >= 1;
-  console.log(searchState);
-  console.log(searchResults);
   if (!validQuery) return null;
 
   var products = [];
@@ -36,7 +34,6 @@ const Hits = ({ searchState, searchResults }) => {
 
   for (var i = 0; i < searchResults.hits.length; i++) {
     var hit = searchResults.hits[i];
-    console.log(hit.type);
     if (hit.type === "product") {
       products[i] = hit;
     }
