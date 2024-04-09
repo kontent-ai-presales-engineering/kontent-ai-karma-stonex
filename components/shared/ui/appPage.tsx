@@ -136,7 +136,8 @@ const PageMetadata: FC<
           {
             type: variant.system.type,
             slug: variant.elements.url?.value
-          } as ResolutionContext)} />
+          } as ResolutionContext,
+          variant.system.language)} />
       ))}
       <script type='application/ld+json'>
         {JSON.stringify({

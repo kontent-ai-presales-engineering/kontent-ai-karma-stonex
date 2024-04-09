@@ -6,7 +6,7 @@ export const webhooks = {
      * Update Algolia Search index
      */
     updateAlgoliaSearchIndex: {
-        url: 'https://charming-mandazi-087d81.netlify.app?appId=CJONDOJUF9&index=stonex&slug=url',
+        url: 'https://incredible-phoenix-d08ee7.netlify.app/.netlify/functions/algolia-update-webhook?appId=CJONDOJUF9&index=stonex&slug=url',
         id: '8bbbce95-69bd-4e0b-8f73-99a5c90d93ca',
         name: 'Update Algolia Search index'
     }
