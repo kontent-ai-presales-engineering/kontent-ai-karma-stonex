@@ -128,7 +128,7 @@ export const Footer: FC<Props> = (props) => {
   return (
     <footer className='bg-gradient-to-tl from-rose-400 to-manufacturing-dark w-screen py-8 text-white'>
       <div className='flex items-center mx-auto max-w-screen-xl px-4'>
-        <div className='w-screen h-full md:flex justify-between z-40 md:pr-24 xl:pr-12 2xl:pr-0'>
+        <div className='w-screen h-full md:flex justify-between z-5 md:pr-24 xl:pr-12 2xl:pr-0'>
           <div className='flex flex-row w-full justify-center'>            
             <div>{perCollectionSEOTitle[siteCodename]}</div>
             <div className='border-l-2 border-r-2 pl-4 ml-4 pr-4 mr-4'>Copyright {currentYear}</div>

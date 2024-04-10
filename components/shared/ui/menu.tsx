@@ -229,7 +229,7 @@ export const Menu: FC<Props> = (props) => {
         <PreviewSwitcher isPreview={props.isPreview} />
       </div>
       <div className='flex justify-between items-center mx-auto max-w-screen-xl md:h-16 px-2 bg-white'>
-        <div className='w-screen h-full md:flex justify-start z-40 2xl:pr-0'>
+        <div className='w-screen h-full md:flex justify-start z-5 2xl:pr-0'>
             <Link href='/' className='flex items-center h-full w-44 relative' aria-label={"Home"}>
               {props.homeContentItem?.elements.logo.value[0] && (
                 <Image
@@ -248,13 +248,13 @@ export const Menu: FC<Props> = (props) => {
               )}
             </Link>
         </div>
-        <div className='w-screen h-full md:flex justify-end z-40 2xl:pr-0'>
+        <div className='w-screen h-full md:flex justify-end z-5 2xl:pr-0'>
           <Search></Search>
             <LanguageBar display='mobile' />
         </div>      
       </div>
       <div className='flex justify-start items-center mx-auto max-w-screen-xl md:h-16 px-2 bg-white'>
-        <div className='w-screen h-full md:flex justify-start z-40 2xl:pr-0'>
+        <div className='w-screen h-full md:flex justify-start z-5 2xl:pr-0'>
           <div className='flex h-16 justify-between items-center md:w-44 w-full'>
             <div className='md:hidden flex flex-row'>
               <LanguageBar display='desktop' />

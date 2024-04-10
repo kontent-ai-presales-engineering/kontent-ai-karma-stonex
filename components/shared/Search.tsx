@@ -42,18 +42,9 @@ const Hits = ({ searchState, searchResults }) => {
     }
   }
   return (
-    <div className="aa-Panel">
+    <div className="aa-Panel z-10">
       <div className="aa-PanelLayout aa-Panel--scrollable">
         {searchResults?.hits.length === 0 && <p>No results found.</p>}
-        {/* {searchResults?.hits.length > 0 && (
-          <ul className="aa-List">
-            {searchResults.hits.map((hit) => (
-              <li className="aa-Item" key={hit.objectID}>
-                <a href={hit.slug}>{hit.name}</a>
-              </li>
-            ))}
-          </ul>
-        )} */}
         {products?.length > 0 && (
           <section className="aa-Source">
             <div className="aa-SourceHeader">
