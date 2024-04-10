@@ -69,7 +69,7 @@ const Hits = ({ searchState, searchResults }) => {
             <ul className="aa-List">
               {articles.map((hit) => (
                 <li className="aa-Item" key={hit.objectID}>
-                  <a href={`/products/${hit.slug}`}>{hit.name}</a>
+                  <a href={`/articles/${hit.slug}`}>{hit.name}</a>
                 </li>
               ))}
             </ul>
