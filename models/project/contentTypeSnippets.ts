@@ -71,20 +71,6 @@ export const contentTypeSnippets = {
         name: 'Open Graph Metadata',
         elements: {
             /**
-             * OG Image (asset)
-             *
-             * Ideally larger than 1200x630Ideal image aspect ratio: 1.91:1
-             */
-            open_graph_metadata__image: {
-                codename: 'open_graph_metadata__image',
-                id: 'c4f33233-4a38-46af-ae18-ebf534b615d4',
-                externalId: undefined,
-                name: 'OG:Image',
-                required: false,
-                type: 'asset'
-            },
-
-            /**
              * OG Title (text)
              */
             open_graph_metadata__title: {
@@ -116,6 +102,34 @@ export const contentTypeSnippets = {
                 id: '8042b550-cd5a-4149-8aed-b047a54dbc9c',
                 externalId: undefined,
                 name: 'OG:Type',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * OG Image (asset)
+             *
+             * Ideally larger than 1200x630Ideal image aspect ratio: 1.91:1
+             */
+            open_graph_metadata__image: {
+                codename: 'open_graph_metadata__image',
+                id: 'c4f33233-4a38-46af-ae18-ebf534b615d4',
+                externalId: undefined,
+                name: 'OG:Image',
+                required: false,
+                type: 'asset'
+            },
+
+            /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
                 required: false,
                 type: 'text'
             }
@@ -200,7 +214,7 @@ export const contentTypeSnippets = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,

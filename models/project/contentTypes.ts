@@ -59,7 +59,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -207,6 +207,22 @@ export const contentTypes = {
             },
 
             /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
              * Robots Follow (multiple_choice)
              */
             seo_metadata__robots_follow: {
@@ -340,7 +356,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -500,6 +516,22 @@ export const contentTypes = {
             },
 
             /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
              * Robots Follow (multiple_choice)
              */
             seo_metadata__robots_follow: {
@@ -603,6 +635,18 @@ export const contentTypes = {
                 type: 'text',
 
                 snippetCodename: 'seo_metadata'
+            },
+
+            /**
+             * URL (url_slug)
+             */
+            url: {
+                codename: 'url',
+                id: '99bea3f1-2dbc-4591-9e5e-b316572ca4a3',
+                externalId: undefined,
+                name: 'URL',
+                required: false,
+                type: 'url_slug'
             }
         }
     },
@@ -680,7 +724,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -845,6 +889,22 @@ export const contentTypes = {
                 id: '8042b550-cd5a-4149-8aed-b047a54dbc9c',
                 externalId: undefined,
                 name: 'OG:Type',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
                 required: false,
                 type: 'text',
 
@@ -1261,7 +1321,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -1481,6 +1541,22 @@ export const contentTypes = {
             },
 
             /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
              * Overview (rich_text)
              */
             overview: {
@@ -1672,7 +1748,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -1849,6 +1925,22 @@ export const contentTypes = {
                 id: '8042b550-cd5a-4149-8aed-b047a54dbc9c',
                 externalId: undefined,
                 name: 'OG:Type',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
                 required: false,
                 type: 'text',
 
@@ -2581,7 +2673,7 @@ export const contentTypes = {
              */
             seo_metadata__canonical_url: {
                 codename: 'seo_metadata__canonical_url',
-                id: '145b30b0-1438-4e27-998f-c37a23c39393',
+                id: '38438cc2-17f4-4693-850b-ae7b0a032daf',
                 externalId: undefined,
                 name: 'Canonical URL',
                 required: false,
@@ -2734,6 +2826,22 @@ export const contentTypes = {
                 id: '8042b550-cd5a-4149-8aed-b047a54dbc9c',
                 externalId: undefined,
                 name: 'OG:Type',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'open_graph_metadata'
+            },
+
+            /**
+             * OpenGraph additional tags (text)
+             *
+             * Here you can add custom OpenGraph tags like for example:<meta property="books:isbn" content="1234567890" /><meta property="books:release_date" content="1925-04-10" />
+             */
+            open_graph_metadata__opengraph_additional_tags: {
+                codename: 'open_graph_metadata__opengraph_additional_tags',
+                id: '66df4829-3860-4800-af7b-432f39717076',
+                externalId: undefined,
+                name: 'OpenGraph additional tags',
                 required: false,
                 type: 'text',
 

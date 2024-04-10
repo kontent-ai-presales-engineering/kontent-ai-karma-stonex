@@ -44,14 +44,26 @@ export const AppPage: FC<Props> = ({
   children,
   siteCodename,
   homeContentItem,
+  pageType,
+  variants,
   item,
   defaultMetadata,
-  variants,
-  pageType,
   isPreview }) => {
   const data = useLivePreview({
     item,
     defaultMetadata
+  });
+
+  const seoDetails = getSeoAndSharingDetails({
+    page: item,
+    url: process.env.NEXT_PUBLIC_DOMAIN + resolveUrlPath(
+      {
+        type: item.system.type,
+        slug: item.elements.url?.value
+      } as ResolutionContext,
+      item.system.language),
+    includeTitleSuffix: false,
+    siteCodename: siteCodename,
   });
 
   return (
@@ -63,6 +75,14 @@ export const AppPage: FC<Props> = ({
         variants={variants}
         siteCodename={siteCodename}
       />
+      <NextSeo
+        title={seoDetails.title}
+        description={seoDetails.description}
+        canonical={seoDetails.canonicalUrl}
+        openGraph={seoDetails.openGraph}
+        nofollow={seoDetails.nofollow}
+        noindex={seoDetails.noindex}
+      />
       <div className='flex justify-between'></div>
       <div
         className='min-h-full grow flex flex-col items-center overflow-hidden'
@@ -73,10 +93,10 @@ export const AppPage: FC<Props> = ({
       >
         {item.elements.hide.value.length === 0 || !item.elements.hide.value.find(hide => hide?.codename === "header") ? (
           <Menu
-          item={item}
-          homeContentItem={homeContentItem}
-          isPreview={isPreview}
-        />
+            item={item}
+            homeContentItem={homeContentItem}
+            isPreview={isPreview}
+          />
         ) : null}
         <main
           data-kontent-language-codename={item.system.language}
@@ -105,27 +125,13 @@ const PageMetadata: FC<
   const pageMetaKeywords =
     item.elements.seoMetadataKeywords.value ||
     defaultMetadata?.elements?.seoMetadataKeywords.value;
-  const seoDetails = getSeoAndSharingDetails({
-    page: item,
-    url: '/',
-    includeTitleSuffix: false,
-    siteCodename: siteCodename,
-  });
 
   return (
     <Head>
-      <title>{seoDetails.title}</title>
-      <NextSeo
-        title={seoDetails.title}
-        description={seoDetails.description}
-        canonical={seoDetails.canonicalUrl}
-        openGraph={seoDetails.openGraph}
-        nofollow={seoDetails.nofollow}
-        noindex={seoDetails.noindex}
-      />
       <link rel='icon' href='/favicon.png' />
-      <meta name='description' content={seoDetails.description} />
-      <meta name='keywords' content={pageMetaKeywords} />
+      {pageMetaKeywords &&
+        <meta name='keywords' content={pageMetaKeywords} />
+      }
       {variants?.map((variant, index) => (
         <link key={index} rel="alternate" hrefLang={variant.system.language} href={process.env.NEXT_PUBLIC_DOMAIN + resolveUrlPath(
           {
@@ -134,16 +140,7 @@ const PageMetadata: FC<
           } as ResolutionContext,
           variant.system.language)} />
       ))}
-      <script type='application/ld+json'>
-        {JSON.stringify({
-          '@context': 'http://schema.org',
-          '@type': pageType,
-          name:
-            item.elements.seoMetadataTitle.value || item.elements.title.value,
-          description: seoDetails.description,
-          keywords: pageMetaKeywords,
-        })}
-      </script>
+      {item.elements.openGraphMetadataOpengraphAdditionalTags.value}
     </Head>
   );
 };

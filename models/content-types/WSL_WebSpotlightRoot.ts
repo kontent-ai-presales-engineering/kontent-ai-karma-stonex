@@ -66,6 +66,14 @@ export type WSL_WebSpotlightRoot = IContentItem<{
      * Codename: title
      */
     title: Elements.TextElement;
+
+    /**
+     * URL (url_slug)
+     * Required: false
+     * Id: 99bea3f1-2dbc-4591-9e5e-b316572ca4a3
+     * Codename: url
+     */
+    url: Elements.UrlSlugElement;
 }> &
     OpenGraphMetadata &
     SEOMetadata;

@@ -36,7 +36,7 @@ export function getSeoAndSharingDetails({ page, url, siteCodename, includeTitleS
     const asset = page.elements.openGraphMetadataImage.value?.length > 0 ? page.elements.openGraphMetadataImage.value[0] : null
     let ogImage = asset ? asset.url : ""
 
-    const canUrl = page.elements.seoMetadataCanonicalUrl?.value ? page.elements.seoMetadataCanonicalUrl.value : process.env.NEXT_PUBLIC_SITE_DOMAIN + "/" + url
+    const canUrl = page.elements.seoMetadataCanonicalUrl?.value ? page.elements.seoMetadataCanonicalUrl.value : url
     const canonicalUrl = noindex ? "" : canUrl
 
     if (asset) {

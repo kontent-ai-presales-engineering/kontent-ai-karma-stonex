@@ -10,7 +10,7 @@ export type SEOMetadata = IContentItem<{
     /**
      * Canonical URL (text)
      * Required: false
-     * Id: 145b30b0-1438-4e27-998f-c37a23c39393
+     * Id: 38438cc2-17f4-4693-850b-ae7b0a032daf
      * Codename: seo_metadata__canonical_url
      */
     seoMetadataCanonicalUrl: Elements.TextElement;
