@@ -30,6 +30,8 @@ export const CallToActionComponent: FC<Props> = (props) => {
   }
 
   return (
+    
+    <a href={url}>
     <button
       {...createItemSmartLink(
         props.item.system.id,
@@ -40,6 +42,8 @@ export const CallToActionComponent: FC<Props> = (props) => {
     >
       {props.item.elements.title.value}
     </button>
+    
+    </a>
   );
 };
 
