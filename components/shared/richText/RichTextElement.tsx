@@ -65,7 +65,8 @@ export const createDefaultResolvers = (
   element: Elements.RichTextElement,
   isElementInsideTable: boolean = false,
   language = 'en-gb'
-): Partial<PortableTextReactComponents> => ({
+): Partial<PortableTextReactComponents> => (
+  {
   types: {
     image: ({ value }: PortableTextTypeComponentProps<IPortableTextImage>) => {
       const asset = element.images.find((i) => i.imageId === value.asset._ref);
@@ -217,7 +218,6 @@ export const createDefaultResolvers = (
       if (!link) {
         return <>{children}</>;
       }
-
       return (
         <InternalLink link={link} language={language}>
           {children}
@@ -284,7 +284,7 @@ export const RichTextElement: FC<ElementProps> = (props) => {
   return (
     <PortableText
       value={portableText}
-      components={createDefaultResolvers(props.element, false, siteCodename)}
+      components={createDefaultResolvers(props.element, false, props.language)}
     />
   );
 };
