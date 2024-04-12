@@ -6,8 +6,6 @@ import {
   SmartLinkProvider,
   useSmartLink,
 } from '../components/shared/contexts/SmartLink';
-import "../styles/algolia.css";
-import "instantsearch.css/themes/satellite.css";
 
 const App = ({
   Component,

@@ -1,4 +1,3 @@
-import { getCookie } from "cookies-next";
 import { GetStaticPropsContext, PreviewData } from "next";
 
 import { defaultCookieOptions, envIdCookieName, personaCookieName } from "../constants/cookies";
@@ -19,5 +18,4 @@ export const getPreviewApiKeyFromPreviewData = (previewData: PreviewData | undef
     ? previewData
     : undefined;
 
-export const getEnvIdFromCookie = () => getCookie(envIdCookieName, defaultCookieOptions);
-export const getPersonaFromCookie = () => getCookie(personaCookieName, defaultCookieOptions);
+export const getEnvIdFromCookie = () => defaultEnvId;

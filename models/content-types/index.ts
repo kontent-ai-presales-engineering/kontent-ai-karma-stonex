@@ -28,5 +28,6 @@ export * from './productListing';
 export * from './richTextArea';
 export * from './robotsTxt';
 export * from './siteConfiguration';
+export * from './siteLayoutOptions';
 export * from './testimonial';
 export * from './youTubeEmbed';

@@ -7,7 +7,6 @@ import {
 import Image from 'next/image';
 import { RichTextElement } from './richText/RichTextElement';
 import { transformImageUrl } from '@kontent-ai/delivery-sdk';
-import { getPersonaFromCookie } from '../../lib/utils/pageUtils';
 
 type Props = Readonly<{
   item: ImageContainer;
@@ -15,13 +14,6 @@ type Props = Readonly<{
 }>;
 
 export const ImageContainerComponent: FC<Props> = (props) => {
-  //Return null for personalized banners
-  const personaId = getPersonaFromCookie();
-  if (props.personalized && props.item.elements.personas.value.length > 0 && !props.item.elements.personas.value.find(persona => persona.codename === personaId))
-  {
-    return null
-  }
-
   const thumb = props.item.elements.image.value[0]?.url;
   const thumbWidth = 768;
   const thumbHeight = 432;

@@ -1,15 +1,12 @@
-import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
-import { NextRouter, useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import { FC, useState } from 'react';
-import { contentTypes, WSL_Page, WSL_WebSpotlightRoot } from '../../../models';
+import { WSL_Page, WSL_WebSpotlightRoot } from '../../../models';
 import { useSiteCodename } from '../siteCodenameContext';
 import { IContentItem } from '@kontent-ai/delivery-sdk';
 import { ResolutionContext, resolveUrlPath } from '../../../lib/routing';
 import { isMultipleChoiceOptionPresent } from '../../../lib/utils/element-utils';
-import { mainColorBgClass } from '../../../lib/constants/colors';
 import { perCollectionSEOTitle } from '../../../lib/constants/labels';
-import { PersonasBar } from './personasBar';
 
 type Link = Readonly<WSL_Page>;
 
@@ -120,7 +117,6 @@ const ChildLinks: FC<DropdownMenuProps> = (props) => {
 export const Footer: FC<Props> = (props) => {
   const siteCodename = useSiteCodename();
   const [activeMenu, setActiveMenu] = useState<string | number>(-1);
-  const [smallMenuActive] = useState(false);
   const handleMenuClick = (menuId: string | number): void =>
     setActiveMenu(menuId === activeMenu ? -1 : menuId);
   const currentYear = new Date().getFullYear();
@@ -132,13 +128,6 @@ export const Footer: FC<Props> = (props) => {
           <div className='flex flex-row w-full justify-center'>            
             <div>{perCollectionSEOTitle[siteCodename]}</div>
             <div className='border-l-2 border-r-2 pl-4 ml-4 pr-4 mr-4'>Copyright {currentYear}</div>
-            <PersonasBar display='desktop' />
-            {/* <MenuList
-              smallMenuActive={smallMenuActive}
-              items={props.homeContentItem.elements.subpages.linkedItems}
-              handleClick={handleMenuClick}
-              activeMenu={activeMenu}
-            /> */}
           </div>
         </div>
       </div>

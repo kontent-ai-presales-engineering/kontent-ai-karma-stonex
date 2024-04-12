@@ -18,7 +18,6 @@ import {
   resolveUrlPath,
 } from '../../../lib/routing';
 import { isMultipleChoiceOptionPresent } from '../../../lib/utils/element-utils';
-import Search from '../Search';
 
 type Link = Readonly<WSL_Page>;
 
@@ -249,7 +248,6 @@ export const Menu: FC<Props> = (props) => {
             </Link>
         </div>
         <div className='w-screen h-full md:flex justify-end z-5 2xl:pr-0'>
-          <Search></Search>
             <LanguageBar display='mobile' />
         </div>      
       </div>

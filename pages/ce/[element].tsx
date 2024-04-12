@@ -2,10 +2,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import React, { useEffect, useState } from "react";
 import { useResizeDetector } from "react-resize-detector";
 import { TranslationCustomElement } from "../../components/custom-elements/translation";
-import { HubspotFormsCustomElement } from "../../components/custom-elements/hubspotforms";
-import { FocalPointCustomElement } from "../../components/custom-elements/focal-point";
 import Head from "next/head";
-import { ExportCustomElement } from "../../components/custom-elements/export";
 import { ReadOnlyCustomElement } from "../../components/custom-elements/read-only";
 
 interface IProps {
@@ -53,15 +50,6 @@ const CustomElementTest: NextPage<IProps> = ({ elementComponent }) => {
             case "translation":
                 customElement = <TranslationCustomElement element={element} handleSave={handleSave} value={value} context={context} />
                 break;
-            case "export":
-                customElement = <ExportCustomElement element={element} context={context} handleSave={handleSave} value={value} />
-                break;
-            case "focal-point":
-                customElement = <FocalPointCustomElement element={element} context={context} handleSave={handleSave} value={value} />
-                break;
-            case "hubspotforms":
-                customElement = <HubspotFormsCustomElement element={element} context={context} handleSave={handleSave} value={value} />
-                break;
             case "read-only":
                 customElement = <ReadOnlyCustomElement value={value} />
                 break;
@@ -93,9 +81,6 @@ export const getStaticPaths: GetStaticPaths = async (params) => {
     return {
         paths: [
             '/ce/translation',
-            '/ce/hubspotforms',
-            '/ce/export',
-            '/ce/focal-point',
             '/ce/read-only',
         ],
         fallback: false

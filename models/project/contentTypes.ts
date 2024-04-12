@@ -3109,6 +3109,87 @@ export const contentTypes = {
     },
 
     /**
+     * Site Layout Options
+     */
+    site_layout_options: {
+        codename: 'site_layout_options',
+        id: '11b840be-02c2-486f-86c8-4619539d01c2',
+        externalId: undefined,
+        name: 'Site Layout Options',
+        elements: {
+            /**
+             * Channels (taxonomy)
+             */
+            channels: {
+                codename: 'channels',
+                id: '1ff2d971-91e3-49d9-8b8e-426f12b991b7',
+                externalId: undefined,
+                name: 'Channels',
+                required: false,
+                type: 'taxonomy'
+            },
+
+            /**
+             * Color Scheme (multiple_choice)
+             */
+            color_scheme: {
+                codename: 'color_scheme',
+                id: 'e07f0636-64fc-4d38-b25a-15daa6cf8b10',
+                externalId: undefined,
+                name: 'Color Scheme',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    modern_minimalism: {
+                        name: 'Modern Minimalism',
+                        id: '104419e3-94ee-440a-bf13-11c123cdd292',
+                        codename: 'modern_minimalism',
+                        externalId: undefined
+                    },
+                    nature_inspired: {
+                        name: 'Nature Inspired',
+                        id: '0823c451-452d-4191-8718-a48633c196ac',
+                        codename: 'nature_inspired',
+                        externalId: undefined
+                    },
+                    bold_and_dynamic: {
+                        name: 'Bold and Dynamic',
+                        id: 'ef76dd60-88ad-40a5-92a5-a767511e7f95',
+                        codename: 'bold_and_dynamic',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '38db2157-4de4-45f9-a9e7-b703bed28719',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '6e25a82c-23ec-4c6f-a55b-8c5d7466fc53',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: 'ed13227a-de64-4c2d-bd00-5fc50302cb95',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
+            }
+        }
+    },
+
+    /**
      * Testimonial
      */
     testimonial: {

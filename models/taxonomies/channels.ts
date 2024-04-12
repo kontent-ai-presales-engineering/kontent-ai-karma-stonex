@@ -5,4 +5,13 @@
  * Id: 06a7a661-2c35-483a-bf0a-a296717ea888
  * Codename: channels
  */
-export type Channels = 'desktop' | 'display' | 'facebook' | 'instagram' | 'mobile' | 'social' | 'tablet' | 'x';
+export type Channels =
+    | 'desktop'
+    | 'display'
+    | 'facebook'
+    | 'instagram'
+    | 'mobile'
+    | 'site_a'
+    | 'site_b'
+    | 'social'
+    | 'x';
