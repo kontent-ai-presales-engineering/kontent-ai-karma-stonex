@@ -26,6 +26,7 @@ type Props = Readonly<{
   item: IContentItem;
   homeContentItem?: WSL_WebSpotlightRoot;
   isPreview: boolean;
+  variants?: IContentItem[];
 }>;
 
 type MenuListProps = Readonly<{
@@ -250,14 +251,14 @@ export const Menu: FC<Props> = (props) => {
         </div>
         <div className='w-screen h-full md:flex justify-end z-5 2xl:pr-0'>
           <Search></Search>
-            <LanguageBar display='mobile' />
+            <LanguageBar display='mobile' variants={props.variants} />
         </div>      
       </div>
       <div className='flex justify-start items-center mx-auto max-w-screen-xl md:h-16 px-2 bg-white'>
         <div className='w-screen h-full md:flex justify-start z-5 2xl:pr-0'>
           <div className='flex h-16 justify-between items-center md:w-44 w-full'>
             <div className='md:hidden flex flex-row'>
-              <LanguageBar display='desktop' />
+              <LanguageBar display='desktop' variants={props.variants} />
               <button
                 type='button'
                 className='flex justify-center items-center p-4'
