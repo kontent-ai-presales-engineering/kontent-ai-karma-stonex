@@ -49,9 +49,10 @@ const Page: NextPage<Props> = ({
                                  page,
                                  siteCodename,
                                  defaultMetadata,
+                                 variants,
                                  homepage,
                                  isPreview,
-                                 language
+                                 language,
                                }) => {
   const data = useLivePreview({
     page,
@@ -64,6 +65,7 @@ const Page: NextPage<Props> = ({
         homeContentItem={homepage}
         defaultMetadata={data.defaultMetadata}
         item={data.page}
+        variants={variants}
         pageType='WebPage'
         isPreview={isPreview}
       >
@@ -129,7 +131,6 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
   //Get variant for HREFLang tags 
   const kms = new KontentManagementService()
   const variants = (await kms.getLanguageVariantsOfItem({ envId, previewApiKey }, page.system.id, !!context.preview))
-
   return {
     props: {
       page,
