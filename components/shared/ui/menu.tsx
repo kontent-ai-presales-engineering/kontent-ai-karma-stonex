@@ -128,8 +128,7 @@ const MenuList: FC<MenuListProps> = (props) => {
                     {
                       type: link.system.type,
                       slug: link.elements.url.value,
-                    } as ResolutionContext,
-                    link.system.language
+                    } as ResolutionContext
                   )}
                 >
                   {link.elements.title.value}
@@ -152,8 +151,7 @@ const DropdownButton: FC<Props> = (props) => {
           {
             type: props.item.system.type,
             slug: props.item.elements.url.value,
-          } as ResolutionContext,
-          props.item.system.language
+          } as ResolutionContext
         )}
       >
         {props.item.elements.title.value}
@@ -198,8 +196,7 @@ const DropdownMenuItems: FC<DropdownMenuProps> = (props) => {
                     {
                       type: link.system.type,
                       slug: link.elements.url?.value,
-                    } as ResolutionContext,
-                    link.system.language
+                    } as ResolutionContext
                   )}
                   className={`${isCurrentNavigationItemActive(link, router)
                     ? 'border-l-gray-500 cursor-default '
