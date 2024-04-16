@@ -36,7 +36,7 @@ const handler: NextApiHandler = async (req, res) => {
   }
 
   // Redirect to the path from the fetched post
-  res.redirect(`${req.query.lang?.toString()}/path`);
+  res.redirect(`${req.query.lang?.toString()}/${path}`);
 }
 
 export default handler;
