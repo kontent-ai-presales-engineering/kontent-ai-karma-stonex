@@ -5,7 +5,6 @@ import {
   createItemSmartLink,
 } from '../../lib/utils/smartLinkUtils';
 import { GridComponent, Panel, PanelListing, contentTypes } from '../../models';
-import { useSiteCodename } from './siteCodenameContext';
 import Image from 'next/image';
 import { CallToActionLinkComponent } from './CallToActionLink';
 
@@ -37,7 +36,7 @@ export const Grid: FC<Props> = (props) => {
         props.item.system.name
       )}
       {...createElementSmartLink(
-        contentTypes.panel_listing.elements.panels.codename
+        contentTypes.grid_component.elements.content.codename
       )}
       {...createFixedAddSmartLink('end')}
     >

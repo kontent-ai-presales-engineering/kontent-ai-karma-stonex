@@ -3151,6 +3151,130 @@ export const contentTypes = {
     },
 
     /**
+     * Tab Component
+     */
+    tab_component: {
+        codename: 'tab_component',
+        id: 'e2960526-654a-4d26-bf81-2833eadddd0b',
+        externalId: undefined,
+        name: 'Tab Component',
+        elements: {
+            /**
+             * Background color (custom)
+             */
+            layout_option__background_color: {
+                codename: 'layout_option__background_color',
+                id: '59840e0a-39cc-4d9a-aa81-33d9307ade5e',
+                externalId: undefined,
+                name: 'Background color',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Content (rich_text)
+             */
+            content: {
+                codename: 'content',
+                id: '3536c507-2c4f-4409-80fd-260576971bbf',
+                externalId: undefined,
+                name: 'Content',
+                required: false,
+                type: 'rich_text'
+            },
+
+            /**
+             * Padding bottom (number)
+             */
+            layout_option__padding_bottom: {
+                codename: 'layout_option__padding_bottom',
+                id: 'd9fb6aa0-9c7d-4ce6-8c41-dc6db9411c43',
+                externalId: undefined,
+                name: 'Padding bottom',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Padding top (number)
+             */
+            layout_option__padding_top: {
+                codename: 'layout_option__padding_top',
+                id: 'e43fe29d-25ac-4d20-b7d5-a21cfb28facf',
+                externalId: undefined,
+                name: 'Padding top',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Tabs (number)
+             */
+            columns: {
+                codename: 'columns',
+                id: '3b5ba1e8-e0aa-4477-aec5-8df1b4fbd770',
+                externalId: undefined,
+                name: 'Tabs',
+                required: true,
+                type: 'number'
+            },
+
+            /**
+             * Text alignment (multiple_choice)
+             */
+            layout_option__alginment: {
+                codename: 'layout_option__alginment',
+                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
+                externalId: undefined,
+                name: 'Text alignment',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    left: {
+                        name: 'Left',
+                        id: '06ca24e9-9bcf-486a-a01b-629dd76ba95a',
+                        codename: 'left',
+                        externalId: undefined
+                    },
+                    right: {
+                        name: 'Right',
+                        id: '4aa1efd6-c68b-4ca0-9558-874127cada4e',
+                        codename: 'right',
+                        externalId: undefined
+                    },
+                    center: {
+                        name: 'Center',
+                        id: '3e56c486-9346-4bfe-8456-0bcc99c259c7',
+                        codename: 'center',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Text color (custom)
+             */
+            layout_option__text_color: {
+                codename: 'layout_option__text_color',
+                id: 'fecc173e-3959-42e3-8d64-ccedd37624c1',
+                externalId: undefined,
+                name: 'Text color',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'layout_option'
+            }
+        }
+    },
+
+    /**
      * Testimonial
      */
     testimonial: {

@@ -26,5 +26,6 @@ export * from './productListing';
 export * from './richTextArea';
 export * from './robotsTxt';
 export * from './siteLayoutOptions';
+export * from './tabComponent';
 export * from './testimonial';
 export * from './youTubeEmbed';
