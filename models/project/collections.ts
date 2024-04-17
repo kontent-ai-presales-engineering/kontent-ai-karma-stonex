@@ -63,14 +63,5 @@ export const collections = {
         codename: 'sandbox',
         id: '3905681f-dce2-4a90-8dab-425d4b73ea9c',
         name: 'StoneX'
-    },
-
-    /**
-     * Stonex MMjr
-     */
-    stonex_mmjr: {
-        codename: 'stonex_mmjr',
-        id: '8c46bc01-5092-489e-b0f5-fb91b89747e9',
-        name: 'Stonex MMjr'
     }
 } as const;

@@ -3,29 +3,6 @@
  */
 export const contentTypes = {
     /**
-     *   CKeditor
-     */
-    __ckeditor: {
-        codename: '__ckeditor',
-        id: 'c8472d91-051c-4997-a704-517603065e84',
-        externalId: undefined,
-        name: '⌨ CKeditor',
-        elements: {
-            /**
-             * CKeditor (custom)
-             */
-            ckeditor: {
-                codename: 'ckeditor',
-                id: '9bccbed4-ffb9-4df7-af2c-182280cb9930',
-                externalId: undefined,
-                name: 'CKeditor',
-                required: false,
-                type: 'custom'
-            }
-        }
-    },
-
-    /**
      *    Page
      */
     page: {
@@ -647,29 +624,6 @@ export const contentTypes = {
                 name: 'URL',
                 required: false,
                 type: 'url_slug'
-            }
-        }
-    },
-
-    /**
-     *     Data export module
-     */
-    _data_export_module: {
-        codename: '_data_export_module',
-        id: 'cdecab39-0c0c-4316-b5c5-759b4d8946a1',
-        externalId: undefined,
-        name: '🗃️ Data export module',
-        elements: {
-            /**
-             * Export data (custom)
-             */
-            export_data: {
-                codename: 'export_data',
-                id: 'e0f7abc4-8449-4fc5-8975-bf7ab7b8b074',
-                externalId: undefined,
-                name: 'Export data',
-                required: false,
-                type: 'custom'
             }
         }
     },
@@ -2126,29 +2080,6 @@ export const contentTypes = {
     },
 
     /**
-     * Footer
-     */
-    footer: {
-        codename: 'footer',
-        id: '036b48b0-4e5f-4e2c-a11a-824333e6cfce',
-        externalId: undefined,
-        name: 'Footer',
-        elements: {
-            /**
-             * Copyright notice (text)
-             */
-            copyright_notice: {
-                codename: 'copyright_notice',
-                id: '7fb7bfa2-e730-4e98-8ecd-9393ea219f26',
-                externalId: undefined,
-                name: 'Copyright notice',
-                required: false,
-                type: 'text'
-            }
-        }
-    },
-
-    /**
      * Form  Hubspot integration
      */
     form: {
@@ -3069,41 +3000,6 @@ export const contentTypes = {
                 name: 'Content',
                 required: false,
                 type: 'text'
-            }
-        }
-    },
-
-    /**
-     * Site Configuration
-     */
-    site_configuration: {
-        codename: 'site_configuration',
-        id: '971ded8c-469f-476d-b7c4-716842db4027',
-        externalId: undefined,
-        name: 'Site Configuration',
-        elements: {
-            /**
-             * Algolia search (custom)
-             */
-            algolia_search: {
-                codename: 'algolia_search',
-                id: '13c9ef8a-a932-4eee-a0e4-3a907d4bf118',
-                externalId: undefined,
-                name: 'Algolia search',
-                required: false,
-                type: 'custom'
-            },
-
-            /**
-             * Translation (custom)
-             */
-            translation: {
-                codename: 'translation',
-                id: '1fd5cae8-cd8a-46fd-80f4-18c92897d543',
-                externalId: undefined,
-                name: 'Translation',
-                required: false,
-                type: 'custom'
             }
         }
     },

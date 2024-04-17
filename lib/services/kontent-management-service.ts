@@ -1,6 +1,6 @@
 import { LanguageVariantElements, LanguageVariantModels, LanguageVariantResponses, ManagementClient } from "@kontent-ai/management-sdk";
 import { SavedValue } from "../../components/custom-elements/translation";
-import { getItemById } from './kontentClient';
+import { getItemVariantById } from './kontentClient';
 
 type ClientConfig = {
   envId: string,
@@ -121,13 +121,13 @@ export default class KontentManagementService {
     const languages = await this.getLanguages()
 
     // Assuming getLanguageVariant is an async function that retrieves the language variant
-    const variants = await Promise.all(
+    const variants = (await Promise.all(
       response.data.items.map(async (variant) => {
         const languageDetails = languages.find(lang => lang.id === variant.language.id);
-        return getItemById(config, contentItemId, isPreview, languageDetails.codename);
+        const item = await getItemVariantById(config, contentItemId, isPreview, languageDetails.codename);
+        return item;
       })
-    );
-
+    )).filter(item => item !== null);
     return variants; // This will be an array of all language variants for the content item
   }
 

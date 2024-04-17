@@ -1,3 +1,4 @@
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FC, useState } from 'react';
@@ -52,8 +53,7 @@ const MenuList: FC<MenuListProps> = (props) => {
                       {
                         type: link.system.type,
                         slug: link.elements.url.value,
-                      } as ResolutionContext,
-                      link.system.language
+                      } as ResolutionContext
                     )}
                   >
                     {link.elements.title.value}
@@ -68,8 +68,7 @@ const MenuList: FC<MenuListProps> = (props) => {
                     {
                       type: link.system.type,
                       slug: link.elements.url.value,
-                    } as ResolutionContext,
-                    link.system.language
+                    } as ResolutionContext
                   )}
                 >
                   {link.elements.title.value}
@@ -101,8 +100,7 @@ const ChildLinks: FC<DropdownMenuProps> = (props) => {
                   {
                     type: link.system.type,
                     slug: link.elements.url.value,
-                  } as ResolutionContext,
-                  link.system.language
+                  } as ResolutionContext
                 )}
               >
                 {link.elements.title.value}
