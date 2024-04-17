@@ -12,6 +12,7 @@ export * from './event';
 export * from './eventListing';
 export * from './FAQ';
 export * from './formHubspotIntegration';
+export * from './gridComponent';
 export * from './heroUnit';
 export * from './imageContainer';
 export * from './integrationWithBynderDAM';

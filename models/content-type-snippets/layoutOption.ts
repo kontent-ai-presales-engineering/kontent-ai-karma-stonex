@@ -8,7 +8,7 @@ import { type IContentItem, type Elements } from '@kontent-ai/delivery-sdk';
  */
 export type LayoutOption = IContentItem<{
     /**
-     * Alginment (multiple_choice)
+     * Text alignment (multiple_choice)
      * Required: false
      * Id: f17a9b0b-dea4-44fb-bf1a-fa626128df83
      * Codename: layout_option__alginment
@@ -16,12 +16,12 @@ export type LayoutOption = IContentItem<{
     layoutOptionAlginment: Elements.MultipleChoiceElement;
 
     /**
-     * Background color (multiple_choice)
+     * Background color (custom)
      * Required: false
-     * Id: 873eedb5-7c0e-42cf-b21b-edd25a7577fa
+     * Id: 59840e0a-39cc-4d9a-aa81-33d9307ade5e
      * Codename: layout_option__background_color
      */
-    layoutOptionBackgroundColor: Elements.MultipleChoiceElement;
+    layoutOptionBackgroundColor: Elements.CustomElement;
 
     /**
      * Padding bottom (number)

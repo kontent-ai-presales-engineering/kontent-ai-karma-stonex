@@ -1112,30 +1112,16 @@ export const contentTypes = {
         name: 'Content Chunk',
         elements: {
             /**
-             * Alginment (multiple_choice)
-             */
-            layout_option__alginment: {
-                codename: 'layout_option__alginment',
-                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
-                externalId: undefined,
-                name: 'Alginment',
-                required: false,
-                type: 'multiple_choice',
-                options: {},
-                snippetCodename: 'layout_option'
-            },
-
-            /**
-             * Background color (multiple_choice)
+             * Background color (custom)
              */
             layout_option__background_color: {
                 codename: 'layout_option__background_color',
-                id: '873eedb5-7c0e-42cf-b21b-edd25a7577fa',
+                id: '59840e0a-39cc-4d9a-aa81-33d9307ade5e',
                 externalId: undefined,
                 name: 'Background color',
                 required: false,
-                type: 'multiple_choice',
-                options: {},
+                type: 'custom',
+
                 snippetCodename: 'layout_option'
             },
 
@@ -1213,6 +1199,39 @@ export const contentTypes = {
                 name: 'Padding Top',
                 required: false,
                 type: 'number'
+            },
+
+            /**
+             * Text alignment (multiple_choice)
+             */
+            layout_option__alginment: {
+                codename: 'layout_option__alginment',
+                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
+                externalId: undefined,
+                name: 'Text alignment',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    left: {
+                        name: 'Left',
+                        id: '06ca24e9-9bcf-486a-a01b-629dd76ba95a',
+                        codename: 'left',
+                        externalId: undefined
+                    },
+                    right: {
+                        name: 'Right',
+                        id: '4aa1efd6-c68b-4ca0-9558-874127cada4e',
+                        codename: 'right',
+                        externalId: undefined
+                    },
+                    center: {
+                        name: 'Center',
+                        id: '3e56c486-9346-4bfe-8456-0bcc99c259c7',
+                        codename: 'center',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'layout_option'
             },
 
             /**
@@ -2103,6 +2122,116 @@ export const contentTypes = {
     },
 
     /**
+     * Grid Component
+     */
+    grid_component: {
+        codename: 'grid_component',
+        id: '38f329b7-75bd-4645-932a-f8a9b83db086',
+        externalId: undefined,
+        name: 'Grid Component',
+        elements: {
+            /**
+             * Background color (custom)
+             */
+            layout_option__background_color: {
+                codename: 'layout_option__background_color',
+                id: '59840e0a-39cc-4d9a-aa81-33d9307ade5e',
+                externalId: undefined,
+                name: 'Background color',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Columns (number)
+             */
+            columns: {
+                codename: 'columns',
+                id: 'b99c755a-a29b-4cfd-853c-6e10973f74ad',
+                externalId: undefined,
+                name: 'Columns',
+                required: true,
+                type: 'number'
+            },
+
+            /**
+             * Content (rich_text)
+             */
+            content: {
+                codename: 'content',
+                id: 'd4572956-d630-4aca-affd-86a675508e4e',
+                externalId: undefined,
+                name: 'Content',
+                required: false,
+                type: 'rich_text'
+            },
+
+            /**
+             * Padding bottom (number)
+             */
+            layout_option__padding_bottom: {
+                codename: 'layout_option__padding_bottom',
+                id: 'd9fb6aa0-9c7d-4ce6-8c41-dc6db9411c43',
+                externalId: undefined,
+                name: 'Padding bottom',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Padding top (number)
+             */
+            layout_option__padding_top: {
+                codename: 'layout_option__padding_top',
+                id: 'e43fe29d-25ac-4d20-b7d5-a21cfb28facf',
+                externalId: undefined,
+                name: 'Padding top',
+                required: false,
+                type: 'number',
+
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Text alignment (multiple_choice)
+             */
+            layout_option__alginment: {
+                codename: 'layout_option__alginment',
+                id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
+                externalId: undefined,
+                name: 'Text alignment',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    left: {
+                        name: 'Left',
+                        id: '06ca24e9-9bcf-486a-a01b-629dd76ba95a',
+                        codename: 'left',
+                        externalId: undefined
+                    },
+                    right: {
+                        name: 'Right',
+                        id: '4aa1efd6-c68b-4ca0-9558-874127cada4e',
+                        codename: 'right',
+                        externalId: undefined
+                    },
+                    center: {
+                        name: 'Center',
+                        id: '3e56c486-9346-4bfe-8456-0bcc99c259c7',
+                        codename: 'center',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'layout_option'
+            }
+        }
+    },
+
+    /**
      * Hero Unit
      */
     hero_unit: {
@@ -2373,39 +2502,27 @@ export const contentTypes = {
         name: 'Panel',
         elements: {
             /**
-             * Blurb (text)
+             * Content (text)
              */
             blurb: {
                 codename: 'blurb',
                 id: '972b7b5b-348d-4983-be0b-084f53bd8f6a',
                 externalId: undefined,
-                name: 'Blurb',
+                name: 'Content',
                 required: false,
                 type: 'text'
             },
 
             /**
-             * Figma preview (custom)
+             * CTA (modular_content)
              */
-            figma_preview: {
-                codename: 'figma_preview',
-                id: '03200b61-f7e0-4019-b963-5dfd524733fc',
+            cta: {
+                codename: 'cta',
+                id: '07efcc05-71f8-4c1c-892b-7200cd76445a',
                 externalId: undefined,
-                name: 'Figma preview',
+                name: 'CTA',
                 required: false,
-                type: 'custom'
-            },
-
-            /**
-             * Figma URL (text)
-             */
-            figma_url: {
-                codename: 'figma_url',
-                id: '7033f138-f026-47f6-8aa8-93fa77699e1d',
-                externalId: undefined,
-                name: 'Figma URL',
-                required: false,
-                type: 'text'
+                type: 'modular_content'
             },
 
             /**
@@ -2430,18 +2547,6 @@ export const contentTypes = {
                 name: 'Image',
                 required: false,
                 type: 'asset'
-            },
-
-            /**
-             * Link (text)
-             */
-            link: {
-                codename: 'link',
-                id: '168fecf2-6821-49e9-9e92-9abfc462a61e',
-                externalId: undefined,
-                name: 'Link',
-                required: false,
-                type: 'text'
             }
         }
     },

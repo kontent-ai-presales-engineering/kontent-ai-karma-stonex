@@ -12,13 +12,13 @@ export const contentTypeSnippets = {
         name: 'Layout option',
         elements: {
             /**
-             * Alginment (multiple_choice)
+             * Text alignment (multiple_choice)
              */
             layout_option__alginment: {
                 codename: 'layout_option__alginment',
                 id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
                 externalId: undefined,
-                name: 'Alginment',
+                name: 'Text alignment',
                 required: false,
                 type: 'multiple_choice'
             },
@@ -48,15 +48,15 @@ export const contentTypeSnippets = {
             },
 
             /**
-             * Background color (multiple_choice)
+             * Background color (custom)
              */
             layout_option__background_color: {
                 codename: 'layout_option__background_color',
-                id: '873eedb5-7c0e-42cf-b21b-edd25a7577fa',
+                id: '59840e0a-39cc-4d9a-aa81-33d9307ade5e',
                 externalId: undefined,
                 name: 'Background color',
                 required: false,
-                type: 'multiple_choice'
+                type: 'custom'
             }
         }
     },
