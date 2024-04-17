@@ -57,6 +57,18 @@ export const contentTypeSnippets = {
                 name: 'Background color',
                 required: false,
                 type: 'custom'
+            },
+
+            /**
+             * Text color (custom)
+             */
+            layout_option__text_color: {
+                codename: 'layout_option__text_color',
+                id: 'fecc173e-3959-42e3-8d64-ccedd37624c1',
+                externalId: undefined,
+                name: 'Text color',
+                required: false,
+                type: 'custom'
             }
         }
     },

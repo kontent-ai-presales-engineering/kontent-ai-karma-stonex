@@ -1126,18 +1126,6 @@ export const contentTypes = {
             },
 
             /**
-             * Background color (custom)
-             */
-            background_color: {
-                codename: 'background_color',
-                id: '4a482be5-17a9-4438-b1b4-9f7f1f3aafc1',
-                externalId: undefined,
-                name: 'Background color',
-                required: false,
-                type: 'custom'
-            },
-
-            /**
              * Content (rich_text)
              */
             content: {
@@ -1164,18 +1152,6 @@ export const contentTypes = {
             },
 
             /**
-             * Padding Bottom (number)
-             */
-            padding_bottom: {
-                codename: 'padding_bottom',
-                id: 'f117c052-9f9a-4b3c-be5e-e53c28e5074a',
-                externalId: undefined,
-                name: 'Padding Bottom',
-                required: false,
-                type: 'number'
-            },
-
-            /**
              * Padding top (number)
              */
             layout_option__padding_top: {
@@ -1187,18 +1163,6 @@ export const contentTypes = {
                 type: 'number',
 
                 snippetCodename: 'layout_option'
-            },
-
-            /**
-             * Padding Top (number)
-             */
-            padding_top: {
-                codename: 'padding_top',
-                id: '333ec8ae-2110-4281-972e-70a268ac0e58',
-                externalId: undefined,
-                name: 'Padding Top',
-                required: false,
-                type: 'number'
             },
 
             /**
@@ -1235,35 +1199,17 @@ export const contentTypes = {
             },
 
             /**
-             * Text alignment (multiple_choice)
+             * Text color (custom)
              */
-            text_alignment: {
-                codename: 'text_alignment',
-                id: '99643538-9d24-4948-85e0-82bd4a5f31e0',
+            layout_option__text_color: {
+                codename: 'layout_option__text_color',
+                id: 'fecc173e-3959-42e3-8d64-ccedd37624c1',
                 externalId: undefined,
-                name: 'Text alignment',
+                name: 'Text color',
                 required: false,
-                type: 'multiple_choice',
-                options: {
-                    left: {
-                        name: 'Left',
-                        id: '9a516772-e683-4647-be7a-43f90f2b4afa',
-                        codename: 'left',
-                        externalId: undefined
-                    },
-                    right: {
-                        name: 'Right',
-                        id: 'ea514b0d-1671-4dc4-afbe-2f49ef054785',
-                        codename: 'right',
-                        externalId: undefined
-                    },
-                    center: {
-                        name: 'Center',
-                        id: 'e55b1470-8842-4e8f-9007-78c9217dbce4',
-                        codename: 'center',
-                        externalId: undefined
-                    }
-                }
+                type: 'custom',
+
+                snippetCodename: 'layout_option'
             }
         }
     },
@@ -2226,6 +2172,20 @@ export const contentTypes = {
                         externalId: undefined
                     }
                 },
+                snippetCodename: 'layout_option'
+            },
+
+            /**
+             * Text color (custom)
+             */
+            layout_option__text_color: {
+                codename: 'layout_option__text_color',
+                id: 'fecc173e-3959-42e3-8d64-ccedd37624c1',
+                externalId: undefined,
+                name: 'Text color',
+                required: false,
+                type: 'custom',
+
                 snippetCodename: 'layout_option'
             }
         }

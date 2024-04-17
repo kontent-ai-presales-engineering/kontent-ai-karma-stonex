@@ -19,9 +19,9 @@ export const ContentChunkComponent: FC<Props> = (props) => {
   };
   return (
     <div
-      style={{ backgroundColor: props.item.elements.backgroundColor?.value, paddingTop: props.item.elements.paddingTop?.value, paddingBottom: props.item.elements.paddingBottom?.value }}
+    style={{ color: props.item.elements.layoutOptionTextColor?.value, backgroundColor: props.item.elements.layoutOptionBackgroundColor?.value, paddingTop: props.item.elements.layoutOptionPaddingTop?.value, paddingBottom: props.item.elements.layoutOptionPaddingBottom?.value }}
       className={` ${
-        textAlignClass[props.item.elements.textAlignment?.value[0]?.codename]
+        textAlignClass[props.item.elements.layoutOptionAlginment?.value[0]?.codename]
       }`}
     >
       <div

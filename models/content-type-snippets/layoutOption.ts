@@ -38,4 +38,12 @@ export type LayoutOption = IContentItem<{
      * Codename: layout_option__padding_top
      */
     layoutOptionPaddingTop: Elements.NumberElement;
+
+    /**
+     * Text color (custom)
+     * Required: false
+     * Id: fecc173e-3959-42e3-8d64-ccedd37624c1
+     * Codename: layout_option__text_color
+     */
+    layoutOptionTextColor: Elements.CustomElement;
 }>;

@@ -49,9 +49,7 @@ export const PreviewSwitcher: FC<Props> = (props) => {
             className={`btn shadow-none`}
             data-te-toggle='tooltip'
             title='Preview Disabled'
-            href={`/${
-              envId ? envId : defaultEnvId
-            }/api/preview?slug=${encodeURIComponent(
+            href={`/api/preview?slug=${encodeURIComponent(
               router.asPath
             )}`}
           >

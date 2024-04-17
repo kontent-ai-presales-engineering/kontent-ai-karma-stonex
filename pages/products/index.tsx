@@ -25,7 +25,6 @@ import {
   contentTypes,
 } from '../../models';
 import {
-  getEnvIdFromRouteParams,
   getPreviewApiKeyFromPreviewData,
 } from '../../lib/utils/pageUtils';
 import KontentManagementService from '../../lib/services/kontent-management-service';
@@ -253,7 +252,7 @@ export const Products: FC<Props> = (props) => {
 };
 
 export const getStaticProps: GetStaticProps<Props> = async (context) => {
-  const envId = getEnvIdFromRouteParams(context);
+  const envId = defaultEnvId;
   const previewApiKey = getPreviewApiKeyFromPreviewData(context.previewData);
 
   const page = await getItemBySlug<WSL_Page>(

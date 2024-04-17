@@ -26,7 +26,6 @@ import {
 } from '../../lib/constants/colors';
 import Link from 'next/link';
 import {
-  getEnvIdFromRouteParams,
   getPreviewApiKeyFromPreviewData,
 } from '../../lib/utils/pageUtils';
 import { useLivePreview } from '../../components/shared/contexts/LivePreview';
@@ -62,7 +61,7 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
 ) => {
   const slug = context.params?.slug;
   const language = context.locale as string;
-  const envId = getEnvIdFromRouteParams(context);
+  const envId = defaultEnvId;
   const previewApiKey = getPreviewApiKeyFromPreviewData(context.previewData);
 
   if (!slug) {

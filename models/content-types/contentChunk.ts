@@ -10,43 +10,11 @@ import { type LayoutOption } from '../content-type-snippets/layoutOption';
  */
 export type ContentChunk = IContentItem<{
     /**
-     * Background color (custom)
-     * Required: false
-     * Id: 4a482be5-17a9-4438-b1b4-9f7f1f3aafc1
-     * Codename: background_color
-     */
-    backgroundColor: Elements.CustomElement;
-
-    /**
      * Content (rich_text)
      * Required: false
      * Id: 243ad7ec-37bf-4152-a858-1a2cbdb144be
      * Codename: content
      */
     content: Elements.RichTextElement;
-
-    /**
-     * Padding Bottom (number)
-     * Required: false
-     * Id: f117c052-9f9a-4b3c-be5e-e53c28e5074a
-     * Codename: padding_bottom
-     */
-    paddingBottom: Elements.NumberElement;
-
-    /**
-     * Padding Top (number)
-     * Required: false
-     * Id: 333ec8ae-2110-4281-972e-70a268ac0e58
-     * Codename: padding_top
-     */
-    paddingTop: Elements.NumberElement;
-
-    /**
-     * Text alignment (multiple_choice)
-     * Required: false
-     * Id: 99643538-9d24-4948-85e0-82bd4a5f31e0
-     * Codename: text_alignment
-     */
-    textAlignment: Elements.MultipleChoiceElement;
 }> &
     LayoutOption;

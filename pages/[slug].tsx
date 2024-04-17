@@ -23,7 +23,6 @@ import {
 } from '../models';
 import { RichTextElement } from '../components/shared/richText/RichTextElement';
 import {
-  getEnvIdFromRouteParams,
   getPreviewApiKeyFromPreviewData,
 } from '../lib/utils/pageUtils';
 import { reservedListingSlugs } from '../lib/routing';
@@ -100,7 +99,7 @@ export const getStaticProps: GetStaticProps<Props, IParams> = async (
       notFound: true,
     };
   }
-  const envId = getEnvIdFromRouteParams(context);
+  const envId = defaultEnvId;
   const previewApiKey = getPreviewApiKeyFromPreviewData(context.previewData);
 
   const homepage = await getHomepage(
