@@ -7,8 +7,8 @@ const cookieOptions = { path: '/', sameSite: 'none', secure: true } as const;
 
 const handler: NextApiHandler = async (req, res) => {
   // TODO move secret to env variables
-  if (req.query.secret !== 'mySuperSecret' || !req.query.slug) {
-    res.status(401).json({ message: 'Invalid preview token, or no slug and type provided.' });
+  if (!req.query.slug) {
+    res.status(401).json({ message: 'No slug and type provided.' });
     return;
   }
 

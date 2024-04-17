@@ -51,7 +51,7 @@ export const PreviewSwitcher: FC<Props> = (props) => {
             title='Preview Disabled'
             href={`/${
               envId ? envId : defaultEnvId
-            }/api/preview?secret=mySuperSecret&slug=${encodeURIComponent(
+            }/api/preview?slug=${encodeURIComponent(
               router.asPath
             )}`}
           >
