@@ -8,6 +8,7 @@ import {
 } from '../components/shared/contexts/SmartLink';
 import "../styles/algolia.css";
 import "instantsearch.css/themes/satellite.css";
+import { ThemeSwitcher } from '../components/shared/ThemeSwitcher';
 
 const App = ({
   Component,
@@ -15,9 +16,11 @@ const App = ({
 }: AppProps) => {
   const smartLink = useSmartLink();
 
+  const brandChoice = pageProps.page?.elements?.brandThemeChoice?.value?.[0]?.codename;
+
   return (
     <LivePreviewProvider smartLink={smartLink}>
-      <div className="w-full h-screen">
+      <div className="w-full">
         <Component {...pageProps} />
         <Head>
           <link
@@ -26,6 +29,12 @@ const App = ({
           />
         </Head>
       </div>
+      
+      {brandChoice && brandChoice !== "default" && (
+        brandChoice === "picker" 
+        ? <ThemeSwitcher /> 
+        : <ThemeSwitcher theme={brandChoice} /> 
+      )}
     </LivePreviewProvider>
   );
 };
