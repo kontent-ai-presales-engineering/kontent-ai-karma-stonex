@@ -59,7 +59,7 @@ const Page: NextPage<Props> = ({
     defaultMetadata,
   });
 
-  return page.elements.brandThemeChoice?.value?.[0]?.codename !== "clean" ? (
+  return (
       <AppPage
         siteCodename={siteCodename}
         homeContentItem={homepage}
@@ -81,13 +81,6 @@ const Page: NextPage<Props> = ({
         </div>
       </AppPage>
     )
-    : <>
-      <Head>
-        <title>{page.elements.seoMetadataTitle.value}</title>
-        <meta name='description' content={page.elements.seoMetadataDescription.value}/>
-      </Head>
-      <span>{page.elements.brandThemeChoice?.value?.[0]?.name}</span>
-    </>;
 };
 
 // `getStaticPaths` requires using `getStaticProps`
