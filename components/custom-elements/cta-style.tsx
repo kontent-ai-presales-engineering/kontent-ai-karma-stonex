@@ -1,15 +1,12 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import {useThemeContext} from "../shared/contexts/ThemeProvider";
 
 export type StyleOption = "solid-primary"
   | "solid-secondary"
-  | "solid-tertiary"
   | "transparent-primary"
   | "transparent-secondary"
-  | "transparent-tertiary"
   | "arrow-right"
-  | "arrow-left"
-  | "arrow-light-right"
-  | "arrow-light-left";
+  | "arrow-left";
 
 type Option = {
   codename: StyleOption,
@@ -26,10 +23,6 @@ const options: Option[] = [
     label: "Solid Secondary"
   },
   {
-    codename: "solid-tertiary",
-    label: "Solid Tertiary"
-  },
-  {
     codename: "transparent-primary",
     label: "Transparent Primary"
   },
@@ -38,24 +31,12 @@ const options: Option[] = [
     label: "Transparent Secondary"
   },
   {
-    codename: "transparent-tertiary",
-    label: "Transparent Tertiary"
-  },
-  {
     codename: "arrow-right",
     label: "Arrow Right"
   },
   {
     codename: "arrow-left",
     label: "Arrow Left"
-  },
-  {
-    codename: "arrow-light-right",
-    label: "Arrow Light Right"
-  },
-  {
-    codename: "arrow-light-left",
-    label: "Arrow Light Left"
   },
 ]
 
@@ -73,30 +54,42 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
                                                           handleSave,
                                                         }) => {
   // @ts-ignore
-  const init = !!element.config?.default && options.find(({label}) => label === element.config?.default )?.codename;
+  const init: StyleOption = !!element.config?.default && options.find(({label}) => label === element.config?.default)?.codename;
 
-  console.log({value, context, element, init})
+  const {themeState} = useThemeContext();
+
+  const [style, setStyle] = useState(value || init);
+
+  console.log({themeState})
+
+  useEffect(() => {
+    if (!!style || !!init) {
+      handleSave(style || init)
+    }
+  }, [style, init])
 
   return (
     <fieldset
-      className='flex flex-col gap-4 text-black'>
+      className='flex flex-col gap-xxxs p-xxxs'
+      data-theme={themeState}
+    >
       {options.map(option => (
-        <label key={option.codename}
-               htmlFor={option.codename}
-               className={`flex align-center`}>
-          <input type="radio"
-                 name="style-options"
-                 className={"mr-8 text-black"}
-                 id={option.codename}
-                 value={option.codename}
-                 checked={value === option.codename || option.codename === init}
-                 onChange={() => handleSave(option.codename)}/>
-          {option.label}
-        </label>
-      ))}
-
-      <span
-        className={`brand-cta brand-cta--${value}`}>{options.find(({codename}) => codename === value)?.label}</span>
+          <div className={"flex items-center"} key={option.codename}>
+            <input type="radio"
+                   name="style-options"
+                   className={"mr-8 text-black"}
+                   id={option.codename}
+                   value={option.codename}
+                   checked={value === option.codename || option.codename === init}
+                   onChange={() => setStyle(option.codename)}/>
+            <label key={option.codename}
+                   htmlFor={option.codename}
+                   className={`brand-cta brand-cta--${option.codename}`}>
+              {option.label}
+            </label>
+          </div>
+        )
+      )}
     </fieldset>
   )
 };

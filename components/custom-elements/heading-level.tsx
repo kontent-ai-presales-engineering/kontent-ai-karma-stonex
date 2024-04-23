@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 export type HeadingTag = 'h1'
   | 'h2'
@@ -58,9 +58,16 @@ export const HeadingLevelCustomElement: React.FC<IProps> = ({
                                                               handleSave,
                                                             }) => {
   // @ts-ignore
-  const init = !!element.config?.default && options.find(({label}) => label === element.config?.default )?.codename;
+  const init: HeadingTag = !!element.config?.default && options.find(({label}) => label === element.config?.default )?.codename;
 
-  console.log({value, context, element, init})
+  const [level, setLevel] = useState(value || init);
+
+  useEffect(() => {
+    if (!!level || !!init) {
+      handleSave(level || init)
+    }
+  }, [level, init])
+
 
   return (
     <fieldset
@@ -75,7 +82,7 @@ export const HeadingLevelCustomElement: React.FC<IProps> = ({
                  id={option.codename}
                  value={option.codename}
                  checked={value === option.codename || option.codename === init}
-                 onChange={() => handleSave(option.codename)}/>
+                 onChange={() => setLevel(option.codename)}/>
                  
       {React.createElement(
         option.codename || "span",
