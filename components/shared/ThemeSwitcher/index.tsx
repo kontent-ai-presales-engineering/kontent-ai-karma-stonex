@@ -1,32 +1,31 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useMemo, useState} from "react";
+import {useThemeContext} from "../contexts/ThemeProvider";
 
-type Props = {
-  theme?: string
-}
-
-export const ThemeSwitcher = ({theme} : Props): JSX.Element => {
+export const ThemeSwitcher = (): JSX.Element => {
   const themes = [
     "forex",
     "cityindex",
     "stonex"
   ];
 
-  const [currentTheme, setTheme] = useState(theme || "stonex");
+  const {themeState, dispatch} = useThemeContext();
+  const currentTheme = useMemo(() => themeState === "picker" ? "forex" : themeState, [themeState])
 
   useEffect(
-    () => document.querySelector("html")?.setAttribute("data-theme", currentTheme),
-    [currentTheme]);
-
-  return !theme && (
-    <div className="inline-flex flex-col fixed bottom-0 right-0 font-bold bg-white border-2 z-[999]">
-      {
-        <div className={"flex gap-xxxs px-xxxxs"}>
-          {themes.map((theme) => <label key={theme} className={"flex gap-2"}>
-            <input type={"radio"} value={theme} name={"theme"} defaultChecked={theme === currentTheme} onChange={(e) => setTheme(e.target.value)} />
-            {theme}
-          </label>)}
-        </div>
-      }
-    </div>
+    () => document.querySelector("html")?.setAttribute("data-theme", currentTheme)
+    , [currentTheme]
   );
+
+  return <div
+    className="px-xxxxs flex flex-col fixed bottom-0 right-0 font-bold bg-white border-2 z-[999] shadow-2">
+    {themes.map((theme) =>
+      <label key={theme} className={"flex gap-8 py-xxxxxxxs"}>
+        <input type={"radio"}
+               value={theme}
+               name={"theme"}
+               defaultChecked={theme === currentTheme}
+               onChange={(e) => dispatch(e.target.value)}/>
+        {theme}
+      </label>)}
+  </div>
 };
