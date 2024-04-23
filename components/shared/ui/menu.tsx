@@ -227,11 +227,11 @@ export const Menu: FC<Props> = (props) => {
 
   return (
     <div className={`w-full sticky top-0 z-30 p-8 shadow-xl bg-white`}>
-      <div className='absolute z-50 rounded-lg opacity-30 hover:opacity-100 bottom-0 right-0'>
+      <div className='absolute z-50 rounded-lg opacity-30 hover:opacity-100 top-0 right-0'>
         <PreviewSwitcher isPreview={props.isPreview}/>
       </div>
 
-      <div className='flex w-full items-center px-2'>
+      <div className='flex w-full items-center px-2 relative z-10'>
         <Link href='/' className='flex items-center h-full w-44 relative' aria-label={"Home"}>
           {props.homeContentItem?.elements.logo.value[0] && (
             <Image
