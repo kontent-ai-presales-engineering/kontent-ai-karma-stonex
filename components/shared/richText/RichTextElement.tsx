@@ -76,7 +76,7 @@ export const createDefaultResolvers = (
 
       if (isElementInsideTable) {
         return (
-          <div className='w-28 h-14 relative not-prose'>
+          <div className='w-28 h-14 relative'>
             <Image
               src={value.asset.url}
               alt={asset.description ?? ''}
