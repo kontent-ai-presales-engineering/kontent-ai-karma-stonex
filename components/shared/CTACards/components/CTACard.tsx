@@ -31,8 +31,9 @@ export const CTACardComponent = (
           </Heading>
       }
 
-      <p>{item.elements.description.value}</p>
-
+      {!!item.elements.description?.value &&
+          <p>{item.elements.description.value}</p>
+      }
       {item.elements.brandCtaLink?.linkedItems?.[0] &&
           <BrandCTA item={item.elements.brandCtaLink.linkedItems[0]}
                     className={"mt-auto"}

@@ -19,6 +19,7 @@ import {
 } from '../../../lib/routing';
 import {isMultipleChoiceOptionPresent} from '../../../lib/utils/element-utils';
 import Search from '../Search';
+import {useThemeContext} from '../contexts/ThemeProvider';
 
 type Link = Readonly<WSL_Page>;
 
@@ -222,6 +223,8 @@ export const Menu: FC<Props> = (props) => {
   const handleMenuClick = (menuId: string | number): void =>
     setActiveMenu(menuId === activeMenu ? -1 : menuId);
 
+  const {themeState} = useThemeContext();
+
   return (
     <div className={`w-full sticky top-0 z-30 p-8 shadow-xl bg-white`}>
       <div className='absolute z-50 rounded-lg opacity-30 hover:opacity-100 bottom-0 right-0'>
@@ -249,31 +252,33 @@ export const Menu: FC<Props> = (props) => {
           )}
         </Link>
 
-          <MenuList
-            smallMenuActive={smallMenuActive}
-            items={props.homeContentItem.elements.subpages.linkedItems}
-            handleClick={handleMenuClick}
-            activeMenu={activeMenu}
-            isPreview={props.isPreview}
-          />
+        <MenuList
+          smallMenuActive={smallMenuActive}
+          items={props.homeContentItem.elements.subpages.linkedItems}
+          handleClick={handleMenuClick}
+          activeMenu={activeMenu}
+          isPreview={props.isPreview}
+        />
 
         <div className='flex ml-auto'>
           <LanguageBar display='mobile' variants={props.variants}/>
         </div>
 
-          <div className='md:hidden'>
-            <button
-              type='button'
-              className='flex justify-center items-center p-16'
-              onClick={() => setSmallMenuActive(!smallMenuActive)}
-              aria-label={`Mobile menu`}
-            >
-              <Bars3Icon className='w-6 h-6'/>
-            </button>
-          </div>
+        <div className='md:hidden'>
+          <button
+            type='button'
+            className='flex justify-center items-center p-16'
+            onClick={() => setSmallMenuActive(!smallMenuActive)}
+            aria-label={`Mobile menu`}
+          >
+            <Bars3Icon className='w-6 h-6'/>
+          </button>
+        </div>
       </div>
 
-      <Search/>
+      {!["cityindex", "forex", "stonex"].includes(themeState) &&
+          <Search/>
+      }
     </div>
   );
 };
