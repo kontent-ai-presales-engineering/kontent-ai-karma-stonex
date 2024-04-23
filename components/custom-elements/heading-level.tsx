@@ -66,7 +66,7 @@ export const HeadingLevelCustomElement: React.FC<IProps> = ({
     if (!!level || !!init) {
       handleSave(level || init)
     }
-  }, [level, init])
+  }, [level, init, handleSave])
 
 
   return (

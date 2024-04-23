@@ -60,13 +60,11 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
 
   const [style, setStyle] = useState(value || init);
 
-  console.log({themeState})
-
   useEffect(() => {
     if (!!style || !!init) {
       handleSave(style || init)
     }
-  }, [style, init])
+  }, [style, init, handleSave])
 
   return (
     <fieldset
