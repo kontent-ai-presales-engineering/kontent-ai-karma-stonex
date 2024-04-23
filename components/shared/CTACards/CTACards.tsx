@@ -31,7 +31,7 @@ export const CTACardsComponent = ({item}: CTACardsComponentProps): JSX.Element =
         // TODO: Check why dynamic values are not loaded for tailwind class
       }
       {item.elements.cards?.linkedItems?.length &&
-          <div className={`grid grid-cols-3 grid-cols-${item.elements.cards.linkedItems.length} gap-8 w-full`}>
+          <div className={`grid grid-cols-3 gap-8 w-full`}>
             {item.elements.cards.linkedItems.map((card: CTACard) =>
               <CTACardComponent key={card.elements?.headingOptionsTitle?.value || card.elements?.description?.value}
                                 item={card}/>
