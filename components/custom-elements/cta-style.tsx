@@ -50,7 +50,6 @@ interface IProps {
 export const CtaStyleCustomElement: React.FC<IProps> = ({
                                                           element,
                                                           value,
-                                                          context,
                                                           handleSave,
                                                         }) => {
   // @ts-ignore

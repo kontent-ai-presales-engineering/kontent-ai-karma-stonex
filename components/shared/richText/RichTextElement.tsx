@@ -53,7 +53,6 @@ import { ProductListingComponent } from '../ProductListing';
 import { PanelListingComponent } from '../PanelListing';
 import { BuildError } from '../ui/BuildError';
 import { sanitizeFirstChildText } from '../../../lib/anchors';
-import { siteCodename } from '../../../lib/utils/env';
 import { ContentChunkComponent } from '../ContentChunk';
 import { EmbeddedCodeComponent } from '../EmbeddedCode';
 import { CTACardsComponent } from '../CTACards/CTACards';

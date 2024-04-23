@@ -54,7 +54,6 @@ interface IProps {
 export const HeadingLevelCustomElement: React.FC<IProps> = ({
                                                               element,
                                                               value,
-                                                              context,
                                                               handleSave,
                                                             }) => {
   // @ts-ignore

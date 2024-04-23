@@ -1,4 +1,4 @@
-import React, {useEffect, useMemo, useState} from "react";
+import React, {useEffect, useMemo} from "react";
 import {useThemeContext} from "../contexts/ThemeProvider";
 
 export const ThemeSwitcher = (): JSX.Element => {

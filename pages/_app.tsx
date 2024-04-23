@@ -10,7 +10,6 @@ import "../styles/algolia.css";
 import "instantsearch.css/themes/satellite.css";
 import {ThemeSwitcher} from '../components/shared/ThemeSwitcher';
 import {ThemeProvider} from "../components/shared/contexts/ThemeProvider";
-import {useRouter} from "next/router";
 
 const App = ({
                Component,
