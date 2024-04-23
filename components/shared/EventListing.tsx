@@ -45,7 +45,7 @@ export const EventListingComponent: FC<Props> = ({ item }) => {
 
   return (
     <div
-      className='prose w-full max-w-full py-4 mx-auto pb-24'
+      className='w-full max-w-full py-4 mx-auto pb-24'
       {...smartLinkAttributes}
     >
       {item.elements.title?.value && (

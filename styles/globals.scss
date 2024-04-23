@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./tailwind.css";
+
+// Tokens import
+@import "tokensets/global/dimensions.css";
+@import "tokensets/global/functional.css";
+@import "tokensets/global/typography.css";
+
+@import "tokensets/device/mobile.css";
+@import "tokensets/device/tablet.css" (screen and min-width: #{theme("screens.md")});
+@import "tokensets/device/desktop.css" (screen and min-width: #{theme("screens.lg")});
+
+@import "tokensets/brand/stonex/base.css";
+@import "tokensets/brand/stonex/light.css";
+@import "tokensets/brand/stonex/dark.css";
+@import "tokensets/brand/forex/base.css";
+@import "tokensets/brand/forex/light.css";
+@import "tokensets/brand/forex/dark.css";
+@import "tokensets/brand/cityindex/base.css";
+@import "tokensets/brand/cityindex/light.css";
+@import "tokensets/brand/cityindex/dark.css";
+@import "tokensets/alias/component.css";
+
+
 @import 'type';
 @import './components/hero-unit';
 @import './components/events';
 @import './products';
-
-// Modifying pre-flights base styles
-@layer base {
-  html {
-    --scroll-behavior: smooth;
-    scroll-behavior: smooth;
-  }
-  .component {
-    &_full-width {
-      width: 100vw;
-      margin-left: calc(-50vw + 50%);
-    }
-  }
-
-  .primary-bg-gradient {
-    @apply bg-gradient-to-tl from-rose-950 to-manufacturing-dark;
-  }
-}

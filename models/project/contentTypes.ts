@@ -45,10 +45,34 @@ export const contentTypes = {
                 required: false,
                 type: 'multiple_choice',
                 options: {
-                    clean: {
-                        name: 'Clean',
+                    picker: {
+                        name: 'Picker',
                         id: 'c8e2c797-7f2a-4b50-af0a-83cb3a17a43d',
-                        codename: 'clean',
+                        codename: 'picker',
+                        externalId: undefined
+                    },
+                    stonex: {
+                        name: 'Stonex',
+                        id: 'b924a7ff-a039-4908-8921-f9e33c6690d6',
+                        codename: 'stonex',
+                        externalId: undefined
+                    },
+                    cityindex: {
+                        name: 'CityIndex',
+                        id: '5d80f602-1a96-4bec-be1b-5ee497c87c2e',
+                        codename: 'cityindex',
+                        externalId: undefined
+                    },
+                    forex: {
+                        name: 'Forex',
+                        id: 'bafffff2-582d-4743-8533-aa064bf10ccf',
+                        codename: 'forex',
+                        externalId: undefined
+                    },
+                    default: {
+                        name: 'Default',
+                        id: '7d0c649e-39af-41de-ae52-433fd6d7c21b',
+                        codename: 'default',
                         externalId: undefined
                     }
                 }
@@ -1712,6 +1736,188 @@ export const contentTypes = {
     },
 
     /**
+     * CTA Card
+     */
+    cta_card: {
+        codename: 'cta_card',
+        id: 'e7392e9c-486a-4578-acae-6fefdbfe2e06',
+        externalId: undefined,
+        name: 'CTA Card',
+        elements: {
+            /**
+             * Description (text)
+             */
+            description: {
+                codename: 'description',
+                id: '9c1d1b71-5b65-4d29-a6ca-1b2eeb0c4b8b',
+                externalId: undefined,
+                name: 'Description',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Heading Level (custom)
+             */
+            heading_options__heading_level: {
+                codename: 'heading_options__heading_level',
+                id: 'd6812058-9606-485f-ab19-5525385a73c1',
+                externalId: undefined,
+                name: 'Heading Level',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'heading_options'
+            },
+
+            /**
+             * Image (asset)
+             */
+            image: {
+                codename: 'image',
+                id: '943a3f7c-90de-454b-8e2a-17635732919b',
+                externalId: undefined,
+                name: 'Image',
+                required: true,
+                type: 'asset'
+            },
+
+            /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Title (text)
+             */
+            heading_options__title: {
+                codename: 'heading_options__title',
+                id: '417c2d69-a484-4735-9e34-617407786f1b',
+                externalId: undefined,
+                name: 'Title',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'heading_options'
+            }
+        }
+    },
+
+    /**
+     * CTA Cards
+     */
+    cta_cards: {
+        codename: 'cta_cards',
+        id: '794fa506-3932-42eb-8a68-5fd7359a762f',
+        externalId: undefined,
+        name: 'CTA Cards',
+        elements: {
+            /**
+             * Cards (modular_content)
+             */
+            cards: {
+                codename: 'cards',
+                id: '82e8404a-a019-4702-b1a6-e0e8b217c228',
+                externalId: undefined,
+                name: 'Cards',
+                required: true,
+                type: 'modular_content'
+            },
+
+            /**
+             * Description (rich_text)
+             */
+            description: {
+                codename: 'description',
+                id: '8189eb49-782d-4b57-8340-12f12cc41d9e',
+                externalId: undefined,
+                name: 'Description',
+                required: true,
+                type: 'rich_text'
+            },
+
+            /**
+             * Heading Level (custom)
+             */
+            heading_options__heading_level: {
+                codename: 'heading_options__heading_level',
+                id: 'd6812058-9606-485f-ab19-5525385a73c1',
+                externalId: undefined,
+                name: 'Heading Level',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'heading_options'
+            },
+
+            /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Title (text)
+             */
+            heading_options__title: {
+                codename: 'heading_options__title',
+                id: '417c2d69-a484-4735-9e34-617407786f1b',
+                externalId: undefined,
+                name: 'Title',
+                required: false,
+                type: 'text',
+
+                snippetCodename: 'heading_options'
+            }
+        }
+    },
+
+    /**
      * Embedded code
      */
     embedded_code: {
@@ -2238,6 +2444,53 @@ export const contentTypes = {
                 name: 'UTM Tag',
                 required: false,
                 type: 'text'
+            }
+        }
+    },
+
+    /**
+     * Image
+     */
+    image: {
+        codename: 'image',
+        id: '08e3b976-fa17-416d-9738-5ae73f73d4e0',
+        externalId: undefined,
+        name: 'Image',
+        elements: {
+            /**
+             * Author of image (text)
+             */
+            author_of_image: {
+                codename: 'author_of_image',
+                id: '5f944eb0-db8c-411b-9884-601b7623807a',
+                externalId: undefined,
+                name: 'Author of image',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Image Asset (asset)
+             */
+            image_asset: {
+                codename: 'image_asset',
+                id: '67605334-7b04-486a-8ab4-941592244347',
+                externalId: undefined,
+                name: 'Image/Asset',
+                required: false,
+                type: 'asset'
+            },
+
+            /**
+             * Override mobile image (asset)
+             */
+            override_mobile_image: {
+                codename: 'override_mobile_image',
+                id: '80f63927-9e91-454d-a9b9-89a5d9d9743f',
+                externalId: undefined,
+                name: 'Override mobile image',
+                required: false,
+                type: 'asset'
             }
         }
     },
@@ -3104,6 +3357,87 @@ export const contentTypes = {
                 name: 'Translation',
                 required: false,
                 type: 'custom'
+            }
+        }
+    },
+
+    /**
+     * Site Layout Options
+     */
+    site_layout_options: {
+        codename: 'site_layout_options',
+        id: '11b840be-02c2-486f-86c8-4619539d01c2',
+        externalId: undefined,
+        name: 'Site Layout Options',
+        elements: {
+            /**
+             * Channels (taxonomy)
+             */
+            channels: {
+                codename: 'channels',
+                id: '1ff2d971-91e3-49d9-8b8e-426f12b991b7',
+                externalId: undefined,
+                name: 'Channels',
+                required: false,
+                type: 'taxonomy'
+            },
+
+            /**
+             * Color Scheme (multiple_choice)
+             */
+            color_scheme: {
+                codename: 'color_scheme',
+                id: 'e07f0636-64fc-4d38-b25a-15daa6cf8b10',
+                externalId: undefined,
+                name: 'Color Scheme',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    modern_minimalism: {
+                        name: 'Modern Minimalism',
+                        id: '104419e3-94ee-440a-bf13-11c123cdd292',
+                        codename: 'modern_minimalism',
+                        externalId: undefined
+                    },
+                    nature_inspired: {
+                        name: 'Nature Inspired',
+                        id: '0823c451-452d-4191-8718-a48633c196ac',
+                        codename: 'nature_inspired',
+                        externalId: undefined
+                    },
+                    bold_and_dynamic: {
+                        name: 'Bold and Dynamic',
+                        id: 'ef76dd60-88ad-40a5-92a5-a767511e7f95',
+                        codename: 'bold_and_dynamic',
+                        externalId: undefined
+                    }
+                }
+            },
+
+            /**
+             * Hide (multiple_choice)
+             */
+            hide: {
+                codename: 'hide',
+                id: '38db2157-4de4-45f9-a9e7-b703bed28719',
+                externalId: undefined,
+                name: 'Hide',
+                required: false,
+                type: 'multiple_choice',
+                options: {
+                    header: {
+                        name: 'Header',
+                        id: '6e25a82c-23ec-4c6f-a55b-8c5d7466fc53',
+                        codename: 'header',
+                        externalId: undefined
+                    },
+                    footer: {
+                        name: 'Footer',
+                        id: 'ed13227a-de64-4c2d-bd00-5fc50302cb95',
+                        codename: 'footer',
+                        externalId: undefined
+                    }
+                }
             }
         }
     },

@@ -23,6 +23,16 @@ export const assetFolders = {
     },
 
     /**
+     * Gif Video
+     */
+    gifVideo: {
+        id: '742d777f-fd16-4668-96d3-d2e30bf8a8de',
+        name: 'Gif Video',
+        externalId: undefined,
+        folders: {}
+    },
+
+    /**
      * Healthcare
      */
     healthcare: {

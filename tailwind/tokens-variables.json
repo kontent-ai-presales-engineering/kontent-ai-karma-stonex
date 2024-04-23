@@ -1,0 +1,5541 @@
+[
+	{
+		"value": "2px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "2px",
+			"type": "spacing"
+		},
+		"name": "spacing-2",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"2"
+		]
+	},
+	{
+		"value": "4px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "4px",
+			"type": "spacing"
+		},
+		"name": "spacing-4",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"4"
+		]
+	},
+	{
+		"value": "8px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "8px",
+			"type": "spacing"
+		},
+		"name": "spacing-8",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"8"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "12px",
+			"type": "spacing"
+		},
+		"name": "spacing-12",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"12"
+		]
+	},
+	{
+		"value": "14px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "14px",
+			"type": "spacing"
+		},
+		"name": "spacing-14",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"14"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "16px",
+			"type": "spacing"
+		},
+		"name": "spacing-16",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"16"
+		]
+	},
+	{
+		"value": "20px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "20px",
+			"type": "spacing"
+		},
+		"name": "spacing-20",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"20"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "24px",
+			"type": "spacing"
+		},
+		"name": "spacing-24",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"24"
+		]
+	},
+	{
+		"value": "28px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "28px",
+			"type": "spacing"
+		},
+		"name": "spacing-28",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"28"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "32px",
+			"type": "spacing"
+		},
+		"name": "spacing-32",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"32"
+		]
+	},
+	{
+		"value": "40px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "40px",
+			"type": "spacing"
+		},
+		"name": "spacing-40",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"40"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "48px",
+			"type": "spacing"
+		},
+		"name": "spacing-48",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"48"
+		]
+	},
+	{
+		"value": "56px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "56px",
+			"type": "spacing"
+		},
+		"name": "spacing-56",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"56"
+		]
+	},
+	{
+		"value": "64px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "64px",
+			"type": "spacing"
+		},
+		"name": "spacing-64",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"64"
+		]
+	},
+	{
+		"value": "80px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "80px",
+			"type": "spacing"
+		},
+		"name": "spacing-80",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"80"
+		]
+	},
+	{
+		"value": "96px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "96px",
+			"type": "spacing"
+		},
+		"name": "spacing-96",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"96"
+		]
+	},
+	{
+		"value": "128px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "128px",
+			"type": "spacing"
+		},
+		"name": "spacing-128",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"128"
+		]
+	},
+	{
+		"value": "160px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "160px",
+			"type": "spacing"
+		},
+		"name": "spacing-160",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"160"
+		]
+	},
+	{
+		"value": "192px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "192px",
+			"type": "spacing"
+		},
+		"name": "spacing-192",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"192"
+		]
+	},
+	{
+		"value": "224px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "224px",
+			"type": "spacing"
+		},
+		"name": "spacing-224",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"224"
+		]
+	},
+	{
+		"value": "256px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "256px",
+			"type": "spacing"
+		},
+		"name": "spacing-256",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"256"
+		]
+	},
+	{
+		"value": "288px",
+		"type": "spacing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "288px",
+			"type": "spacing"
+		},
+		"name": "spacing-288",
+		"attributes": {},
+		"path": [
+			"spacing",
+			"288"
+		]
+	},
+	{
+		"value": "2",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "2",
+			"type": "borderRadius"
+		},
+		"name": "border-2",
+		"attributes": {},
+		"path": [
+			"border",
+			"2"
+		]
+	},
+	{
+		"value": "4",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "4",
+			"type": "borderRadius"
+		},
+		"name": "border-4",
+		"attributes": {},
+		"path": [
+			"border",
+			"4"
+		]
+	},
+	{
+		"value": "6",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "6",
+			"type": "borderRadius"
+		},
+		"name": "border-6",
+		"attributes": {},
+		"path": [
+			"border",
+			"6"
+		]
+	},
+	{
+		"value": "8",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "8",
+			"type": "borderRadius"
+		},
+		"name": "border-8",
+		"attributes": {},
+		"path": [
+			"border",
+			"8"
+		]
+	},
+	{
+		"value": "10",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "10",
+			"type": "borderRadius"
+		},
+		"name": "border-10",
+		"attributes": {},
+		"path": [
+			"border",
+			"10"
+		]
+	},
+	{
+		"value": "12",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "12",
+			"type": "borderRadius"
+		},
+		"name": "border-12",
+		"attributes": {},
+		"path": [
+			"border",
+			"12"
+		]
+	},
+	{
+		"value": "14",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "14",
+			"type": "borderRadius"
+		},
+		"name": "border-14",
+		"attributes": {},
+		"path": [
+			"border",
+			"14"
+		]
+	},
+	{
+		"value": "16",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "16",
+			"type": "borderRadius"
+		},
+		"name": "border-16",
+		"attributes": {},
+		"path": [
+			"border",
+			"16"
+		]
+	},
+	{
+		"value": "18",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "18",
+			"type": "borderRadius"
+		},
+		"name": "border-18",
+		"attributes": {},
+		"path": [
+			"border",
+			"18"
+		]
+	},
+	{
+		"value": "20",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "20",
+			"type": "borderRadius"
+		},
+		"name": "border-20",
+		"attributes": {},
+		"path": [
+			"border",
+			"20"
+		]
+	},
+	{
+		"value": "999",
+		"type": "borderRadius",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "999",
+			"type": "borderRadius"
+		},
+		"name": "border-rounded",
+		"attributes": {},
+		"path": [
+			"border",
+			"rounded"
+		]
+	},
+	{
+		"value": "2",
+		"type": "borderRadius",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{border.2}",
+			"type": "borderRadius"
+		},
+		"name": "border-sm",
+		"attributes": {},
+		"path": [
+			"border",
+			"sm"
+		]
+	},
+	{
+		"value": "4",
+		"type": "borderRadius",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{border.4}",
+			"type": "borderRadius"
+		},
+		"name": "border-md",
+		"attributes": {},
+		"path": [
+			"border",
+			"md"
+		]
+	},
+	{
+		"value": "8",
+		"type": "borderRadius",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{border.8}",
+			"type": "borderRadius"
+		},
+		"name": "border-lg",
+		"attributes": {},
+		"path": [
+			"border",
+			"lg"
+		]
+	},
+	{
+		"value": "4",
+		"type": "borderRadius",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{border.4}",
+			"type": "borderRadius"
+		},
+		"name": "border-cta",
+		"attributes": {},
+		"path": [
+			"border",
+			"CTA"
+		]
+	},
+	{
+		"value": "1",
+		"type": "borderWidth",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "1",
+			"type": "borderWidth"
+		},
+		"name": "border-width-1",
+		"attributes": {},
+		"path": [
+			"borderWidth",
+			"1"
+		]
+	},
+	{
+		"value": "2",
+		"type": "borderWidth",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "2",
+			"type": "borderWidth"
+		},
+		"name": "border-width-2",
+		"attributes": {},
+		"path": [
+			"borderWidth",
+			"2"
+		]
+	},
+	{
+		"value": "1px",
+		"type": "borderWidth",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "1px",
+			"type": "borderWidth"
+		},
+		"name": "border-width-default",
+		"attributes": {},
+		"path": [
+			"borderWidth",
+			"Default"
+		]
+	},
+	{
+		"value": "0",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0",
+			"type": "opacity"
+		},
+		"name": "opacity-0",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"0"
+		]
+	},
+	{
+		"value": "0.1",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.1",
+			"type": "opacity"
+		},
+		"name": "opacity-10",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"10"
+		]
+	},
+	{
+		"value": "0.2",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.2",
+			"type": "opacity"
+		},
+		"name": "opacity-20",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"20"
+		]
+	},
+	{
+		"value": "0.3",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.3",
+			"type": "opacity"
+		},
+		"name": "opacity-30",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"30"
+		]
+	},
+	{
+		"value": "0.4",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.4",
+			"type": "opacity"
+		},
+		"name": "opacity-40",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"40"
+		]
+	},
+	{
+		"value": "0.5",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.5",
+			"type": "opacity"
+		},
+		"name": "opacity-50",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"50"
+		]
+	},
+	{
+		"value": "0.6",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.6",
+			"type": "opacity"
+		},
+		"name": "opacity-60",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"60"
+		]
+	},
+	{
+		"value": "0.7",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.7",
+			"type": "opacity"
+		},
+		"name": "opacity-70",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"70"
+		]
+	},
+	{
+		"value": "0.8",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.8",
+			"type": "opacity"
+		},
+		"name": "opacity-80",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"80"
+		]
+	},
+	{
+		"value": "0.9",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "0.9",
+			"type": "opacity"
+		},
+		"name": "opacity-90",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"90"
+		]
+	},
+	{
+		"value": "1",
+		"type": "opacity",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "1",
+			"type": "opacity"
+		},
+		"name": "opacity-100",
+		"attributes": {},
+		"path": [
+			"opacity",
+			"100"
+		]
+	},
+	{
+		"value": "10px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "10px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-10",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"10"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "12px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-12",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"12"
+		]
+	},
+	{
+		"value": "14px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "14px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-14",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"14"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "16px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-16",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"16"
+		]
+	},
+	{
+		"value": "18px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "18px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-18",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"18"
+		]
+	},
+	{
+		"value": "20px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "20px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-20",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"20"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "24px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-24",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"24"
+		]
+	},
+	{
+		"value": "28px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "28px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-28",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"28"
+		]
+	},
+	{
+		"value": "30",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "30",
+			"type": "fontSizes"
+		},
+		"name": "font-size-30",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"30"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "32px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-32",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"32"
+		]
+	},
+	{
+		"value": "36px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "36px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-36",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"36"
+		]
+	},
+	{
+		"value": "38",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "38",
+			"type": "fontSizes"
+		},
+		"name": "font-size-38",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"38"
+		]
+	},
+	{
+		"value": "40px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "40px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-40",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"40"
+		]
+	},
+	{
+		"value": "44px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "44px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-44",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"44"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "48px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-48",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"48"
+		]
+	},
+	{
+		"value": "52px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "52px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-52",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"52"
+		]
+	},
+	{
+		"value": "56px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "56px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-56",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"56"
+		]
+	},
+	{
+		"value": "60px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "60px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-60",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"60"
+		]
+	},
+	{
+		"value": "64px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "64px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-64",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"64"
+		]
+	},
+	{
+		"value": "68px",
+		"type": "fontSizes",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "68px",
+			"type": "fontSizes"
+		},
+		"name": "font-size-68",
+		"attributes": {},
+		"path": [
+			"font-size",
+			"68"
+		]
+	},
+	{
+		"value": "2px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "2px",
+			"type": "sizing"
+		},
+		"name": "size-2",
+		"attributes": {},
+		"path": [
+			"size",
+			"2"
+		]
+	},
+	{
+		"value": "4px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "4px",
+			"type": "sizing"
+		},
+		"name": "size-4",
+		"attributes": {},
+		"path": [
+			"size",
+			"4"
+		]
+	},
+	{
+		"value": "8px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "8px",
+			"type": "sizing"
+		},
+		"name": "size-8",
+		"attributes": {},
+		"path": [
+			"size",
+			"8"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "12px",
+			"type": "sizing"
+		},
+		"name": "size-12",
+		"attributes": {},
+		"path": [
+			"size",
+			"12"
+		]
+	},
+	{
+		"value": "14px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "14px",
+			"type": "sizing"
+		},
+		"name": "size-14",
+		"attributes": {},
+		"path": [
+			"size",
+			"14"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "16px",
+			"type": "sizing"
+		},
+		"name": "size-16",
+		"attributes": {},
+		"path": [
+			"size",
+			"16"
+		]
+	},
+	{
+		"value": "20px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "20px",
+			"type": "sizing"
+		},
+		"name": "size-20",
+		"attributes": {},
+		"path": [
+			"size",
+			"20"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "24px",
+			"type": "sizing"
+		},
+		"name": "size-24",
+		"attributes": {},
+		"path": [
+			"size",
+			"24"
+		]
+	},
+	{
+		"value": "28px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "28px",
+			"type": "sizing"
+		},
+		"name": "size-28",
+		"attributes": {},
+		"path": [
+			"size",
+			"28"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "32px",
+			"type": "sizing"
+		},
+		"name": "size-32",
+		"attributes": {},
+		"path": [
+			"size",
+			"32"
+		]
+	},
+	{
+		"value": "40px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "40px",
+			"type": "sizing"
+		},
+		"name": "size-40",
+		"attributes": {},
+		"path": [
+			"size",
+			"40"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "48px",
+			"type": "sizing"
+		},
+		"name": "size-48",
+		"attributes": {},
+		"path": [
+			"size",
+			"48"
+		]
+	},
+	{
+		"value": "56px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "56px",
+			"type": "sizing"
+		},
+		"name": "size-56",
+		"attributes": {},
+		"path": [
+			"size",
+			"56"
+		]
+	},
+	{
+		"value": "64px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "64px",
+			"type": "sizing"
+		},
+		"name": "size-64",
+		"attributes": {},
+		"path": [
+			"size",
+			"64"
+		]
+	},
+	{
+		"value": "80px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "80px",
+			"type": "sizing"
+		},
+		"name": "size-80",
+		"attributes": {},
+		"path": [
+			"size",
+			"80"
+		]
+	},
+	{
+		"value": "96px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "96px",
+			"type": "sizing"
+		},
+		"name": "size-96",
+		"attributes": {},
+		"path": [
+			"size",
+			"96"
+		]
+	},
+	{
+		"value": "128px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "128px",
+			"type": "sizing"
+		},
+		"name": "size-128",
+		"attributes": {},
+		"path": [
+			"size",
+			"128"
+		]
+	},
+	{
+		"value": "160px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "160px",
+			"type": "sizing"
+		},
+		"name": "size-160",
+		"attributes": {},
+		"path": [
+			"size",
+			"160"
+		]
+	},
+	{
+		"value": "192px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "192px",
+			"type": "sizing"
+		},
+		"name": "size-192",
+		"attributes": {},
+		"path": [
+			"size",
+			"192"
+		]
+	},
+	{
+		"value": "224px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "224px",
+			"type": "sizing"
+		},
+		"name": "size-224",
+		"attributes": {},
+		"path": [
+			"size",
+			"224"
+		]
+	},
+	{
+		"value": "256px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "256px",
+			"type": "sizing"
+		},
+		"name": "size-256",
+		"attributes": {},
+		"path": [
+			"size",
+			"256"
+		]
+	},
+	{
+		"value": "288px",
+		"type": "sizing",
+		"filePath": "global/dimensions.json",
+		"isSource": true,
+		"original": {
+			"value": "288px",
+			"type": "sizing"
+		},
+		"name": "size-288",
+		"attributes": {},
+		"path": [
+			"size",
+			"288"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{font-size.48}",
+			"type": "fontSizes"
+		},
+		"name": "size-heading-1",
+		"attributes": {},
+		"path": [
+			"size",
+			"heading",
+			"1"
+		]
+	},
+	{
+		"value": "38",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{font-size.38}",
+			"type": "fontSizes"
+		},
+		"name": "size-heading-2",
+		"attributes": {},
+		"path": [
+			"size",
+			"heading",
+			"2"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{font-size.32}",
+			"type": "fontSizes"
+		},
+		"name": "size-heading-3",
+		"attributes": {},
+		"path": [
+			"size",
+			"heading",
+			"3"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{font-size.24}",
+			"type": "fontSizes"
+		},
+		"name": "size-heading-4",
+		"attributes": {},
+		"path": [
+			"size",
+			"heading",
+			"4"
+		]
+	},
+	{
+		"value": "20px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{font-size.20}",
+			"type": "fontSizes"
+		},
+		"name": "size-heading-5",
+		"attributes": {},
+		"path": [
+			"size",
+			"heading",
+			"5"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "12px",
+			"type": "fontSizes"
+		},
+		"name": "size-body-xs",
+		"attributes": {},
+		"path": [
+			"size",
+			"body",
+			"xs"
+		]
+	},
+	{
+		"value": "14px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "14px",
+			"type": "fontSizes"
+		},
+		"name": "size-body-sm",
+		"attributes": {},
+		"path": [
+			"size",
+			"body",
+			"sm"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "16px",
+			"type": "fontSizes"
+		},
+		"name": "size-body-md",
+		"attributes": {},
+		"path": [
+			"size",
+			"body",
+			"md"
+		]
+	},
+	{
+		"value": "18px",
+		"type": "fontSizes",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "18px",
+			"type": "fontSizes"
+		},
+		"name": "size-body-lg",
+		"attributes": {},
+		"path": [
+			"size",
+			"body",
+			"lg"
+		]
+	},
+	{
+		"value": "rgba(255,255,255,0)",
+		"type": "color",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "rgba(255,255,255,0)",
+			"type": "color"
+		},
+		"name": "transparent",
+		"attributes": {},
+		"path": [
+			"transparent"
+		]
+	},
+	{
+		"value": "500",
+		"type": "fontWeights",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "500",
+			"type": "fontWeights"
+		},
+		"name": "medium",
+		"attributes": {},
+		"path": [
+			"medium"
+		]
+	},
+	{
+		"value": "400",
+		"type": "fontWeights",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "400",
+			"type": "fontWeights"
+		},
+		"name": "regular",
+		"attributes": {},
+		"path": [
+			"regular"
+		]
+	},
+	{
+		"value": "300",
+		"type": "fontWeights",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "300",
+			"type": "fontWeights"
+		},
+		"name": "light",
+		"attributes": {},
+		"path": [
+			"light"
+		]
+	},
+	{
+		"value": "700",
+		"type": "fontWeights",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "700",
+			"type": "fontWeights"
+		},
+		"name": "bold",
+		"attributes": {},
+		"path": [
+			"bold"
+		]
+	},
+	{
+		"value": "underline",
+		"type": "textDecoration",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "underline",
+			"type": "textDecoration"
+		},
+		"name": "underline",
+		"attributes": {},
+		"path": [
+			"underline"
+		]
+	},
+	{
+		"value": "uppercase",
+		"type": "textCase",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "uppercase",
+			"type": "textCase"
+		},
+		"name": "uppercase",
+		"attributes": {},
+		"path": [
+			"uppercase"
+		]
+	},
+	{
+		"value": "none",
+		"type": "textCase",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "none",
+			"type": "textCase"
+		},
+		"name": "none",
+		"attributes": {},
+		"path": [
+			"none"
+		]
+	},
+	{
+		"value": "#ff00ea",
+		"type": "color",
+		"filePath": "global/functional.json",
+		"isSource": true,
+		"original": {
+			"value": "#ff00ea",
+			"type": "color"
+		},
+		"name": "placeholder",
+		"attributes": {},
+		"path": [
+			"placeholder"
+		]
+	},
+	{
+		"value": "300 48px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{default.heading}",
+				"fontSize": "{size.heading.1}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-1-default",
+		"attributes": {},
+		"path": [
+			"heading",
+			"1",
+			"default"
+		]
+	},
+	{
+		"value": "500 48px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{emphasis.heading}",
+				"fontSize": "{size.heading.1}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-1-emphasis",
+		"attributes": {},
+		"path": [
+			"heading",
+			"1",
+			"emphasis"
+		]
+	},
+	{
+		"value": "300 38px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{default.heading}",
+				"fontSize": "{size.heading.2}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-2-default",
+		"attributes": {},
+		"path": [
+			"heading",
+			"2",
+			"default"
+		]
+	},
+	{
+		"value": "500 38px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{emphasis.heading}",
+				"fontSize": "{size.heading.2}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-2-emphasis",
+		"attributes": {},
+		"path": [
+			"heading",
+			"2",
+			"emphasis"
+		]
+	},
+	{
+		"value": "300 32px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{default.heading}",
+				"fontSize": "{size.heading.3}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-3-default",
+		"attributes": {},
+		"path": [
+			"heading",
+			"3",
+			"default"
+		]
+	},
+	{
+		"value": "500 32px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{emphasis.heading}",
+				"fontSize": "{size.heading.3}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-3-emphasis",
+		"attributes": {},
+		"path": [
+			"heading",
+			"3",
+			"emphasis"
+		]
+	},
+	{
+		"value": "300 24px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{default.heading}",
+				"fontSize": "{size.heading.4}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-4-default",
+		"attributes": {},
+		"path": [
+			"heading",
+			"4",
+			"default"
+		]
+	},
+	{
+		"value": "500 24px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{emphasis.heading}",
+				"fontSize": "{size.heading.4}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-4-emphasis",
+		"attributes": {},
+		"path": [
+			"heading",
+			"4",
+			"emphasis"
+		]
+	},
+	{
+		"value": "300 20px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{default.heading}",
+				"fontSize": "{size.heading.5}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-5-default",
+		"attributes": {},
+		"path": [
+			"heading",
+			"5",
+			"default"
+		]
+	},
+	{
+		"value": "500 20px/120% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontWeight": "{emphasis.heading}",
+				"fontSize": "{size.heading.5}",
+				"lineHeight": "{lineHeight.heading}",
+				"letterSpacing": "{letterSpacing.heading}"
+			},
+			"type": "typography"
+		},
+		"name": "heading-5-emphasis",
+		"attributes": {},
+		"path": [
+			"heading",
+			"5",
+			"emphasis"
+		]
+	},
+	{
+		"value": "400 12px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.xs}",
+				"fontWeight": "{default.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-xs-default",
+		"attributes": {},
+		"path": [
+			"body",
+			"xs",
+			"default"
+		]
+	},
+	{
+		"value": "700 12px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.xs}",
+				"fontWeight": "{emphasis.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-xs-emphasis",
+		"attributes": {},
+		"path": [
+			"body",
+			"xs",
+			"emphasis"
+		]
+	},
+	{
+		"value": "400 14px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.sm}",
+				"fontWeight": "{default.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-sm-default",
+		"attributes": {},
+		"path": [
+			"body",
+			"sm",
+			"default"
+		]
+	},
+	{
+		"value": "700 14px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.sm}",
+				"fontWeight": "{emphasis.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-sm-emphasis",
+		"attributes": {},
+		"path": [
+			"body",
+			"sm",
+			"emphasis"
+		]
+	},
+	{
+		"value": "400 16px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.md}",
+				"fontWeight": "{default.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-md-default",
+		"attributes": {},
+		"path": [
+			"body",
+			"md",
+			"default"
+		]
+	},
+	{
+		"value": "700 16px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.md}",
+				"fontWeight": "{emphasis.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-md-emphasis",
+		"attributes": {},
+		"path": [
+			"body",
+			"md",
+			"emphasis"
+		]
+	},
+	{
+		"value": "400 18px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.lg}",
+				"fontWeight": "{default.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-lg-default",
+		"attributes": {},
+		"path": [
+			"body",
+			"lg",
+			"default"
+		]
+	},
+	{
+		"value": "700 18px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "global/typography.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.lg}",
+				"fontWeight": "{emphasis.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}"
+			},
+			"type": "typography"
+		},
+		"name": "body-lg-emphasis",
+		"attributes": {},
+		"path": [
+			"body",
+			"lg",
+			"emphasis"
+		]
+	},
+	{
+		"value": "#1383f4",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Light}",
+			"type": "color"
+		},
+		"name": "color-brand-primary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Brand",
+			"Primary"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-brand-secondary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Brand",
+			"Secondary"
+		]
+	},
+	{
+		"value": "#0d1775",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Dark}",
+			"type": "color"
+		},
+		"name": "color-brand-tertiary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Brand",
+			"Tertiary"
+		]
+	},
+	{
+		"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Gradient}",
+			"type": "color"
+		},
+		"name": "color-brand-icon",
+		"attributes": {},
+		"path": [
+			"color",
+			"Brand",
+			"Icon"
+		]
+	},
+	{
+		"value": "#040c17",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Base.Dark}",
+			"type": "color"
+		},
+		"name": "color-text-primary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Text",
+			"Primary"
+		]
+	},
+	{
+		"value": "#445162",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Mid.800}",
+			"type": "color"
+		},
+		"name": "color-text-secondary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Text",
+			"Secondary"
+		]
+	},
+	{
+		"value": "#7f8895",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Mid.600}",
+			"type": "color"
+		},
+		"name": "color-text-tertiary",
+		"attributes": {},
+		"path": [
+			"color",
+			"Text",
+			"Tertiary"
+		]
+	},
+	{
+		"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Gradient}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"background",
+			"default"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"background",
+			"hover"
+		]
+	},
+	{
+		"value": "#0d1775",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Dark}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"background",
+			"active"
+		]
+	},
+	{
+		"value": "#ffffff",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Base.White}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"foreground",
+			"default"
+		]
+	},
+	{
+		"value": "#ffffff",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Base.White}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"foreground",
+			"hover"
+		]
+	},
+	{
+		"value": "#ffffff",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Base.White}",
+			"type": "color"
+		},
+		"name": "color-cta-primary-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"primary",
+			"foreground",
+			"active"
+		]
+	},
+	{
+		"value": "rgba(255,255,255,0)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{transparent}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"background",
+			"default"
+		]
+	},
+	{
+		"value": "rgba(255,255,255,0)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{transparent}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"background",
+			"hover"
+		]
+	},
+	{
+		"value": "rgba(255,255,255,0)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{transparent}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"background",
+			"active"
+		]
+	},
+	{
+		"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Gradient}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"foreground",
+			"default"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"foreground",
+			"hover"
+		]
+	},
+	{
+		"value": "#0d1775",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Dark}",
+			"type": "color"
+		},
+		"name": "color-cta-secondary-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"CTA",
+			"secondary",
+			"foreground",
+			"active"
+		]
+	},
+	{
+		"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Gradient}",
+			"type": "color"
+		},
+		"name": "color-link-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Link",
+			"Default"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-link-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Link",
+			"Hover"
+		]
+	},
+	{
+		"value": "#0d1775",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Dark}",
+			"type": "color"
+		},
+		"name": "color-link-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Link",
+			"Active"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #040c171a 0%, #040c1726 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{lightTheme.container.Stroke}",
+			"type": "color"
+		},
+		"name": "color-border-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Border",
+			"Default"
+		]
+	},
+	{
+		"value": "#c8cdd3",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Mid.300}",
+			"type": "color"
+		},
+		"name": "color-border-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Border",
+			"Hover"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-border-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Border",
+			"Active"
+		]
+	},
+	{
+		"value": "#1383f4",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Light}",
+			"type": "color"
+		},
+		"name": "color-border-selected",
+		"attributes": {},
+		"path": [
+			"color",
+			"Border",
+			"Selected"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #FFFFFF 0%, #F9FBFF 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{lightTheme.container.Fill}",
+			"type": "color"
+		},
+		"name": "color-card-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Card",
+			"Default"
+		]
+	},
+	{
+		"value": "#f3f8fe",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Saturated.50}",
+			"type": "color"
+		},
+		"name": "color-card-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Card",
+			"Hover"
+		]
+	},
+	{
+		"value": "#dfe6ef",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Saturated.100}",
+			"type": "color"
+		},
+		"name": "color-card-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Card",
+			"Active"
+		]
+	},
+	{
+		"value": "#ffffff",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Base.White}",
+			"type": "color"
+		},
+		"name": "color-surface-background",
+		"attributes": {},
+		"path": [
+			"color",
+			"Surface",
+			"Background"
+		]
+	},
+	{
+		"value": "#f3f8fe",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Saturated.50}",
+			"type": "color"
+		},
+		"name": "color-surface-level1",
+		"attributes": {},
+		"path": [
+			"color",
+			"Surface",
+			"Level1"
+		]
+	},
+	{
+		"value": "#dfe6ef",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Saturated.100}",
+			"type": "color"
+		},
+		"name": "color-surface-level2",
+		"attributes": {},
+		"path": [
+			"color",
+			"Surface",
+			"Level2"
+		]
+	},
+	{
+		"value": "#c9d2df",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Saturated.200}",
+			"type": "color"
+		},
+		"name": "color-surface-level3",
+		"attributes": {},
+		"path": [
+			"color",
+			"Surface",
+			"Level3"
+		]
+	},
+	{
+		"value": "#078a04",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.500}",
+			"type": "color"
+		},
+		"name": "color-success-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Default"
+		]
+	},
+	{
+		"value": "#cde8cd",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.100}",
+			"type": "color"
+		},
+		"name": "color-success-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Background",
+			"Default"
+		]
+	},
+	{
+		"value": "#6ab968",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.300}",
+			"type": "color"
+		},
+		"name": "color-success-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Background",
+			"Active"
+		]
+	},
+	{
+		"value": "#9cd09b",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.200}",
+			"type": "color"
+		},
+		"name": "color-success-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Background",
+			"Hover"
+		]
+	},
+	{
+		"value": "#033a02",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.900}",
+			"type": "color"
+		},
+		"name": "color-success-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Foreground",
+			"Default"
+		]
+	},
+	{
+		"value": "#056103",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.700}",
+			"type": "color"
+		},
+		"name": "color-success-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Foreground",
+			"Active"
+		]
+	},
+	{
+		"value": "#014c0c",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Green.800}",
+			"type": "color"
+		},
+		"name": "color-success-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Success",
+			"Foreground",
+			"Hover"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Blue.Mid}",
+			"type": "color"
+		},
+		"name": "color-info-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Default"
+		]
+	},
+	{
+		"value": "#cfd7eb",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.100}",
+			"type": "color"
+		},
+		"name": "color-info-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Background",
+			"Default"
+		]
+	},
+	{
+		"value": "#afbdde",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.200}",
+			"type": "color"
+		},
+		"name": "color-info-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Background",
+			"Hover"
+		]
+	},
+	{
+		"value": "#879bcd",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.300}",
+			"type": "color"
+		},
+		"name": "color-info-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Background",
+			"Active"
+		]
+	},
+	{
+		"value": "#0a2567",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.800}",
+			"type": "color"
+		},
+		"name": "color-info-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Foreground",
+			"Default"
+		]
+	},
+	{
+		"value": "#0d2f81",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.700}",
+			"type": "color"
+		},
+		"name": "color-info-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Foreground",
+			"Hover"
+		]
+	},
+	{
+		"value": "#081c4e",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Blue.900}",
+			"type": "color"
+		},
+		"name": "color-info-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Info",
+			"Foreground",
+			"Active"
+		]
+	},
+	{
+		"value": "#f29e1a",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.500}",
+			"type": "color"
+		},
+		"name": "color-warning-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Default"
+		]
+	},
+	{
+		"value": "#fcecd1",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.100}",
+			"type": "color"
+		},
+		"name": "color-warning-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Background",
+			"Default"
+		]
+	},
+	{
+		"value": "#fad8a3",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.200}",
+			"type": "color"
+		},
+		"name": "color-warning-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Background",
+			"Hover"
+		]
+	},
+	{
+		"value": "#f7c576",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.300}",
+			"type": "color"
+		},
+		"name": "color-warning-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Background",
+			"Active"
+		]
+	},
+	{
+		"value": "#8b4f16",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.800}",
+			"type": "color"
+		},
+		"name": "color-warning-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Foreground",
+			"Default"
+		]
+	},
+	{
+		"value": "#ad6b1c",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.700}",
+			"type": "color"
+		},
+		"name": "color-warning-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Foreground",
+			"Hover"
+		]
+	},
+	{
+		"value": "#693511",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Orange.900}",
+			"type": "color"
+		},
+		"name": "color-warning-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Warning",
+			"Foreground",
+			"Active"
+		]
+	},
+	{
+		"value": "#eb0000",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.500}",
+			"type": "color"
+		},
+		"name": "color-error-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Default"
+		]
+	},
+	{
+		"value": "#fbcccc",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.100}",
+			"type": "color"
+		},
+		"name": "color-error-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Background",
+			"Default"
+		]
+	},
+	{
+		"value": "#f79999",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.200}",
+			"type": "color"
+		},
+		"name": "color-error-background-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Background",
+			"Hover"
+		]
+	},
+	{
+		"value": "#f36666",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.300}",
+			"type": "color"
+		},
+		"name": "color-error-background-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Background",
+			"Active"
+		]
+	},
+	{
+		"value": "#760000",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.800}",
+			"type": "color"
+		},
+		"name": "color-error-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Foreground",
+			"Default"
+		]
+	},
+	{
+		"value": "#9d0000",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.700}",
+			"type": "color"
+		},
+		"name": "color-error-foreground-hover",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Foreground",
+			"Hover"
+		]
+	},
+	{
+		"value": "#5a0000",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Functional.Red.900}",
+			"type": "color"
+		},
+		"name": "color-error-foreground-active",
+		"attributes": {},
+		"path": [
+			"color",
+			"Error",
+			"Foreground",
+			"Active"
+		]
+	},
+	{
+		"value": "#c8cdd3",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Mid.300}",
+			"type": "color"
+		},
+		"name": "color-disabled-background-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Disabled",
+			"Background",
+			"Default"
+		]
+	},
+	{
+		"value": "#9ca4ae",
+		"type": "color",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "{Tints.Mid.500}",
+			"type": "color"
+		},
+		"name": "color-disabled-foreground-default",
+		"attributes": {},
+		"path": [
+			"color",
+			"Disabled",
+			"Foreground",
+			"Default"
+		]
+	},
+	{
+		"value": "0 4px 10px 0 rgba(4, 12, 23, 0.1)",
+		"type": "boxShadow",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"x": "0",
+				"y": "4",
+				"blur": "10",
+				"spread": "0",
+				"color": "rgba(4, 12, 23, 0.1)",
+				"type": "dropShadow"
+			},
+			"type": "boxShadow"
+		},
+		"name": "shadow-1",
+		"attributes": {},
+		"path": [
+			"shadow",
+			"1"
+		]
+	},
+	{
+		"value": "0 6px 16px 0 rgba(4, 12, 23, 0.16)",
+		"type": "boxShadow",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"x": "0",
+				"y": "6",
+				"blur": "16",
+				"spread": "0",
+				"color": "rgba(4, 12, 23, 0.16)",
+				"type": "dropShadow"
+			},
+			"type": "boxShadow"
+		},
+		"name": "shadow-2",
+		"attributes": {},
+		"path": [
+			"shadow",
+			"2"
+		]
+	},
+	{
+		"value": "\"https://i.ibb.co/LhMS1j0/stonex-hero-light-2.jpg\"",
+		"type": "asset",
+		"filePath": "brand/stonex/light.json",
+		"isSource": true,
+		"original": {
+			"value": "\"https://i.ibb.co/LhMS1j0/stonex-hero-light-2.jpg\"",
+			"type": "asset"
+		},
+		"name": "background-image",
+		"attributes": {},
+		"path": [
+			"background-image"
+		]
+	},
+	{
+		"value": "#0F389B",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0F389B",
+			"type": "color"
+		},
+		"name": "blue-mid",
+		"attributes": {},
+		"path": [
+			"Blue",
+			"Mid"
+		]
+	},
+	{
+		"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(270deg, #0d1775 0%, #1383f4 100%)",
+			"type": "color"
+		},
+		"name": "blue-gradient",
+		"attributes": {},
+		"path": [
+			"Blue",
+			"Gradient"
+		]
+	},
+	{
+		"value": "#1383f4",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#1383f4",
+			"type": "color"
+		},
+		"name": "blue-light",
+		"attributes": {},
+		"path": [
+			"Blue",
+			"Light"
+		]
+	},
+	{
+		"value": "#0d1775",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0d1775",
+			"type": "color"
+		},
+		"name": "blue-dark",
+		"attributes": {},
+		"path": [
+			"Blue",
+			"Dark"
+		]
+	},
+	{
+		"value": "#ffffff",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#ffffff",
+			"type": "color"
+		},
+		"name": "base-white",
+		"attributes": {},
+		"path": [
+			"Base",
+			"White"
+		]
+	},
+	{
+		"value": "#040c17",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#040c17",
+			"type": "color"
+		},
+		"name": "base-dark",
+		"attributes": {},
+		"path": [
+			"Base",
+			"Dark"
+		]
+	},
+	{
+		"value": "linear-gradient(90deg, #078a04 0%, #014c0c 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(90deg, #078a04 0%, #014c0c 100%)",
+			"type": "color"
+		},
+		"name": "green-gradient",
+		"attributes": {},
+		"path": [
+			"Green",
+			"Gradient"
+		]
+	},
+	{
+		"value": "#078a04",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#078a04",
+			"type": "color"
+		},
+		"name": "green-light",
+		"attributes": {},
+		"path": [
+			"Green",
+			"Light"
+		]
+	},
+	{
+		"value": "#014c0c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#014c0c",
+			"type": "color"
+		},
+		"name": "green-dark",
+		"attributes": {},
+		"path": [
+			"Green",
+			"Dark"
+		]
+	},
+	{
+		"value": "#f7f7f7",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f7f7f7",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-50",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"50"
+		]
+	},
+	{
+		"value": "#ebebed",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#ebebed",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-100",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"100"
+		]
+	},
+	{
+		"value": "#e3e3e5",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#e3e3e5",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-200",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"200"
+		]
+	},
+	{
+		"value": "#d0d1d3",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#d0d1d3",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-300",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"300"
+		]
+	},
+	{
+		"value": "#c5c7c9",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#c5c7c9",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-400",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"400"
+		]
+	},
+	{
+		"value": "#a9acb0",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#a9acb0",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-500",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"500"
+		]
+	},
+	{
+		"value": "#8e9196",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#8e9196",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-600",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"600"
+		]
+	},
+	{
+		"value": "#72777d",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#72777d",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-700",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"700"
+		]
+	},
+	{
+		"value": "#4f555d",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#4f555d",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-800",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"800"
+		]
+	},
+	{
+		"value": "#3b414a",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#3b414a",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-900",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"900"
+		]
+	},
+	{
+		"value": "#202730",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#202730",
+			"type": "color"
+		},
+		"name": "tints-unsaturated-1000",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Unsaturated",
+			"1000"
+		]
+	},
+	{
+		"value": "#f7f7f7",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f7f7f7",
+			"type": "color"
+		},
+		"name": "tints-mid-50",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"50"
+		]
+	},
+	{
+		"value": "#e7e9eb",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#e7e9eb",
+			"type": "color"
+		},
+		"name": "tints-mid-100",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"100"
+		]
+	},
+	{
+		"value": "#d8dbdf",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#d8dbdf",
+			"type": "color"
+		},
+		"name": "tints-mid-200",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"200"
+		]
+	},
+	{
+		"value": "#c8cdd3",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#c8cdd3",
+			"type": "color"
+		},
+		"name": "tints-mid-300",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"300"
+		]
+	},
+	{
+		"value": "#b9bfc7",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#b9bfc7",
+			"type": "color"
+		},
+		"name": "tints-mid-400",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"400"
+		]
+	},
+	{
+		"value": "#9ca4ae",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#9ca4ae",
+			"type": "color"
+		},
+		"name": "tints-mid-500",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"500"
+		]
+	},
+	{
+		"value": "#7f8895",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#7f8895",
+			"type": "color"
+		},
+		"name": "tints-mid-600",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"600"
+		]
+	},
+	{
+		"value": "#616c7c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#616c7c",
+			"type": "color"
+		},
+		"name": "tints-mid-700",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"700"
+		]
+	},
+	{
+		"value": "#445162",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#445162",
+			"type": "color"
+		},
+		"name": "tints-mid-800",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"800"
+		]
+	},
+	{
+		"value": "#283649",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#283649",
+			"type": "color"
+		},
+		"name": "tints-mid-900",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"900"
+		]
+	},
+	{
+		"value": "#121f30",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#121f30",
+			"type": "color"
+		},
+		"name": "tints-mid-1000",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Mid",
+			"1000"
+		]
+	},
+	{
+		"value": "#f3f8fe",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f3f8fe",
+			"type": "color"
+		},
+		"name": "tints-saturated-50",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"50"
+		]
+	},
+	{
+		"value": "#dfe6ef",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#dfe6ef",
+			"type": "color"
+		},
+		"name": "tints-saturated-100",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"100"
+		]
+	},
+	{
+		"value": "#c9d2df",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#c9d2df",
+			"type": "color"
+		},
+		"name": "tints-saturated-200",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"200"
+		]
+	},
+	{
+		"value": "#b3c0d3",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#b3c0d3",
+			"type": "color"
+		},
+		"name": "tints-saturated-300",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"300"
+		]
+	},
+	{
+		"value": "#9fb0c7",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#9fb0c7",
+			"type": "color"
+		},
+		"name": "tints-saturated-400",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"400"
+		]
+	},
+	{
+		"value": "#7b90ae",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#7b90ae",
+			"type": "color"
+		},
+		"name": "tints-saturated-500",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"500"
+		]
+	},
+	{
+		"value": "#5c7495",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#5c7495",
+			"type": "color"
+		},
+		"name": "tints-saturated-600",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"600"
+		]
+	},
+	{
+		"value": "#425a7c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#425a7c",
+			"type": "color"
+		},
+		"name": "tints-saturated-700",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"700"
+		]
+	},
+	{
+		"value": "#2b4362",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#2b4362",
+			"type": "color"
+		},
+		"name": "tints-saturated-800",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"800"
+		]
+	},
+	{
+		"value": "#1a2e49",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#1a2e49",
+			"type": "color"
+		},
+		"name": "tints-saturated-900",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"900"
+		]
+	},
+	{
+		"value": "#0d1c30",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0d1c30",
+			"type": "color"
+		},
+		"name": "tints-saturated-1000",
+		"attributes": {},
+		"path": [
+			"Tints",
+			"Saturated",
+			"1000"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #ffffff59 0%, #ffffff26 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(135deg, #ffffff59 0%, #ffffff26 100%)",
+			"type": "color"
+		},
+		"name": "dark-theme-container-stroke",
+		"attributes": {},
+		"path": [
+			"darkTheme",
+			"container",
+			"Stroke"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #121F3080 0%, #0D1C3080 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(135deg, #121F3080 0%, #0D1C3080 100%)",
+			"type": "color"
+		},
+		"name": "dark-theme-container-fill",
+		"attributes": {},
+		"path": [
+			"darkTheme",
+			"container",
+			"Fill"
+		]
+	},
+	{
+		"value": "linear-gradient(90deg, #5c7495 0%, #b3c0d3 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(90deg, #5c7495 0%, #b3c0d3 100%)",
+			"type": "color"
+		},
+		"name": "dark-theme-asset-fill",
+		"attributes": {},
+		"path": [
+			"darkTheme",
+			"asset",
+			"Fill"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #040c171a 0%, #040c1726 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(135deg, #040c171a 0%, #040c1726 100%)",
+			"type": "color"
+		},
+		"name": "light-theme-container-stroke",
+		"attributes": {},
+		"path": [
+			"lightTheme",
+			"container",
+			"Stroke"
+		]
+	},
+	{
+		"value": "linear-gradient(135deg, #FFFFFF 0%, #F9FBFF 100%)",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "linear-gradient(135deg, #FFFFFF 0%, #F9FBFF 100%)",
+			"type": "color"
+		},
+		"name": "light-theme-container-fill",
+		"attributes": {},
+		"path": [
+			"lightTheme",
+			"container",
+			"Fill"
+		]
+	},
+	{
+		"value": "#fbcccc",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#fbcccc",
+			"type": "color"
+		},
+		"name": "functional-red-100",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"100"
+		]
+	},
+	{
+		"value": "#f79999",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f79999",
+			"type": "color"
+		},
+		"name": "functional-red-200",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"200"
+		]
+	},
+	{
+		"value": "#f36666",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f36666",
+			"type": "color"
+		},
+		"name": "functional-red-300",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"300"
+		]
+	},
+	{
+		"value": "#f14444",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f14444",
+			"type": "color"
+		},
+		"name": "functional-red-400",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"400"
+		]
+	},
+	{
+		"value": "#eb0000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#eb0000",
+			"type": "color"
+		},
+		"name": "functional-red-500",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"500"
+		]
+	},
+	{
+		"value": "#c40000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#c40000",
+			"type": "color"
+		},
+		"name": "functional-red-600",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"600"
+		]
+	},
+	{
+		"value": "#9d0000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#9d0000",
+			"type": "color"
+		},
+		"name": "functional-red-700",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"700"
+		]
+	},
+	{
+		"value": "#760000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#760000",
+			"type": "color"
+		},
+		"name": "functional-red-800",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"800"
+		]
+	},
+	{
+		"value": "#5a0000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#5a0000",
+			"type": "color"
+		},
+		"name": "functional-red-900",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"900"
+		]
+	},
+	{
+		"value": "#480000",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#480000",
+			"type": "color"
+		},
+		"name": "functional-red-1000",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Red",
+			"1000"
+		]
+	},
+	{
+		"value": "#fcecd1",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#fcecd1",
+			"type": "color"
+		},
+		"name": "functional-orange-100",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"100"
+		]
+	},
+	{
+		"value": "#fad8a3",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#fad8a3",
+			"type": "color"
+		},
+		"name": "functional-orange-200",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"200"
+		]
+	},
+	{
+		"value": "#f7c576",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f7c576",
+			"type": "color"
+		},
+		"name": "functional-orange-300",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"300"
+		]
+	},
+	{
+		"value": "#f5b148",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f5b148",
+			"type": "color"
+		},
+		"name": "functional-orange-400",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"400"
+		]
+	},
+	{
+		"value": "#f29e1a",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#f29e1a",
+			"type": "color"
+		},
+		"name": "functional-orange-500",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"500"
+		]
+	},
+	{
+		"value": "#ca821c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#ca821c",
+			"type": "color"
+		},
+		"name": "functional-orange-600",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"600"
+		]
+	},
+	{
+		"value": "#ad6b1c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#ad6b1c",
+			"type": "color"
+		},
+		"name": "functional-orange-700",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"700"
+		]
+	},
+	{
+		"value": "#8b4f16",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#8b4f16",
+			"type": "color"
+		},
+		"name": "functional-orange-800",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"800"
+		]
+	},
+	{
+		"value": "#693511",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#693511",
+			"type": "color"
+		},
+		"name": "functional-orange-900",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"900"
+		]
+	},
+	{
+		"value": "#48220d",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#48220d",
+			"type": "color"
+		},
+		"name": "functional-orange-1000",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Orange",
+			"1000"
+		]
+	},
+	{
+		"value": "#cde8cd",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#cde8cd",
+			"type": "color"
+		},
+		"name": "functional-green-100",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"100"
+		]
+	},
+	{
+		"value": "#9cd09b",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#9cd09b",
+			"type": "color"
+		},
+		"name": "functional-green-200",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"200"
+		]
+	},
+	{
+		"value": "#6ab968",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#6ab968",
+			"type": "color"
+		},
+		"name": "functional-green-300",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"300"
+		]
+	},
+	{
+		"value": "#38a236",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#38a236",
+			"type": "color"
+		},
+		"name": "functional-green-400",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"400"
+		]
+	},
+	{
+		"value": "#078a04",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#078a04",
+			"type": "color"
+		},
+		"name": "functional-green-500",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"500"
+		]
+	},
+	{
+		"value": "#067303",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#067303",
+			"type": "color"
+		},
+		"name": "functional-green-600",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"600"
+		]
+	},
+	{
+		"value": "#056103",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#056103",
+			"type": "color"
+		},
+		"name": "functional-green-700",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"700"
+		]
+	},
+	{
+		"value": "#014c0c",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#014c0c",
+			"type": "color"
+		},
+		"name": "functional-green-800",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"800"
+		]
+	},
+	{
+		"value": "#033a02",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#033a02",
+			"type": "color"
+		},
+		"name": "functional-green-900",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"900"
+		]
+	},
+	{
+		"value": "#022e01",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#022e01",
+			"type": "color"
+		},
+		"name": "functional-green-1000",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Green",
+			"1000"
+		]
+	},
+	{
+		"value": "#aa3377",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#aa3377",
+			"type": "color"
+		},
+		"name": "functional-magenta-500",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Magenta",
+			"500"
+		]
+	},
+	{
+		"value": "#cfd7eb",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#cfd7eb",
+			"type": "color"
+		},
+		"name": "functional-blue-100",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"100"
+		]
+	},
+	{
+		"value": "#afbdde",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#afbdde",
+			"type": "color"
+		},
+		"name": "functional-blue-200",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"200"
+		]
+	},
+	{
+		"value": "#879bcd",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#879bcd",
+			"type": "color"
+		},
+		"name": "functional-blue-300",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"300"
+		]
+	},
+	{
+		"value": "#5f7abc",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#5f7abc",
+			"type": "color"
+		},
+		"name": "functional-blue-400",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"400"
+		]
+	},
+	{
+		"value": "#3759ac",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#3759ac",
+			"type": "color"
+		},
+		"name": "functional-blue-500",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"500"
+		]
+	},
+	{
+		"value": "#0f389b",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0f389b",
+			"type": "color"
+		},
+		"name": "functional-blue-600",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"600"
+		]
+	},
+	{
+		"value": "#0d2f81",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0d2f81",
+			"type": "color"
+		},
+		"name": "functional-blue-700",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"700"
+		]
+	},
+	{
+		"value": "#0a2567",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#0a2567",
+			"type": "color"
+		},
+		"name": "functional-blue-800",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"800"
+		]
+	},
+	{
+		"value": "#081c4e",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#081c4e",
+			"type": "color"
+		},
+		"name": "functional-blue-900",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"900"
+		]
+	},
+	{
+		"value": "#051334",
+		"type": "color",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "#051334",
+			"type": "color"
+		},
+		"name": "functional-blue-1000",
+		"attributes": {},
+		"path": [
+			"Functional",
+			"Blue",
+			"1000"
+		]
+	},
+	{
+		"value": "'Forma DJR Deck'",
+		"type": "fontFamilies",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "Forma DJR Deck",
+			"type": "fontFamilies"
+		},
+		"name": "brand",
+		"attributes": {},
+		"path": [
+			"brand"
+		]
+	},
+	{
+		"value": "120%",
+		"type": "lineHeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "120%",
+			"type": "lineHeights"
+		},
+		"name": "line-height-heading",
+		"attributes": {},
+		"path": [
+			"lineHeight",
+			"heading"
+		]
+	},
+	{
+		"value": "130%",
+		"type": "lineHeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "130%",
+			"type": "lineHeights"
+		},
+		"name": "line-height-body",
+		"attributes": {},
+		"path": [
+			"lineHeight",
+			"body"
+		]
+	},
+	{
+		"value": "500",
+		"type": "fontWeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{medium}",
+			"type": "fontWeights"
+		},
+		"name": "emphasis-heading",
+		"attributes": {},
+		"path": [
+			"emphasis",
+			"heading"
+		]
+	},
+	{
+		"value": "700",
+		"type": "fontWeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{bold}",
+			"type": "fontWeights"
+		},
+		"name": "emphasis-body",
+		"attributes": {},
+		"path": [
+			"emphasis",
+			"body"
+		]
+	},
+	{
+		"value": "300",
+		"type": "fontWeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{light}",
+			"type": "fontWeights"
+		},
+		"name": "default-heading",
+		"attributes": {},
+		"path": [
+			"default",
+			"heading"
+		]
+	},
+	{
+		"value": "400",
+		"type": "fontWeights",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{regular}",
+			"type": "fontWeights"
+		},
+		"name": "default-body",
+		"attributes": {},
+		"path": [
+			"default",
+			"body"
+		]
+	},
+	{
+		"value": "0em",
+		"type": "letterSpacing",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "0%",
+			"type": "letterSpacing"
+		},
+		"name": "letter-spacing-heading",
+		"attributes": {},
+		"path": [
+			"letterSpacing",
+			"heading"
+		]
+	},
+	{
+		"value": "0.01em",
+		"type": "letterSpacing",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "1%",
+			"type": "letterSpacing"
+		},
+		"name": "letter-spacing-body",
+		"attributes": {},
+		"path": [
+			"letterSpacing",
+			"body"
+		]
+	},
+	{
+		"value": "400 16px/130% 'Forma DJR Deck'",
+		"type": "typography",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": {
+				"fontFamily": "{brand}",
+				"fontSize": "{size.body.md}",
+				"fontWeight": "{default.body}",
+				"lineHeight": "{lineHeight.body}",
+				"letterSpacing": "{letterSpacing.body}",
+				"textCase": "{none}"
+			},
+			"type": "typography"
+		},
+		"name": "cta-normal",
+		"attributes": {},
+		"path": [
+			"CTA",
+			"normal"
+		]
+	},
+	{
+		"value": "12px 24px",
+		"type": "spacing",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{padding.xxxs} {padding.xs}",
+			"type": "spacing"
+		},
+		"name": "padding-cta-lg",
+		"attributes": {},
+		"path": [
+			"padding",
+			"CTA",
+			"lg"
+		]
+	},
+	{
+		"value": "8px 16px",
+		"type": "spacing",
+		"filePath": "brand/stonex/base.json",
+		"isSource": true,
+		"original": {
+			"value": "{padding.xxxxs} {padding.xxs}",
+			"type": "spacing"
+		},
+		"name": "padding-cta-sm",
+		"attributes": {},
+		"path": [
+			"padding",
+			"CTA",
+			"sm"
+		]
+	},
+	{
+		"value": "2px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.2}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxxxs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxxxs"
+		]
+	},
+	{
+		"value": "4px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.4}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxxs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxxs"
+		]
+	},
+	{
+		"value": "8px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.8}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxs"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.12}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxs"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.16}",
+			"type": "spacing"
+		},
+		"name": "padding-xxs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxs"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.24}",
+			"type": "spacing"
+		},
+		"name": "padding-xs",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xs"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.32}",
+			"type": "spacing"
+		},
+		"name": "padding-sm",
+		"attributes": {},
+		"path": [
+			"padding",
+			"sm"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.48}",
+			"type": "spacing"
+		},
+		"name": "padding-md",
+		"attributes": {},
+		"path": [
+			"padding",
+			"md"
+		]
+	},
+	{
+		"value": "64px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.64}",
+			"type": "spacing"
+		},
+		"name": "padding-lg",
+		"attributes": {},
+		"path": [
+			"padding",
+			"lg"
+		]
+	},
+	{
+		"value": "80px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.80}",
+			"type": "spacing"
+		},
+		"name": "padding-xl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xl"
+		]
+	},
+	{
+		"value": "96px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.96}",
+			"type": "spacing"
+		},
+		"name": "padding-xxl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxl"
+		]
+	},
+	{
+		"value": "128px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.128}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxl"
+		]
+	},
+	{
+		"value": "160px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.160}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxl"
+		]
+	},
+	{
+		"value": "192px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.192}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxxl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxxl"
+		]
+	},
+	{
+		"value": "256px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.256}",
+			"type": "spacing"
+		},
+		"name": "padding-xxxxxxl",
+		"attributes": {},
+		"path": [
+			"padding",
+			"xxxxxxl"
+		]
+	},
+	{
+		"value": "96px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.96}",
+			"type": "spacing"
+		},
+		"name": "padding-page",
+		"attributes": {},
+		"path": [
+			"padding",
+			"page"
+		]
+	},
+	{
+		"value": "1440px",
+		"type": "sizing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "1440px",
+			"type": "sizing"
+		},
+		"name": "screen-width",
+		"attributes": {},
+		"path": [
+			"screen",
+			"width"
+		]
+	},
+	{
+		"value": "960px",
+		"type": "sizing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "960px",
+			"type": "sizing"
+		},
+		"name": "screen-height",
+		"attributes": {},
+		"path": [
+			"screen",
+			"height"
+		]
+	},
+	{
+		"value": "2px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.2}",
+			"type": "spacing"
+		},
+		"name": "gap-xxxxxs",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxxxxs"
+		]
+	},
+	{
+		"value": "4px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.4}",
+			"type": "spacing"
+		},
+		"name": "gap-xxxxs",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxxxs"
+		]
+	},
+	{
+		"value": "8px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.8}",
+			"type": "spacing"
+		},
+		"name": "gap-xxxs",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxxs"
+		]
+	},
+	{
+		"value": "12px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.12}",
+			"type": "spacing"
+		},
+		"name": "gap-xxs",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxs"
+		]
+	},
+	{
+		"value": "16px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.16}",
+			"type": "spacing"
+		},
+		"name": "gap-xs",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xs"
+		]
+	},
+	{
+		"value": "24px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.24}",
+			"type": "spacing"
+		},
+		"name": "gap-sm",
+		"attributes": {},
+		"path": [
+			"gap",
+			"sm"
+		]
+	},
+	{
+		"value": "32px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.32}",
+			"type": "spacing"
+		},
+		"name": "gap-md",
+		"attributes": {},
+		"path": [
+			"gap",
+			"md"
+		]
+	},
+	{
+		"value": "48px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.48}",
+			"type": "spacing"
+		},
+		"name": "gap-lg",
+		"attributes": {},
+		"path": [
+			"gap",
+			"lg"
+		]
+	},
+	{
+		"value": "64px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.64}",
+			"type": "spacing"
+		},
+		"name": "gap-xl",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xl"
+		]
+	},
+	{
+		"value": "80px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.80}",
+			"type": "spacing"
+		},
+		"name": "gap-xxl",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxl"
+		]
+	},
+	{
+		"value": "96px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.96}",
+			"type": "spacing"
+		},
+		"name": "gap-xxxl",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxxl"
+		]
+	},
+	{
+		"value": "128px",
+		"type": "spacing",
+		"filePath": "device/desktop.json",
+		"isSource": true,
+		"original": {
+			"value": "{spacing.128}",
+			"type": "spacing"
+		},
+		"name": "gap-xxxxl",
+		"attributes": {},
+		"path": [
+			"gap",
+			"xxxxl"
+		]
+	}
+]

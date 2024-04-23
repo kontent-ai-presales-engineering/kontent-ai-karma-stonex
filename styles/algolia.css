@@ -1,9 +1,3 @@
-.container {
-  margin: 0 auto;
-  max-width: 650px;
-  width: 650px;
-}
-
 .aa-Autocomplete, .aa-DetachedFormContainer, .aa-Panel {
   color: rgba(38, 38, 39, 1);
   font-family: inherit;
@@ -24,7 +18,7 @@
   line-height: 1em;
   margin: 0;
   position: relative;
-  width: 650px;
+  width: 100%;
 }
 
 .aa-InputWrapperPrefix {
@@ -60,7 +54,7 @@
 .aa-InputWrapper {
   order: 3;
   position: relative;
-  width: 650px;
+  width: 100%;
 }
 
 .aa-Input {
@@ -70,7 +64,7 @@
   font: inherit;
   height: 44px;
   padding: 0;
-  width: 650px;
+  width: 100%;
   padding-left: 20px;
 }
 
@@ -106,7 +100,7 @@
 .aa-PanelLayout {
   height: 100%;
   margin: 0;
-  max-height: 650px;
+  max-height: 100%;
   overflow-y: auto;
   padding: 0;
   position: relative;
@@ -115,13 +109,13 @@
 
 .aa-Panel--scrollable {
   margin: 0;
-  max-height: 650px;
+  max-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   padding: calc((16* 1* 1px) / 2);
   scrollbar-color: rgba(255, 255, 255, 1) rgba(234, 234, 234, 1);
   scrollbar-width: thin;
-  width: 650px;
+  width: 100%;
 }
 
 .aa-Source {

@@ -33,6 +33,8 @@ import {
   PanelListing,
   MilestoneListing,
   EmbeddedCode,
+  CTACards,
+  CTACard,
 } from '../../../models';
 import { InternalLink } from '../internalLinks/InternalLink';
 import { TestimonialComponent } from '../Testimonial';
@@ -51,9 +53,10 @@ import { ProductListingComponent } from '../ProductListing';
 import { PanelListingComponent } from '../PanelListing';
 import { BuildError } from '../ui/BuildError';
 import { sanitizeFirstChildText } from '../../../lib/anchors';
-import { siteCodename } from '../../../lib/utils/env';
 import { ContentChunkComponent } from '../ContentChunk';
 import { EmbeddedCodeComponent } from '../EmbeddedCode';
+import { CTACardsComponent } from '../CTACards/CTACards';
+import { CTACardComponent } from '../CTACards/components/CTACard';
 
 type ElementProps = Readonly<{
   element: Elements.RichTextElement;
@@ -76,7 +79,7 @@ export const createDefaultResolvers = (
 
       if (isElementInsideTable) {
         return (
-          <div className='w-28 h-14 relative not-prose'>
+          <div className='w-28 h-14 relative'>
             <Image
               src={value.asset.url}
               alt={asset.description ?? ''}
@@ -195,6 +198,14 @@ export const createDefaultResolvers = (
         case contentTypes.panel_listing.codename:
           return (
             <PanelListingComponent item={componentItem as PanelListing} />
+          );
+        case contentTypes.cta_cards.codename:
+          return (
+            <CTACardsComponent item={componentItem as CTACards} />
+          );
+        case contentTypes.cta_card.codename:
+          return (
+            <CTACardComponent item={componentItem as CTACard} />
           );
         default:
           return (

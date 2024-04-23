@@ -216,13 +216,6 @@ export const taxonomies = {
         externalId: undefined,
         name: 'Channels',
         terms: {
-            desktop: {
-                codename: 'desktop',
-                id: '35250ae7-3a2c-431a-abf5-3cb29ca725fc',
-                externalId: undefined,
-                name: 'Desktop',
-                terms: {}
-            },
             display: {
                 codename: 'display',
                 id: 'f1933425-bdf1-4e0f-8f14-909a33fe2712',
@@ -236,6 +229,28 @@ export const taxonomies = {
                 externalId: undefined,
                 name: 'Mobile',
                 terms: {}
+            },
+            desktop: {
+                codename: 'desktop',
+                id: '35250ae7-3a2c-431a-abf5-3cb29ca725fc',
+                externalId: undefined,
+                name: 'Sites',
+                terms: {
+                    site_a: {
+                        codename: 'site_a',
+                        id: 'e5d5170c-19b5-4bb7-8abc-dc2bcb9dff62',
+                        externalId: undefined,
+                        name: 'Site A',
+                        terms: {}
+                    },
+                    site_b: {
+                        codename: 'site_b',
+                        id: 'c1ad3b4e-7b2b-4e3a-9a04-5bd2a4bf6599',
+                        externalId: undefined,
+                        name: 'Site B',
+                        terms: {}
+                    }
+                }
             },
             social: {
                 codename: 'social',
@@ -265,13 +280,6 @@ export const taxonomies = {
                         terms: {}
                     }
                 }
-            },
-            tablet: {
-                codename: 'tablet',
-                id: 'e7eac922-afc1-4c54-8ce1-0ddce451246f',
-                externalId: undefined,
-                name: 'Tablet',
-                terms: {}
             }
         }
     },
