@@ -1,0 +1,76 @@
+@layer base {
+    body {
+        @apply text-md
+    }
+    h1 {
+        @apply text-1
+    }
+    h2 {
+        @apply text-2
+    }
+    h3 {
+        @apply text-3
+    }
+    h4 {
+        @apply text-4
+    }
+    h5 {
+        @apply text-5
+    }
+    h6 {
+        @apply text-5
+    }
+}
+
+@layer components {
+    .theme-card {
+        @apply relative items-start p-xs gap-xxxs flex flex-col rounded-md shadow-2;
+        background: var(--color-card-default);
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            /*noinspection CssInvalidPropertyValue,CssInvalidFunction*/
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+            background: var(--color-border-default) border-box border-box;
+            z-index: 1;
+        }
+
+        &:hover {
+            background: var(--color-card-hover);
+
+            &::before {
+                background: var(--color-border-selected) border-box border-box;
+            }
+        }
+    }
+
+    .brand-cta {
+        @apply p-xxxs font-bold rounded-CTA shadow-1 text-color-CTA-primary-foreground-default no-underline;
+        background: var(--color-cta-primary-background-default);
+
+        &:hover {
+            background: var(--color-cta-primary-background-hover);
+            @apply text-color-CTA-primary-foreground-hover
+        }
+
+        &:focus {
+            background: var(--color-cta-primary-background-active);
+            @apply text-color-CTA-primary-foreground-active
+        }
+    }
+}
+
+@layer utilities {
+    .brand-background {
+        background: var(--color-brand-primary);
+    }
+}
