@@ -39,6 +39,24 @@ export const collections = {
     },
 
     /**
+     * Site A
+     */
+    site_a: {
+        codename: 'site_a',
+        id: '4508189b-9565-43a4-9405-fff5d56c0a68',
+        name: 'Site A'
+    },
+
+    /**
+     * Site B
+     */
+    site_b: {
+        codename: 'site_b',
+        id: '9d2b67c9-e5d3-48cc-a84f-27937dd7a0b7',
+        name: 'Site B'
+    },
+
+    /**
      * StoneX
      */
     sandbox: {
