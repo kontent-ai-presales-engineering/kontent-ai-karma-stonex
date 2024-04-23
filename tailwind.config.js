@@ -38,6 +38,5 @@ module.exports = {
       ...fontSize.size.body,
     }
     },
-  },
-  plugins: [require('@tailwindcss/typography')],
+  }
 };

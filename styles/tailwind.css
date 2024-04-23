@@ -24,7 +24,7 @@
 
 @layer components {
     .theme-card {
-        @apply relative items-start p-xs gap-xxxs flex flex-col rounded-md shadow-2;
+        @apply relative items-start gap-xxxs flex flex-col rounded-md shadow-2 overflow-hidden	;
         background: var(--color-card-default);
 
         &::before {
@@ -32,7 +32,7 @@
             position: absolute;
             inset: 0;
             border-radius: inherit;
-            border-width: 1px;
+            border-width: 2px;
             border-style: solid;
             border-color: transparent;
             /*noinspection CssInvalidPropertyValue,CssInvalidFunction*/
@@ -51,10 +51,22 @@
                 background: var(--color-border-selected) border-box border-box;
             }
         }
+
+        .theme-card__image {
+            @apply w-full h-[200px];
+
+            img {
+                @apply object-cover object-center w-full h-full;
+            }
+        }
+
+        .theme-card__content {
+            @apply flex flex-col items-start p-xxs gap-xs w-full flex-1;
+        }
     }
 
     .brand-cta {
-        @apply p-xxxs font-bold rounded-CTA shadow-1 text-color-CTA-primary-foreground-default no-underline;
+        @apply p-xxxs inline-flex font-bold rounded-CTA shadow-1 text-color-CTA-primary-foreground-default no-underline;
         background: var(--color-cta-primary-background-default);
 
         &:hover {

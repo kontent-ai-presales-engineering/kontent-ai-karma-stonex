@@ -197,7 +197,7 @@ const CourseDetail: FC<Props> = ({
             <span className='text-3xl font-bold text-gray-500'>Why us?</span>
           </div>
           <div className='md:w-5/6'>
-            <ul className='not-prose columns-2 list-disc text-black'>
+            <ul className='columns-2 list-disc text-black'>
               {course.elements.whyUs.linkedItems.map((i) => (
                 <li
                   key={i.system.id}

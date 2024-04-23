@@ -60,8 +60,8 @@
   --color-text-tertiary: var(--neutral-200);
   --color-text-secondary: var(--neutral-100);
   --color-text-primary: var(--neutral-0);
-  --color-brand-icon: var(--gradients-icons-retail-icon);
-  --color-brand-tertiary: var(--gradients-tags-retail-tag);
-  --color-brand-secondary: var(--gradients-tables-retail-table);
-  --color-brand-primary: var(--gradients-ct-as-retail-cta-default);
+  --color-brand-icon: var(--green-1000);
+  --color-brand-tertiary: var(--green-100);
+  --color-brand-primary: var(--orange-600);
+  --color-brand-secondary: var(--red-400);
 }

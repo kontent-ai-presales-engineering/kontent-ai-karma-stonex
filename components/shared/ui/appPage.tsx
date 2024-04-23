@@ -78,7 +78,6 @@ export const AppPage: FC<Props> = ({
         nofollow={seoDetails.nofollow}
         noindex={seoDetails.noindex}
       />
-      <div className='flex justify-between'></div>
       <div
         className='min-h-full grow flex flex-col items-center overflow-hidden'
         {...createItemSmartLink(
@@ -103,7 +102,7 @@ export const AppPage: FC<Props> = ({
             true
           )}
         >
-          <div className='prose w-full max-w-full pt-16'>{children}</div>
+          <div className='w-full max-w-full pt-16'>{children}</div>
         </main>
         {item.elements.hide.value.length === 0 || !item.elements.hide.value.find(hide => hide?.codename === "footer") ? (
           <Footer item={item} homeContentItem={homeContentItem} />
