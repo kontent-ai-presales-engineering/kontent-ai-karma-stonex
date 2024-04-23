@@ -7,6 +7,8 @@ import { FocalPointCustomElement } from "../../components/custom-elements/focal-
 import Head from "next/head";
 import { ExportCustomElement } from "../../components/custom-elements/export";
 import { ReadOnlyCustomElement } from "../../components/custom-elements/read-only";
+import {CtaStyleCustomElement, StyleOption} from "../../components/custom-elements/cta-style";
+import {HeadingLevelCustomElement, HeadingTag} from "../../components/custom-elements/heading-level";
 
 interface IProps {
     elementComponent: string
@@ -65,6 +67,12 @@ const CustomElementTest: NextPage<IProps> = ({ elementComponent }) => {
             case "read-only":
                 customElement = <ReadOnlyCustomElement value={value} />
                 break;
+            case "cta-style":
+                customElement = <CtaStyleCustomElement element={element} context={context} handleSave={handleSave} value={value as StyleOption} />
+                break;
+            case "heading-level":
+                customElement = <HeadingLevelCustomElement element={element} context={context} handleSave={handleSave} value={value as HeadingTag} />
+                break;
             default:
                 customElement = <div><p>Custom element no configured in code</p></div>
                 break;
@@ -97,6 +105,8 @@ export const getStaticPaths: GetStaticPaths = async (params) => {
             '/ce/export',
             '/ce/focal-point',
             '/ce/read-only',
+            '/ce/cta-style',
+            '/ce/heading-level',
         ],
         fallback: false
     }
