@@ -51,18 +51,6 @@
                 background: var(--color-border-selected) border-box border-box;
             }
         }
-
-        .theme-card__image {
-            @apply w-full h-[200px];
-
-            img {
-                @apply object-cover object-center w-full h-full;
-            }
-        }
-
-        .theme-card__content {
-            @apply flex flex-col items-start p-xxs gap-xs w-full flex-1;
-        }
     }
 
     .brand-cta:not([class*="--arrow"]) {
