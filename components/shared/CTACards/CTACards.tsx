@@ -10,7 +10,8 @@ type CTACardsComponentProps = Readonly<{
 
 export const CTACardsComponent = ({item}: CTACardsComponentProps): JSX.Element => {
   return (
-    <div className={`cta-cards w-full bg-color-Surface-Background text-color-Text-Secondary flex flex-col gap-xxs py-xs`}>
+    <div
+      className={`cta-cards w-full bg-color-Surface-Background text-color-Text-Secondary flex flex-col gap-xxs py-xs`}>
       <div className={"text-center flex flex-col gap-xxs items-center"}>
         {!!item.elements?.headingOptionsTitle?.value &&
             <Heading level={item.elements.headingOptionsHeadingLevel?.value}>
@@ -26,8 +27,11 @@ export const CTACardsComponent = ({item}: CTACardsComponentProps): JSX.Element =
             <BrandCTA item={item.elements.brandCtaLink.linkedItems[0]} colorTheme={item.elements.brandCtaStyle?.value}/>
         }
       </div>
+      {
+        // TODO: Check why dynamic values are not loaded for tailwind class
+      }
       {item.elements.cards?.linkedItems?.length &&
-          <div className={`grid grid-cols-${item.elements.cards.linkedItems.length} gap-8 w-full`}>
+          <div className={`grid grid-cols-3 grid-cols-${item.elements.cards.linkedItems.length} gap-8 w-full`}>
             {item.elements.cards.linkedItems.map((card: CTACard) =>
               <CTACardComponent key={card.elements?.headingOptionsTitle?.value || card.elements?.description?.value}
                                 item={card}/>
