@@ -65,7 +65,7 @@
         }
     }
 
-    .brand-cta {
+    .brand-cta:not([class*="--arrow"]) {
         @apply p-xxxs inline-flex font-bold rounded-CTA shadow-1 text-color-CTA-primary-foreground-default no-underline;
         background: var(--color-cta-primary-background-default);
 
@@ -77,6 +77,41 @@
         &:focus {
             background: var(--color-cta-primary-background-active);
             @apply text-color-CTA-primary-foreground-active
+        }
+
+        &.brand-cta--solid-secondary {
+            @apply text-color-CTA-secondary-foreground-default;
+            background: var(--color-cta-secondary-background-default);
+
+            &:hover {
+                background: var(--color-cta-secondary-background-hover);
+                @apply text-color-CTA-secondary-foreground-hover
+            }
+
+            &:focus {
+                background: var(--color-cta-secondary-background-active);
+                @apply text-color-CTA-secondary-foreground-active
+            }
+        }
+    }
+
+    .brand-cta.brand-cta--arrow-left,
+    .brand-cta.brand-cta--arrow-right {
+        @apply flex gap-xxxs py-xxxxxs px-xxxs text-color-Brand-Primary font-bold;
+
+        &:hover {
+            @apply text-color-Brand-Secondary;
+        }
+    }
+
+    .brand-cta.brand-cta--arrow-left {
+        &::before {
+            content: "< ";
+        }
+    }
+    .brand-cta.brand-cta--arrow-right {
+        &::after {
+            content: " >";
         }
     }
 }
