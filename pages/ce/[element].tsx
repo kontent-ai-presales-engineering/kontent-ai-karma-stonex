@@ -71,7 +71,7 @@ const CustomElementIntegration: NextPage<IProps> = ({ elementComponent }) => {
           value={value as HeadingTag} />
         break;
       case "brand-choice":
-        customElement = <BrandChoice element={element} context={context} handleSave={handleSave}
+        renderElement = <BrandChoice element={element} context={context} handleSave={handleSave}
                                                    value={value as BrandName}/>
         break;
       default:
