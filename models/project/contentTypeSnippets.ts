@@ -47,13 +47,13 @@ export const contentTypeSnippets = {
         name: 'Layout option',
         elements: {
             /**
-             * Alginment (multiple_choice)
+             * Alignment (multiple_choice)
              */
             layout_option__alginment: {
                 codename: 'layout_option__alginment',
                 id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
                 externalId: undefined,
-                name: 'Alginment',
+                name: 'Alignment',
                 required: false,
                 type: 'multiple_choice'
             },

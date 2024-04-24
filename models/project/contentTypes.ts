@@ -26,6 +26,29 @@ export const contentTypes = {
     },
 
     /**
+     *    Layout settings
+     */
+    _layout_settings: {
+        codename: '_layout_settings',
+        id: '65dc2cf5-4994-40f6-8eb7-f0eec4ed23ce',
+        externalId: undefined,
+        name: '🎨 Layout settings',
+        elements: {
+            /**
+             * Brand Choice (custom)
+             */
+            brand_choice: {
+                codename: 'brand_choice',
+                id: '6a7cd243-e41e-4898-b8ef-2b86e635a777',
+                externalId: undefined,
+                name: 'Brand Choice',
+                required: true,
+                type: 'custom'
+            }
+        }
+    },
+
+    /**
      *    Page
      */
     page: {
@@ -1150,6 +1173,137 @@ export const contentTypes = {
     },
 
     /**
+     * Card and U Classes
+     */
+    card_and_u_classes: {
+        codename: 'card_and_u_classes',
+        id: '99a3717c-257a-4a59-beef-5610335a4e5e',
+        externalId: undefined,
+        name: 'Card and U Classes',
+        elements: {
+            /**
+             * Button Classes (text)
+             */
+            button_classes: {
+                codename: 'button_classes',
+                id: 'ea27b89c-fee3-43b3-99d8-b51a32bd83dd',
+                externalId: undefined,
+                name: 'Button Classes',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Button Link URL (text)
+             */
+            button_link_url: {
+                codename: 'button_link_url',
+                id: 'be756d98-7f6a-4e8f-893e-3ac2574a827c',
+                externalId: undefined,
+                name: 'Button Link URL',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Button Text (text)
+             */
+            button_text: {
+                codename: 'button_text',
+                id: 'eb114538-8ac7-49f6-8b47-4b19d7b4737b',
+                externalId: undefined,
+                name: 'Button Text',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Description (text)
+             */
+            description: {
+                codename: 'description',
+                id: '65db48f2-29d8-4cbf-9d8e-ecc96a34bbee',
+                externalId: undefined,
+                name: 'Description',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Description Classes (text)
+             */
+            description_classes: {
+                codename: 'description_classes',
+                id: '114f9f2c-0def-4f43-a2a5-eff0ebb13b9c',
+                externalId: undefined,
+                name: 'Description Classes',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Heading Tags (modular_content)
+             */
+            untitled_linked_items: {
+                codename: 'untitled_linked_items',
+                id: '4da0c061-70ec-4d9e-9006-ee6991dcbe6f',
+                externalId: undefined,
+                name: 'Heading Tags',
+                required: false,
+                type: 'modular_content'
+            },
+
+            /**
+             * Image (asset)
+             */
+            image: {
+                codename: 'image',
+                id: '8ea0db9b-64eb-4382-9c65-b836fbeacb3a',
+                externalId: undefined,
+                name: 'Image',
+                required: false,
+                type: 'asset'
+            },
+
+            /**
+             * Image Classes (text)
+             */
+            image_classes: {
+                codename: 'image_classes',
+                id: '34edbc71-daeb-4f3e-adab-d22c15cab308',
+                externalId: undefined,
+                name: 'Image Classes',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Title (text)
+             */
+            title: {
+                codename: 'title',
+                id: 'e12d3c38-b1f0-4393-8db1-489486e7c23a',
+                externalId: undefined,
+                name: 'Title',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Title Classes (text)
+             */
+            title_classes: {
+                codename: 'title_classes',
+                id: 'ffdc01ef-4dad-4caf-9c09-149ca2000cc1',
+                externalId: undefined,
+                name: 'Title Classes',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
      * Carousel
      */
     carousel: {
@@ -1182,13 +1336,13 @@ export const contentTypes = {
         name: 'Content Chunk',
         elements: {
             /**
-             * Alginment (multiple_choice)
+             * Alignment (multiple_choice)
              */
             layout_option__alginment: {
                 codename: 'layout_option__alginment',
                 id: 'f17a9b0b-dea4-44fb-bf1a-fa626128df83',
                 externalId: undefined,
-                name: 'Alginment',
+                name: 'Alignment',
                 required: false,
                 type: 'multiple_choice',
                 options: {},
@@ -2373,6 +2527,29 @@ export const contentTypes = {
                 name: 'Form',
                 required: false,
                 type: 'custom'
+            }
+        }
+    },
+
+    /**
+     * Heading Tags
+     */
+    heading_tags: {
+        codename: 'heading_tags',
+        id: 'f19d353f-17ec-42d8-9ae7-f7f5b5a6b03c',
+        externalId: undefined,
+        name: 'Heading Tags',
+        elements: {
+            /**
+             * Heading Tag (text)
+             */
+            heading_tag: {
+                codename: 'heading_tag',
+                id: '6dee3765-2a37-4f78-a81c-7a72cba18555',
+                externalId: undefined,
+                name: 'Heading Tag',
+                required: false,
+                type: 'text'
             }
         }
     },

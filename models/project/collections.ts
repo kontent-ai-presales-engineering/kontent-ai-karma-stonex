@@ -3,6 +3,15 @@
  */
 export const collections = {
     /**
+     * City Index
+     */
+    site_b: {
+        codename: 'site_b',
+        id: '9d2b67c9-e5d3-48cc-a84f-27937dd7a0b7',
+        name: 'City Index'
+    },
+
+    /**
      * Component Library
      */
     component_library: {
@@ -21,6 +30,15 @@ export const collections = {
     },
 
     /**
+     * Forex
+     */
+    site_a: {
+        codename: 'site_a',
+        id: '4508189b-9565-43a4-9405-fff5d56c0a68',
+        name: 'Forex'
+    },
+
+    /**
      * Global and Shared Content
      */
     default: {
@@ -36,24 +54,6 @@ export const collections = {
         codename: 'mr_fusion_marketing_campaign',
         id: '278d733b-c22f-4598-ba31-e3ebde41d1c6',
         name: 'Mr. Fusion Marketing Campaign'
-    },
-
-    /**
-     * Site A
-     */
-    site_a: {
-        codename: 'site_a',
-        id: '4508189b-9565-43a4-9405-fff5d56c0a68',
-        name: 'Site A'
-    },
-
-    /**
-     * Site B
-     */
-    site_b: {
-        codename: 'site_b',
-        id: '9d2b67c9-e5d3-48cc-a84f-27937dd7a0b7',
-        name: 'Site B'
     },
 
     /**

@@ -8,7 +8,7 @@ import { type IContentItem, type Elements } from '@kontent-ai/delivery-sdk';
  */
 export type LayoutOption = IContentItem<{
     /**
-     * Alginment (multiple_choice)
+     * Alignment (multiple_choice)
      * Required: false
      * Id: f17a9b0b-dea4-44fb-bf1a-fa626128df83
      * Codename: layout_option__alginment

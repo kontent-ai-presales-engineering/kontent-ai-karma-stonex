@@ -67,11 +67,11 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
 
   return (
     <fieldset
-      className='flex flex-col gap-xxxs p-xxxs'
+      className='flex flex-col gap-8 p-8'
       data-theme={themeState}
     >
       {options.map(option => (
-          <div className={"flex items-center"} key={option.codename}>
+          <div className={"flex gap-8 text-center items-center"} key={option.codename}>
             <input type="radio"
                    name="style-options"
                    className={"mr-8 text-black"}
@@ -81,7 +81,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
                    onChange={() => setStyle(option.codename)}/>
             <label key={option.codename}
                    htmlFor={option.codename}
-                   className={`brand-cta brand-cta--${option.codename}`}>
+                   className={`brand-cta brand-cta--${option.codename} text-xs !py-8`}>
               {option.label}
             </label>
           </div>

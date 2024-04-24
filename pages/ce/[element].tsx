@@ -9,6 +9,7 @@ import {ExportCustomElement} from "../../components/custom-elements/export";
 import {ReadOnlyCustomElement} from "../../components/custom-elements/read-only";
 import {CtaStyleCustomElement, StyleOption} from "../../components/custom-elements/cta-style";
 import {HeadingLevelCustomElement, HeadingTag} from "../../components/custom-elements/heading-level";
+import {BrandChoice, BrandName} from "../../components/custom-elements/brand-choice";
 
 interface IProps {
   elementComponent: string
@@ -78,6 +79,10 @@ const CustomElementTest: NextPage<IProps> = ({elementComponent}) => {
         customElement = <HeadingLevelCustomElement element={element} context={context} handleSave={handleSave}
                                                    value={value as HeadingTag}/>
         break;
+      case "brand-choice":
+        customElement = <BrandChoice element={element} context={context} handleSave={handleSave}
+                                                   value={value as BrandName}/>
+        break;
       default:
         customElement = <div><p>Custom element no configured in code</p></div>
         break;
@@ -112,6 +117,7 @@ export const getStaticPaths: GetStaticPaths = async (params) => {
       '/ce/read-only',
       '/ce/cta-style',
       '/ce/heading-level',
+      '/ce/brand-choice',
     ],
     fallback: false
   }
