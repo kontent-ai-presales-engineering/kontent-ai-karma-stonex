@@ -7,7 +7,6 @@ import { ExportCustomElement } from "../../components/custom-elements/export";
 import { CtaStyleCustomElement, StyleOption } from "../../components/custom-elements/cta-style";
 import { HeadingLevelCustomElement, HeadingTag } from "../../components/custom-elements/heading-level";
 import { FocalPointCustomElement } from "../../components/custom-elements/focal-point";
-import { GetValueCustomElement } from "../../components/custom-elements/get-value";
 
 interface IProps {
   elementComponent: string
