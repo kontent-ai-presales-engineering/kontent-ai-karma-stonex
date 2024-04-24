@@ -57,19 +57,16 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
   const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
 
   const { themeState } = useThemeContext();
-  const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement>();
+  const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement[]>();
 
   
   CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
     setBrandTheme(elementValue);
-    console.log(elementValue)
-    console.log(elementValue[0]?.name)
   });
 
   CustomElement.observeElementChanges([element.config["elementToWatch"]], () => {
     CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
       setBrandTheme(elementValue);
-      console.log(elementValue)
     });
   });
 
@@ -86,7 +83,9 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
       className='flex flex-col gap-xxxs p-xxxs'
       data-theme={themeState}
     >
-      {/* Choosen Brand Theme Choice: {brandTheme[0]?.name} */}
+      <p>
+        CHoosen Brand THeme : {brandTheme[0]?.name}
+      </p>
       {options.map(option => (
         <div className={"flex items-center"} key={option.codename}>
           <input type="radio"
