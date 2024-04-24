@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useThemeContext } from "../shared/contexts/ThemeProvider";
+import { Elements } from '@kontent-ai/delivery-sdk';
 
 export type StyleOption = "solid-primary"
   | "solid-secondary"
@@ -56,7 +57,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
   const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
 
   const { themeState } = useThemeContext();
-  const [brandTheme, setBrandTheme] = useState("")
+  const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement>();
 
   useEffect(() => {
     CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
@@ -77,7 +78,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
       className='flex flex-col gap-xxxs p-xxxs'
       data-theme={themeState}
     >
-      Choosen Brand Theme Choice: {brandTheme}
+      Choosen Brand Theme Choice: {brandTheme[0]?.name}
       {options.map(option => (
         <div className={"flex items-center"} key={option.codename}>
           <input type="radio"

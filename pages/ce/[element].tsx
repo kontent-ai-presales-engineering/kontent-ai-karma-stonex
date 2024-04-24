@@ -70,9 +70,6 @@ const CustomElementIntegration: NextPage<IProps> = ({ elementComponent }) => {
         renderElement = <HeadingLevelCustomElement element={element} context={context} handleSave={handleSave}
           value={value as HeadingTag} />
         break;
-      case "get-value":
-        renderElement = <GetValueCustomElement element={element} context={context} handleSave={handleSave} value={value} />
-        break;
       default:
         renderElement = <div><p>Custom element no configured in code</p></div>
         break;
@@ -106,7 +103,6 @@ export const getStaticPaths: GetStaticPaths = async (params) => {
       '/ce/read-only',
       '/ce/cta-style',
       '/ce/heading-level',
-      '/ce/get-value',
     ],
     fallback: false
   }
