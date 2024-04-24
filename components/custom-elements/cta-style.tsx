@@ -50,22 +50,19 @@ interface IProps {
 export const CtaStyleCustomElement: React.FC<IProps> = ({
   element,
   value,
-  context, 
   handleSave,
 }) => {
   // @ts-ignore
   const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
 
   const { themeState } = useThemeContext();
-
-
   const [brandTheme, setBrandTheme] = useState("")
-  CustomElement?.getElementValue("brand_theme_choice", (value) => {
-    setBrandTheme(value)
-  });
-  CustomElement?.observeElementChanges(["brand_theme_choice"], () => {
-    setBrandTheme(value)
-  });
+
+  useEffect(() => {
+    CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
+      setBrandTheme(value);
+    });
+  }, [value]);
 
   const [style, setStyle] = useState(value || init);
 
