@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import {useThemeContext} from "../shared/contexts/ThemeProvider";
+import React, { useEffect, useState } from 'react';
+import { useThemeContext } from "../shared/contexts/ThemeProvider";
 
 export type StyleOption = "solid-primary"
   | "solid-secondary"
@@ -48,14 +48,23 @@ interface IProps {
 }
 
 export const CtaStyleCustomElement: React.FC<IProps> = ({
-                                                          element,
-                                                          value,
-                                                          handleSave,
-                                                        }) => {
+  element,
+  value,
+  handleSave,
+}) => {
   // @ts-ignore
-  const init: StyleOption = !!element.config?.default && options.find(({label}) => label === element.config?.default)?.codename;
+  const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
 
-  const {themeState} = useThemeContext();
+  const { themeState } = useThemeContext();
+
+
+  const [brandTheme, setBrandTheme] = useState("")
+  CustomElement.getElementValue("brand_theme_choice", (value) => {
+    setBrandTheme(value)
+  });
+  CustomElement.observeElementChanges(["brand_theme_choice"], () => {
+    setBrandTheme(value)
+  });
 
   const [style, setStyle] = useState(value || init);
 
@@ -70,22 +79,23 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
       className='flex flex-col gap-xxxs p-xxxs'
       data-theme={themeState}
     >
+      Choosen Brand Theme Choice: {brandTheme}
       {options.map(option => (
-          <div className={"flex items-center"} key={option.codename}>
-            <input type="radio"
-                   name="style-options"
-                   className={"mr-8 text-black"}
-                   id={option.codename}
-                   value={option.codename}
-                   checked={value === option.codename || option.codename === init}
-                   onChange={() => setStyle(option.codename)}/>
-            <label key={option.codename}
-                   htmlFor={option.codename}
-                   className={`brand-cta brand-cta--${option.codename}`}>
-              {option.label}
-            </label>
-          </div>
-        )
+        <div className={"flex items-center"} key={option.codename}>
+          <input type="radio"
+            name="style-options"
+            className={"mr-8 text-black"}
+            id={option.codename}
+            value={option.codename}
+            checked={value === option.codename || option.codename === init}
+            onChange={() => setStyle(option.codename)} />
+          <label key={option.codename}
+            htmlFor={option.codename}
+            className={`brand-cta brand-cta--${option.codename}`}>
+            {option.label}
+          </label>
+        </div>
+      )
       )}
     </fieldset>
   )
