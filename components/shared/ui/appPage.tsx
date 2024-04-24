@@ -79,7 +79,7 @@ export const AppPage: FC<Props> = ({
         noindex={seoDetails.noindex}
       />
       <div
-        className='min-h-full grow flex flex-col items-center overflow-hidden'
+        className='min-h-full grow flex flex-col items-center'
         {...createItemSmartLink(
           item.system.id,
           item.system.name
@@ -95,7 +95,7 @@ export const AppPage: FC<Props> = ({
         ) : null}
         <main
           data-kontent-language-codename={item.system.language}
-          className='py-24 md:px-6 px-3 sm:px-8 max-w-screen-xl grow h-full w-screen'
+          className='py-24 md:px-6 px-3 sm:px-8 max-w-screen-xl grow h-full w-full'
           {...createItemSmartLink(
             item.system.id,
             item.system.name,

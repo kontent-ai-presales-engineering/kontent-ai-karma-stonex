@@ -226,7 +226,7 @@ export const Menu: FC<Props> = (props) => {
   const {themeState} = useThemeContext();
 
   return (
-    <div className={`w-full sticky top-0 z-30 p-8 shadow-xl bg-white`}>
+    <div className={`w-full md:sticky top-0 z-30 p-8 shadow-xl bg-white`}>
       <div className='absolute z-50 rounded-lg opacity-30 hover:opacity-100 top-0 right-0'>
         <PreviewSwitcher isPreview={props.isPreview}/>
       </div>
