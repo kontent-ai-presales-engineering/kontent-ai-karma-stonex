@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useThemeContext } from "../shared/contexts/ThemeProvider";
-import { Elements } from '@kontent-ai/delivery-sdk';
+import React, {useEffect} from 'react';
+import {useThemeContext} from "../shared/contexts/ThemeProvider";
 
 export type StyleOption = "solid-primary"
   | "solid-secondary"
@@ -49,44 +48,26 @@ interface IProps {
 }
 
 export const CtaStyleCustomElement: React.FC<IProps> = ({
-  element,
-  value,
-  handleSave,
-}) => {
+                                                          element,
+                                                          value,
+                                                          handleSave,
+                                                        }) => {
   // @ts-ignore
-  const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
+  const init: StyleOption = !!element.config?.default && options.find(({label}) => label === element.config?.default)?.codename;
 
-  const { themeState } = useThemeContext();
-  const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement[]>();
-
-  // CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
-  //   setBrandTheme(elementValue);
-  // });
-
-  // CustomElement.observeElementChanges([element.config["elementToWatch"]], () => {
-  //   CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
-  //     setBrandTheme(elementValue);
-  //   });
-  // });
-
-  const [style, setStyle] = useState(value || init);
+  const {themeState} = useThemeContext();
 
   useEffect(() => {
-    if (!!style || !!init) {
-      handleSave(style || init)
+    if (!value && !!init) {
+      handleSave(init)
     }
-  }, [style, init, handleSave])
+  }, [value, init, handleSave])
 
   return (
     <fieldset
       className='flex flex-col gap-8 p-8'
       data-theme={themeState}
     >
-      {/* {brandTheme &&
-        <p>
-          CHoosen Brand THeme : {brandTheme[0]?.name}
-        </p>
-      } */}
       {options.map(option => (
           <div className={"flex gap-8 text-center items-center"} key={option.codename}>
             <input type="radio"
@@ -94,8 +75,12 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
                    className={"mr-8 text-black"}
                    id={option.codename}
                    value={option.codename}
-                   checked={value === option.codename || option.codename === init}
-                   onChange={() => setStyle(option.codename)}/>
+                   checked={value === option.codename}
+                   onChange={(e) => {
+                     console.log('change', e)
+                     handleSave(option.codename)
+                   }}
+            />
             <label key={option.codename}
                    htmlFor={option.codename}
                    className={`brand-cta brand-cta--${option.codename} text-xs !py-8`}>

@@ -59,13 +59,11 @@ export const HeadingLevelCustomElement: React.FC<IProps> = ({
   // @ts-ignore
   const init: HeadingTag = !!element.config?.default && options.find(({label}) => label === element.config?.default )?.codename;
 
-  const [level, setLevel] = useState(value || init);
-
   useEffect(() => {
-    if (!!level || !!init) {
-      handleSave(level || init)
+    if (!value && !!init) {
+      handleSave(init)
     }
-  }, [level, init, handleSave])
+  }, [value, init, handleSave])
 
 
   return (
@@ -80,8 +78,8 @@ export const HeadingLevelCustomElement: React.FC<IProps> = ({
                  className={"mr-8 text-black"}
                  id={option.codename}
                  value={option.codename}
-                 checked={value === option.codename || option.codename === init}
-                 onChange={() => setLevel(option.codename)}/>
+                 checked={value === option.codename}
+                 onChange={() => handleSave(option.codename)}/>
                  
       {React.createElement(
         option.codename || "span",

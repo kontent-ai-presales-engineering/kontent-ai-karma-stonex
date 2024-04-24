@@ -54,13 +54,11 @@ export const BrandChoice = ({
   // @ts-ignore
   const init: BrandName = !!element.config?.default && brands.find(({name}) => name === element.config?.default)?.codename;
 
-  const [brand, setBrand] = useState(value || init);
-
   useEffect(() => {
-    if (!!brand || !!init) {
-      handleSave(brand || init)
+    if (!value && !!init) {
+      handleSave(init)
     }
-  }, [brand, init, handleSave])
+  }, [value, init, handleSave])
 
   return (
     <div className="max-w-[500px] m-auto inline-flex flex-col gap-16">
@@ -70,7 +68,7 @@ export const BrandChoice = ({
                   codename === value && colorToken,
                   "border-2 bg-white group relative inline-flex items-center justify-between gap-48 h-[50px] rounded-[25px] px-20",
                 )}
-                onClick={() => setBrand(codename)}>
+                onClick={() => handleSave(codename)}>
           <div className="font-bold text-gray-900">
             {name}
           </div>
