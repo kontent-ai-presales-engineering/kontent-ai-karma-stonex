@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./tailwind.css";
 
 // Tokens import
 @import "tokensets/global/dimensions.css";
@@ -28,4 +27,8 @@
 @import 'type';
 @import './components/hero-unit';
 @import './components/events';
+@import './components/theme-card';
+@import './components/brand-cta';
 @import './products';
+
+@import "./tailwind.css";

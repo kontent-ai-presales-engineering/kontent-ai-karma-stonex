@@ -26,7 +26,7 @@ module.exports = {
         },
         kontentai: '#3dcca8',
         elitebuild: '#0078d2',
-        ...colors
+        ...colors,
       },
 
       

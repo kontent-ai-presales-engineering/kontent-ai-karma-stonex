@@ -1,0 +1,32 @@
+
+@layer components {
+  .theme-card {
+    @apply relative items-start gap-xxxs flex flex-col rounded-md shadow-2 overflow-hidden    ;
+    background: var(--color-card-default);
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      border-width: 2px;
+      border-style: solid;
+      border-color: transparent;
+      /*noinspection CssInvalidPropertyValue,CssInvalidFunction*/
+      -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      background: var(--color-border-default) border-box border-box;
+      z-index: 1;
+    }
+
+    &:hover {
+      background: var(--color-card-hover);
+
+      &::before {
+        background: var(--color-border-selected) border-box border-box;
+      }
+    }
+  }
+}
