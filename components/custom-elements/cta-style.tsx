@@ -50,6 +50,7 @@ interface IProps {
 export const CtaStyleCustomElement: React.FC<IProps> = ({
   element,
   value,
+  context, 
   handleSave,
 }) => {
   // @ts-ignore
@@ -59,10 +60,10 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
 
 
   const [brandTheme, setBrandTheme] = useState("")
-  CustomElement.getElementValue("brand_theme_choice", (value) => {
+  CustomElement?.getElementValue("brand_theme_choice", (value) => {
     setBrandTheme(value)
   });
-  CustomElement.observeElementChanges(["brand_theme_choice"], () => {
+  CustomElement?.observeElementChanges(["brand_theme_choice"], () => {
     setBrandTheme(value)
   });
 
