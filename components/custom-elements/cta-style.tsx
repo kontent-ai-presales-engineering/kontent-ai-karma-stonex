@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import {useThemeContext} from "../shared/contexts/ThemeProvider";
+import React, { useEffect, useState } from 'react';
+import { useThemeContext } from "../shared/contexts/ThemeProvider";
+import { Elements } from '@kontent-ai/delivery-sdk';
 
 export type StyleOption = "solid-primary"
   | "solid-secondary"
@@ -48,14 +49,25 @@ interface IProps {
 }
 
 export const CtaStyleCustomElement: React.FC<IProps> = ({
-                                                          element,
-                                                          value,
-                                                          handleSave,
-                                                        }) => {
+  element,
+  value,
+  handleSave,
+}) => {
   // @ts-ignore
-  const init: StyleOption = !!element.config?.default && options.find(({label}) => label === element.config?.default)?.codename;
+  const init: StyleOption = !!element.config?.default && options.find(({ label }) => label === element.config?.default)?.codename;
 
-  const {themeState} = useThemeContext();
+  const { themeState } = useThemeContext();
+  const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement[]>();
+
+  // CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
+  //   setBrandTheme(elementValue);
+  // });
+
+  // CustomElement.observeElementChanges([element.config["elementToWatch"]], () => {
+  //   CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
+  //     setBrandTheme(elementValue);
+  //   });
+  // });
 
   const [style, setStyle] = useState(value || init);
 
@@ -70,6 +82,11 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
       className='flex flex-col gap-8 p-8'
       data-theme={themeState}
     >
+      {/* {brandTheme &&
+        <p>
+          CHoosen Brand THeme : {brandTheme[0]?.name}
+        </p>
+      } */}
       {options.map(option => (
           <div className={"flex gap-8 text-center items-center"} key={option.codename}>
             <input type="radio"
