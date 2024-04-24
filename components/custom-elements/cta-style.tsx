@@ -59,11 +59,11 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
   const { themeState } = useThemeContext();
   const [brandTheme, setBrandTheme] = useState<Elements.MultipleChoiceElement>();
 
-  useEffect(() => {
-    CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
-      setBrandTheme(elementValue);
-      console.log(elementValue)
-    });
+  
+  CustomElement.getElementValue(element.config["elementToWatch"], (elementValue) => {
+    setBrandTheme(elementValue);
+    console.log(elementValue)
+    console.log(elementValue[0]?.name)
   });
 
   CustomElement.observeElementChanges([element.config["elementToWatch"]], () => {
