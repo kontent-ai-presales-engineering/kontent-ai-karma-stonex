@@ -77,9 +77,9 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
       .catch((error) => console.error(error));
   }, [context.item.codename]);
 
-    // @ts-ignore
   useEffect(() => {
     if (!parentItem?.system?.collection) return;
+    // @ts-ignore
     fetch(`https://deliver.kontent.ai/${context.projectId}/items?system.collection=${parentItem.system.collection}&system.type=_layout_settings&elements=brand_choice&depth=1`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
