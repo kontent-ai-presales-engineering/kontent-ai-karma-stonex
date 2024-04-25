@@ -73,7 +73,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
     // @ts-ignore
     fetch(`https://deliver.kontent.ai/${context.projectId}/items/${context.item.codename}`, requestOptions)
       .then((response) => response.json())
-      .then((result) => result.system.type === "page" && setItem(result.item))
+      .then((result) => result.item?.system?.type === "page" && setItem(result.item))
       .catch((error) => console.error(error));
   }, [context.item.codename]);
 
