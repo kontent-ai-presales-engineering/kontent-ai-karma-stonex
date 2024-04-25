@@ -71,7 +71,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
     if (!context.item.codename) return;
 
     // @ts-ignore
-    fetch(`https://deliver.kontent.ai/${context.projectId}/items/${context.item.codename}?elements=title,summary&excludeElements=title,summary&depth=1`, requestOptions)
+    fetch(`https://deliver.kontent.ai/${context.projectId}/items/${context.item.codename}`, requestOptions)
       .then((response) => response.json())
       .then((result) => result.system.type === "page" && setItem(result.item))
       .catch((error) => console.error(error));
@@ -80,7 +80,7 @@ export const CtaStyleCustomElement: React.FC<IProps> = ({
   useEffect(() => {
     if (!parentItem?.system?.collection) return;
     // @ts-ignore
-    fetch(`https://deliver.kontent.ai/${context.projectId}/items?system.collection=${parentItem.system.collection}&system.type=_layout_settings&elements=brand_choice&depth=1`, requestOptions)
+    fetch(`https://deliver.kontent.ai/${context.projectId}/items?system.collection=${parentItem.system.collection}&system.type=_layout_settings&elements=brand_choice`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
         if (!result.items?.[0]?.elements?.brand_choice.value) return;
