@@ -121,28 +121,55 @@ const PageMetadata: FC<
     item.elements.seoMetadataKeywords.value ||
     defaultMetadata?.elements?.seoMetadataKeywords.value;
 
-  
+
   // Parse the openGraphMetadataOpengraphAdditionalTags value to create meta tags
   const root = parse(item.elements.openGraphMetadataOpengraphAdditionalTags.value);
   const metaTags = root.querySelectorAll('meta');
 
+  const gtmId = "G-Z2978T9M9Z" // Just for testing, in real life, fetch from CMS
+
   return (
     <Head>
-      <link rel='icon' href='/favicon.png' />
+      <link rel='icon' href='/favicon.png'/>
       {pageMetaKeywords &&
-        <meta name='keywords' content={pageMetaKeywords} />
+          <meta name='keywords' content={pageMetaKeywords}/>
       }
       {variants?.map((variant, index) => (
-        <link key={index} rel="alternate" hrefLang={variant.system.language} href={process.env.NEXT_PUBLIC_DOMAIN + resolveUrlPath(
-          {
-            type: variant.system.type,
-            slug: variant.elements.url?.value
-          } as ResolutionContext)} />
+        <link key={index} rel="alternate" hrefLang={variant.system.language}
+              href={process.env.NEXT_PUBLIC_DOMAIN + resolveUrlPath(
+                {
+                  type: variant.system.type,
+                  slug: variant.elements.url?.value
+                } as ResolutionContext)}/>
       ))}
       {/* Render the parsed Open Graph meta tags */}
       {metaTags.map((tag, index) => (
         <meta key={index} {...tag.attributes} />
       ))}
+
+      {/* Inline script to initialize GTM */}
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtmId}`}></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${gtmId}');
+            `,
+        }}
+      />
+      <script type="text/javascript"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  var monetateT = new Date().getTime();
+                  (function () {
+                    var p = document.location.protocol;
+                    if (p == "http:" || p == "https:") {
+                    var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "e.monetate.net/js/2/a-b6206def/p/fifthlevelfashion.com/custom.js";
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);}
+                  })()
+      ` }}/>
     </Head>
   );
 };
