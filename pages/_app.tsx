@@ -32,7 +32,7 @@ const App = ({
           </Head>
         </div>
 
-        {brandChoice && brandChoice !== "default" && <ThemeSwitcher/>}
+        {!!brandChoice && brandChoice !== "default" && brandChoice !== "clean" && <ThemeSwitcher/>}
       </ThemeProvider>
     </LivePreviewProvider>
   );
