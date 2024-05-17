@@ -6,6 +6,7 @@ import {
   SmartLinkProvider,
   useSmartLink,
 } from '../components/shared/contexts/SmartLink';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const App = ({
   Component,
@@ -16,7 +17,8 @@ const App = ({
   return (
     <LivePreviewProvider smartLink={smartLink}>
       <div className="w-full h-screen">
-        <Component {...pageProps} />
+        <Component {...pageProps} />        
+        <GoogleTagManager gtmId="G-Z2978T9M9Z" />
         <Head>
           <link
             rel="icon"
