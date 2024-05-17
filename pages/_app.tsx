@@ -17,12 +17,26 @@ const App = ({
   return (
     <LivePreviewProvider smartLink={smartLink}>
       <div className="w-full h-screen">
-        <Component {...pageProps} />        
+        <Component {...pageProps} />
         <GoogleTagManager gtmId="G-Z2978T9M9Z" />
         <Head>
           <link
             rel="icon"
             href="/favicon.png"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                var monetateT = new Date().getTime();
+                (function() {
+                var p = document.location.protocol;
+                if (p == "http:" || p == "https:") {
+                  var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "e.monetate.net/js/2/a-b6206def/p/fifthlevelfashion.com/custom.js";
+                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+                }
+                })();    
+                `,
+            }}
           />
         </Head>
       </div>
