@@ -10,7 +10,31 @@ export const contentTypeSnippets = {
         id: '9f66a3d6-95bc-4914-84ba-0aacf47ac718',
         externalId: undefined,
         name: 'Brand CTA',
-        elements: {}
+        elements: {
+            /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: 'b2bc146e-698f-4f02-a868-7cf2f445cdc2',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: '037f6f6b-a514-4f07-8f9a-cb0d2a373d7a',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom'
+            }
+        }
     },
 
     /**

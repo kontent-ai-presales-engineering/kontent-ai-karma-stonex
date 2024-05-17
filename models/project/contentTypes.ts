@@ -2045,6 +2045,34 @@ export const contentTypes = {
             },
 
             /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: 'b2bc146e-698f-4f02-a868-7cf2f445cdc2',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: '037f6f6b-a514-4f07-8f9a-cb0d2a373d7a',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
              * Title (text)
              */
             heading_options__title: {
@@ -2105,6 +2133,34 @@ export const contentTypes = {
                 type: 'custom',
 
                 snippetCodename: 'heading_options'
+            },
+
+            /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: 'b2bc146e-698f-4f02-a868-7cf2f445cdc2',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: '037f6f6b-a514-4f07-8f9a-cb0d2a373d7a',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'brand_cta'
             },
 
             /**
