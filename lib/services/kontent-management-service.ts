@@ -15,7 +15,13 @@ export default class KontentManagementService {
   public static createKontentManagementClient() {
     return new ManagementClient({
       environmentId: process.env.NEXT_PUBLIC_KONTENT_ENVIRONMENT_ID,
-      apiKey: process.env.KONTENT_MANAGEMENT_API_KEY as string
+      apiKey: process.env.KONTENT_MANAGEMENT_API_KEY as string,
+      retryStrategy: {
+        canRetryError: (error) => {
+          return true; // retries all the errors - not effficient but does the job
+        },
+        maxAttempts: 5
+      },     
     });
   }
 
