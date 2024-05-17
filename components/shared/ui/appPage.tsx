@@ -146,22 +146,24 @@ const PageMetadata: FC<
       {metaTags.map((tag, index) => (
         <meta key={index} {...tag.attributes} />
       ))}
-
-      {/* Inline script to initialize GTM */}
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtmId}`}></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+      {
+        item.elements.seoMetadataN3rdPartyServicesIncluded?.value?.[0]?.codename !== 'no' && (
+          <>
+            {/* Inline script to initialize GTM */}
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtmId}`}></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${gtmId}');
             `,
-        }}
-      />
-      <script type="text/javascript"
-              dangerouslySetInnerHTML={{
-                __html: `
+              }}
+            />
+            <script type="text/javascript"
+                    dangerouslySetInnerHTML={{
+                      __html: `
                   var monetateT = new Date().getTime();
                   (function () {
                     var p = document.location.protocol;
@@ -169,7 +171,11 @@ const PageMetadata: FC<
                     var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "e.monetate.net/js/2/a-b6206def/p/fifthlevelfashion.com/custom.js";
                     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);}
                   })()
-      ` }}/>
+      `
+                    }}/>
+          </>
+        )
+      }
     </Head>
   );
 };

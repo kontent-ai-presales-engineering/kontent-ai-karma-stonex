@@ -34,6 +34,14 @@ export type SEOMetadata = IContentItem<{
     seoMetadataKeywords: Elements.TextElement;
 
     /**
+     * 3rd party services included (multiple_choice)
+     * Required: true
+     * Id: 3a4fb72e-65ed-4788-a895-33a27efd2525
+     * Codename: seo_metadata__n3rd_party_services_included
+     */
+    seoMetadataN3rdPartyServicesIncluded: Elements.MultipleChoiceElement;
+
+    /**
      * Robots Follow (multiple_choice)
      * Required: false
      * Id: 59f3a9c8-2620-4ae2-9d8f-15f4afb0c30c

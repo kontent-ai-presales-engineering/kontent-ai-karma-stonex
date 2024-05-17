@@ -289,6 +289,18 @@ export const contentTypeSnippets = {
                 name: 'Canonical URL',
                 required: false,
                 type: 'text'
+            },
+
+            /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice'
             }
         }
     }

@@ -58,6 +58,33 @@ export const contentTypes = {
         name: '💡 Page',
         elements: {
             /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
+            /**
              * Brand Theme Choice (multiple_choice)
              */
             brand_theme_choice: {
@@ -399,6 +426,33 @@ export const contentTypes = {
         name: '💡 Web Spotlight Root',
         elements: {
             /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
+            /**
              * Canonical URL (text)
              */
             seo_metadata__canonical_url: {
@@ -730,6 +784,33 @@ export const contentTypes = {
         externalId: undefined,
         name: 'Article',
         elements: {
+            /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
             /**
              * Abstract (text)
              */
@@ -1126,6 +1207,45 @@ export const contentTypes = {
     },
 
     /**
+     * Brand CTA
+     */
+    brand_cta_93a85ab: {
+        codename: 'brand_cta_93a85ab',
+        id: '93a85abd-096e-4913-957f-9ce470519d4d',
+        externalId: undefined,
+        name: 'Brand CTA',
+        elements: {
+            /**
+             * Link (modular_content)
+             */
+            brand_cta__link: {
+                codename: 'brand_cta__link',
+                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
+                externalId: undefined,
+                name: 'Link',
+                required: false,
+                type: 'modular_content',
+
+                snippetCodename: 'brand_cta'
+            },
+
+            /**
+             * Style (custom)
+             */
+            brand_cta__style: {
+                codename: 'brand_cta__style',
+                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
+                externalId: undefined,
+                name: 'Style',
+                required: false,
+                type: 'custom',
+
+                snippetCodename: 'brand_cta'
+            }
+        }
+    },
+
+    /**
      * Call to Action
      */
     call_to_action: {
@@ -1482,6 +1602,33 @@ export const contentTypes = {
         externalId: undefined,
         name: 'Course',
         elements: {
+            /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
             /**
              * Body (rich_text)
              */
@@ -2104,6 +2251,33 @@ export const contentTypes = {
         name: 'Event',
         elements: {
             /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
+            /**
              * Canonical URL (text)
              */
             seo_metadata__canonical_url: {
@@ -2509,6 +2683,77 @@ export const contentTypes = {
     },
 
     /**
+     * Form
+     */
+    form_3c42c40: {
+        codename: 'form_3c42c40',
+        id: '3c42c40d-468a-439a-8a4f-9f3ce7ee0bae',
+        externalId: undefined,
+        name: 'Form',
+        elements: {
+            /**
+             * Email (text)
+             */
+            email: {
+                codename: 'email',
+                id: '4e64f17b-7071-4c2d-b80d-718c5584b7eb',
+                externalId: undefined,
+                name: 'Email',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * First Name (text)
+             */
+            first_name: {
+                codename: 'first_name',
+                id: '942203ce-ab3f-405a-8459-be99cc070d25',
+                externalId: undefined,
+                name: 'First Name',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Google ID (text)
+             */
+            google_id: {
+                codename: 'google_id',
+                id: '425dfbfa-d724-4fc6-bd9c-e9db01e7f3d5',
+                externalId: undefined,
+                name: 'Google ID',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Last Name (text)
+             */
+            last_name: {
+                codename: 'last_name',
+                id: 'b8c718ac-a732-42a7-a142-402b51d4ae71',
+                externalId: undefined,
+                name: 'Last Name',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Phone (text)
+             */
+            phone: {
+                codename: 'phone',
+                id: '46cb744f-8f12-4ad9-b5bf-312d15438ff4',
+                externalId: undefined,
+                name: 'Phone',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
      * Form  Hubspot integration
      */
     form: {
@@ -2600,6 +2845,18 @@ export const contentTypes = {
             },
 
             /**
+             * Eyebrow Text (text)
+             */
+            eyebrow_text: {
+                codename: 'eyebrow_text',
+                id: 'bf47b771-e9b6-46f5-a25c-7b326abc6337',
+                externalId: undefined,
+                name: 'Eyebrow Text',
+                required: false,
+                type: 'text'
+            },
+
+            /**
              * Title (text)
              */
             title: {
@@ -2617,6 +2874,89 @@ export const contentTypes = {
             utm_tag: {
                 codename: 'utm_tag',
                 id: '745471ce-d787-4c48-9e5f-4b90b89c8ccc',
+                externalId: undefined,
+                name: 'UTM Tag',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
+     * Hero Unit  copy
+     */
+    hero_unit__copy_: {
+        codename: 'hero_unit__copy_',
+        id: 'e916f914-1212-4095-a1b5-8ab5c3ef49ce',
+        externalId: undefined,
+        name: 'Hero Unit (copy)',
+        elements: {
+            /**
+             * Background image (asset)
+             */
+            background_image: {
+                codename: 'background_image',
+                id: 'f766227c-b34d-4345-ac49-9d9f1764092c',
+                externalId: undefined,
+                name: 'Background image',
+                required: false,
+                type: 'asset'
+            },
+
+            /**
+             * Call to Action (modular_content)
+             */
+            call_to_action: {
+                codename: 'call_to_action',
+                id: 'e05c08df-7c2f-49be-b99a-718ac6df7170',
+                externalId: undefined,
+                name: 'Call to Action',
+                required: false,
+                type: 'modular_content'
+            },
+
+            /**
+             * Content (rich_text)
+             */
+            content: {
+                codename: 'content',
+                id: '5bcd9261-33a4-4bc6-9d63-aa95e9480836',
+                externalId: undefined,
+                name: 'Content',
+                required: false,
+                type: 'rich_text'
+            },
+
+            /**
+             * Eyebrow Text (text)
+             */
+            eyebrow_text: {
+                codename: 'eyebrow_text',
+                id: 'c1ba85c7-87a6-49b7-af63-ece40574a4ad',
+                externalId: undefined,
+                name: 'Eyebrow Text',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * Title (text)
+             */
+            title: {
+                codename: 'title',
+                id: '53a9c7f3-5ea9-4087-96f8-8cf0f2b6a8dd',
+                externalId: undefined,
+                name: 'Title',
+                required: false,
+                type: 'text'
+            },
+
+            /**
+             * UTM Tag (text)
+             */
+            utm_tag: {
+                codename: 'utm_tag',
+                id: '6f59afc0-d19a-461c-879b-467f9b701b4b',
                 externalId: undefined,
                 name: 'UTM Tag',
                 required: false,
@@ -3087,6 +3427,33 @@ export const contentTypes = {
         name: 'Product',
         elements: {
             /**
+             * 3rd party services included (multiple_choice)
+             */
+            seo_metadata__n3rd_party_services_included: {
+                codename: 'seo_metadata__n3rd_party_services_included',
+                id: '3a4fb72e-65ed-4788-a895-33a27efd2525',
+                externalId: undefined,
+                name: '3rd party services included',
+                required: true,
+                type: 'multiple_choice',
+                options: {
+                    yes: {
+                        name: 'Yes',
+                        id: '0a2fc44f-a546-405d-9557-4b31085efef3',
+                        codename: 'yes',
+                        externalId: undefined
+                    },
+                    no: {
+                        name: 'No',
+                        id: 'f67f53e0-9d80-44c5-a32a-27e5988ea68e',
+                        codename: 'no',
+                        externalId: undefined
+                    }
+                },
+                snippetCodename: 'seo_metadata'
+            },
+
+            /**
              * Body (rich_text)
              */
             body: {
@@ -3497,6 +3864,41 @@ export const contentTypes = {
                 id: 'ba26d3a5-9f88-422e-bcb5-4b9bc85a85e2',
                 externalId: undefined,
                 name: 'Content',
+                required: false,
+                type: 'text'
+            }
+        }
+    },
+
+    /**
+     * Robs Article
+     */
+    robs_article: {
+        codename: 'robs_article',
+        id: '34f5d389-73d1-4c00-beb1-095277b3b2ba',
+        externalId: undefined,
+        name: 'Robs Article',
+        elements: {
+            /**
+             * Number (rich_text)
+             */
+            number: {
+                codename: 'number',
+                id: 'c12811f4-7e43-4594-8af8-076aa0f4a125',
+                externalId: undefined,
+                name: 'Number',
+                required: false,
+                type: 'rich_text'
+            },
+
+            /**
+             * Page Title (text)
+             */
+            page_title: {
+                codename: 'page_title',
+                id: 'e2fd763b-9896-41d9-af6e-7b36a33f2727',
+                externalId: undefined,
+                name: 'Page Title',
                 required: false,
                 type: 'text'
             }
