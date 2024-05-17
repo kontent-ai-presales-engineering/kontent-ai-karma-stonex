@@ -1207,45 +1207,6 @@ export const contentTypes = {
     },
 
     /**
-     * Brand CTA
-     */
-    brand_cta_93a85ab: {
-        codename: 'brand_cta_93a85ab',
-        id: '93a85abd-096e-4913-957f-9ce470519d4d',
-        externalId: undefined,
-        name: 'Brand CTA',
-        elements: {
-            /**
-             * Link (modular_content)
-             */
-            brand_cta__link: {
-                codename: 'brand_cta__link',
-                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
-                externalId: undefined,
-                name: 'Link',
-                required: false,
-                type: 'modular_content',
-
-                snippetCodename: 'brand_cta'
-            },
-
-            /**
-             * Style (custom)
-             */
-            brand_cta__style: {
-                codename: 'brand_cta__style',
-                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
-                externalId: undefined,
-                name: 'Style',
-                required: false,
-                type: 'custom',
-
-                snippetCodename: 'brand_cta'
-            }
-        }
-    },
-
-    /**
      * Call to Action
      */
     call_to_action: {
@@ -2084,34 +2045,6 @@ export const contentTypes = {
             },
 
             /**
-             * Link (modular_content)
-             */
-            brand_cta__link: {
-                codename: 'brand_cta__link',
-                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
-                externalId: undefined,
-                name: 'Link',
-                required: false,
-                type: 'modular_content',
-
-                snippetCodename: 'brand_cta'
-            },
-
-            /**
-             * Style (custom)
-             */
-            brand_cta__style: {
-                codename: 'brand_cta__style',
-                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
-                externalId: undefined,
-                name: 'Style',
-                required: false,
-                type: 'custom',
-
-                snippetCodename: 'brand_cta'
-            },
-
-            /**
              * Title (text)
              */
             heading_options__title: {
@@ -2172,34 +2105,6 @@ export const contentTypes = {
                 type: 'custom',
 
                 snippetCodename: 'heading_options'
-            },
-
-            /**
-             * Link (modular_content)
-             */
-            brand_cta__link: {
-                codename: 'brand_cta__link',
-                id: '8c0bce55-3b6b-46eb-92fc-867d53fd814e',
-                externalId: undefined,
-                name: 'Link',
-                required: false,
-                type: 'modular_content',
-
-                snippetCodename: 'brand_cta'
-            },
-
-            /**
-             * Style (custom)
-             */
-            brand_cta__style: {
-                codename: 'brand_cta__style',
-                id: 'deb9bf5d-3feb-427e-9676-e185c7c0f4fa',
-                externalId: undefined,
-                name: 'Style',
-                required: false,
-                type: 'custom',
-
-                snippetCodename: 'brand_cta'
             },
 
             /**

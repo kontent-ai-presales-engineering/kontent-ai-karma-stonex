@@ -5,7 +5,6 @@ export * from './WSL_WebSpotlightRoot';
 export * from './__DataExportModule';
 export * from './article';
 export * from './articleListing';
-export * from './brandCTA';
 export * from './callToAction';
 export * from './cardAndUClasses';
 export * from './carousel';
